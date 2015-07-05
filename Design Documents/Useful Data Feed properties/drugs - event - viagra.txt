@@ -1,0 +1,105 @@
+https://api.fda.gov/drug/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Viagra
+
+{
+  "meta": {
+    "last_updated": "2015-01-21",
+    "results": {
+      "total": 20216
+    }
+  },
+  "results": [
+    {
+      "fulfillexpeditecriteria": "2",
+      "safetyreportid": "10003497",
+      "receiver": {
+        "receiverorganization": "FDA",
+        "receivertype": "6"
+      },
+      "duplicate": "1",
+      "receivedateformat": "102",
+      "reportduplicate": {
+        "duplicatesource": "PFIZER",
+        "duplicatenumb": "US-PFIZER INC-2014067866"
+      },
+      "reporttype": "1",
+      "receiptdateformat": "102",
+      "primarysource": {
+        "qualification": "5",
+        "reportercountry": "US"
+      },
+      "receivedate": "20140312",
+      "sender": {
+        "sendertype": "2",
+        "senderorganization": "FDA-Public Use"
+      },
+      "primarysourcecountry": "US",
+      "@epoch": 1417466131.85916,
+      "patient": {
+        "reaction": [
+          {
+            "reactionmeddrapt": "Headache",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          },
+          {
+            "reactionmeddrapt": "Drug ineffective",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          }
+        ],
+        "patientonsetage": "56",
+        "patientonsetageunit": "801",
+        "drug": [
+          {
+            "drugauthorizationnumb": "020895",
+            "drugstartdateformat": "602",
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "VIAGRA",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "SILDENAFIL CITRATE"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "manufacturer_name": [
+                "U.S. Pharmaceuticals",
+                "Pfizer Laboratories Div Pfizer Inc"
+              ],
+              "brand_name": [
+                "VIAGRA"
+              ],
+              "route": [
+                "ORAL"
+              ],
+              "pharm_class_moa": [
+                "Phosphodiesterase 5 Inhibitors [MoA]"
+              ],
+              "pharm_class_epc": [
+                "Phosphodiesterase 5 Inhibitor [EPC]"
+              ],
+              "generic_name": [
+                "SILDENAFIL CITRATE"
+              ],
+              "application_number": [
+                "NDA020895"
+              ]
+            },
+            "drugstartdate": "2008",
+            "drugdosageform": "FILM-COATED TABLET"
+          }
+        ],
+        "patientsex": "1"
+      },
+      "receiptdate": "20140312",
+      "transmissiondate": "20141002",
+      "transmissiondateformat": "102",
+      "occurcountry": "US",
+      "safetyreportversion": "1",
+      "serious": "2",
+      "companynumb": "US-PFIZER INC-2014067866"
+    }
+  ]
+}

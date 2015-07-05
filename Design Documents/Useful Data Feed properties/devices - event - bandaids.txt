@@ -1,0 +1,150 @@
+https://api.fda.gov/device/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Bandaids
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-05-22",
+    "results": {
+
+
+      "total": 49
+    }
+  },
+  "results": [
+    {
+      "report_number": "1022556-2008-00178",
+      "manufacturer_contact_state": "TN",
+      "device_date_of_manufacturer": "04/01/2007",
+      "event_type": "Other",
+      "source_type": [
+        "Consumer"
+      ],
+      "manufacturer_g1_address_1": "",
+      "manufacturer_contact_pcountry": "",
+      "report_to_manufacturer": "N",
+      "previous_use_code": "I",
+      "manufacturer_postal_code": "",
+      "manufacturer_city": "CHATTANOOGA",
+      "reporter_occupation_code": "UNKNOWN",
+      "manufacturer_contact_extension": "",
+      "manufacturer_state": "TN",
+      "event_location": "",
+      "date_of_event": "20071227",
+      "manufacturer_g1_country": "",
+      "removal_correction_number": "NA AT THIS TIME",
+      "manufacturer_g1_city": "",
+      "mdr_text": [
+        {
+          "text": "THE CONSUMER REPORTED USING THE PROD FOR SIX HRS ON THE LOWER LEFT SIDE OF HER BACK WHILE SLEEPING. WHEN THE PATCH WAS REMOVED, THE CONSUMER DESCRIBED BLISTERS IN THE AREA WORN RESULTING IN SOME SCARRING. THE CONSUMER DID NOT SEEK MEDICAL ATTENTION AT THE TIME OF THE INCIDENT AND TREATED THE AREA WITH FRESH ALOE PLANT AND BANDAIDS.",
+          "mdr_text_key": "4631898",
+          "text_type_code": "Description of Event or Problem",
+          "patient_sequence_number": "1"
+        },
+        {
+          "text": "THE CONSUMER USED THE PROD OFF-LABEL WHILE WEARING IT WHILE SLEEPING. SINCE THIS IS A DISPOSABLE SINGLE-USE DEVICE, THE PATCH IS UNAVAILABLE FOR EVAL AND ANALYSIS. THIS REPORT IS BELOW THE THRESHOLD OF THE FDA'S REQUIREMENT FOR MANDATORY REPORTING OF ADVERSE EVENTS INVOLVING MEDICAL DEVICES AS THERE IS NO EVIDENCE THAT USE OF THE PRODUCT RESULTED IN SERIOUS ADVERSE HEALTH CONSEQUENCES. INSTEAD, OUR INVESTIGATION HAS DETERMINED THAT THE PT EXPERIENCED TEMPORARY OR MEDICALLY REVERSIBLE ADVERSE HEALTH CONSEQUENCES. ACCORDINGLY, THIS MDR IS BEING SUBMITTED AS A VOLUNTARY AND PROACTIVE MEASURE BY THE MFR TO ENHANCE PROD SAFETY AND PHARMACOVIGILANCE.",
+          "mdr_text_key": "4631897",
+          "text_type_code": "Additional Manufacturer Narrative",
+          "patient_sequence_number": "1"
+        }
+      ],
+      "distributor_zip_code_ext": "",
+      "manufacturer_zip_code": "",
+      "date_received": "20080312",
+      "manufacturer_contact_address_2": "",
+      "date_report": "20080212",
+      "manufacturer_contact_address_1": "1715 WEST 38TH ST.",
+      "manufacturer_contact_plocal": "",
+      "manufacturer_name": "CHATTEM, INC.",
+      "type_of_report": [
+        "Initial submission"
+      ],
+      "reprocessed_and_reused_flag": "N",
+      "manufacturer_link_flag": "Y",
+      "manufacturer_contact_zip_code": "37409",
+      "manufacturer_g1_zip_code_ext": "",
+      "manufacturer_contact_country": "US",
+      "distributor_zip_code": "",
+      "report_source_code": "Manufacturer report",
+      "distributor_name": "",
+      "date_manufacturer_received": "20080212",
+      "remedial_action": [
+        "Recall"
+      ],
+      "manufacturer_contact_postal_code": "",
+      "manufacturer_contact_city": "CHATTANOOGA",
+      "product_problem_flag": "N",
+      "event_key": "943771",
+      "manufacturer_g1_zip_code": "",
+      "manufacturer_g1_state": "",
+      "patient": [
+        {
+          "date_received": "20080312",
+          "patient_sequence_number": "1",
+          "sequence_number_treatment": "",
+          "sequence_number_outcome": []
+        }
+      ],
+      "manufacturer_contact_phone_number": "3370",
+      "manufacturer_zip_code_ext": "",
+      "manufacturer_contact_pcity": "",
+      "manufacturer_g1_postal_code": "",
+      "manufacturer_contact_area_code": "423",
+      "adverse_event_flag": "Y",
+      "single_use_flag": "Y",
+      "distributor_city": "",
+      "manufacturer_country": "US",
+      "manufacturer_contact_f_name": "DAVID",
+      "distributor_state": "",
+      "number_devices_in_event": "1",
+      "manufacturer_contact_exchange": "822",
+      "distributor_address_2": "",
+      "manufacturer_contact_t_name": "",
+      "distributor_address_1": "",
+      "manufacturer_g1_address_2": "",
+      "health_professional": "N",
+      "initial_report_to_fda": "Unknown",
+      "number_patients_in_event": "1",
+      "mdr_report_key": "1013185",
+      "report_to_fda": "",
+      "manufacturer_address_2": "",
+      "manufacturer_address_1": "",
+      "manufacturer_g1_name": "",
+      "manufacturer_contact_zip_ext": "",
+      "manufacturer_contact_l_name": "GROB",
+      "device": [
+        {
+          "date_removed_flag": "B",
+          "other_id_number": "",
+          "manufacturer_d_zip_code_ext": "",
+          "baseline_510_k__number": "",
+          "implant_flag": "N",
+          "device_operator": "LAY USER/PATIENT",
+          "brand_name": "ICY HOT HEAT THERAPY PATCH",
+          "lot_number": "3A7RA",
+          "expiration_date_of_device": "20100430",
+          "manufacturer_d_state": "TN",
+          "generic_name": "",
+          "manufacturer_d_name": "CHATTEM, INC.",
+          "device_availability": "No",
+          "manufacturer_d_city": "CHATTANOOGA",
+          "device_sequence_number": "1",
+          "device_age_text": "DA",
+          "catalog_number": "",
+          "baseline_510_k__exempt_flag": "",
+          "date_received": "20080312",
+          "manufacturer_d_address_2": "",
+          "manufacturer_d_address_1": "",
+          "manufacturer_d_postal_code": "",
+          "baseline_510_k__flag": "",
+          "model_number": "083",
+          "manufacturer_d_zip_code": "",
+          "device_report_product_code": "IMD",
+          "manufacturer_d_country": "US",
+          "device_event_key": "983257",
+          "device_evaluated_by_manufacturer": "R"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+https://api.fda.gov/device/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Knee%20Joint
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 155
+    }
+  },
+  "results": [
+    {
+      "recall_number": "Z-2086-2014",
+      "reason_for_recall": "The femoral stem is lacking specified plasma coating.",
+      "status": "Ongoing",
+      "distribution_pattern": "Worldwide Distribution including Spain, Greece and Japan",
+      "product_quantity": "10",
+      "recall_initiation_date": "20140307",
+      "state": "FL",
+      "event_id": "68341",
+      "product_type": "Devices",
+      "product_description": "NOVATION Femoral Stem, Tapered Extended offset, plasma- coated, press fit. Catalog number 160-01-13\n\nintended to be implanted to replace a hip joint with our without bone cement.",
+      "country": "US",
+      "city": "Gainesville",
+      "recalling_firm": "Exactech, Inc.",
+      "report_date": "20140730",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "Serial Numbers:  2910243, 2910244, 2910245, 2910246, 2910247, 2910248, 2910249, 2910250, 2910251, and 2910252",
+      "@id": "017e849d8460b850bde7e141ec27709e18f9ef1e209f3d56cb34378178bb6fc0",
+      "openfda": {},
+      "initial_firm_notification": "Letter"
+    }
+  ]
+}

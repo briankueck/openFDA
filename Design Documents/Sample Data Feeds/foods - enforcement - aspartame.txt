@@ -1,0 +1,39 @@
+https://api.fda.gov/food/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=aspartame
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 8
+    }
+  },
+  "results": [
+    {
+      "recall_number": "F-0819-2014",
+      "reason_for_recall": "Lack of phenylketonuric warning. The main ingredient \"Sugar Free RichCreme Base' contains aspartame.",
+      "status": "Ongoing",
+      "distribution_pattern": "PR only",
+      "product_quantity": "500 boxes total (12 units each)",
+      "recall_initiation_date": "20130910",
+      "state": "PR",
+      "event_id": "66303",
+      "product_type": "Food",
+      "product_description": "Sugar free cake: Vanilla flavor. Package size: 4 oz, 12 oz; Sliced Sugar-free cake: Vanilla flavor 16 oz.",
+      "country": "US",
+      "city": "Trujillo Alto",
+      "recalling_firm": "Cakes & More Delight's",
+      "report_date": "20131218",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class III",
+      "code_info": "no codes",
+      "@id": "0a4cb995e3cf9fc9f950ea1b66035d240164731b895a9fe2e79d7da68ca0b05a",
+      "openfda": {},
+      "initial_firm_notification": "Telephone"
+    }
+  ]
+}

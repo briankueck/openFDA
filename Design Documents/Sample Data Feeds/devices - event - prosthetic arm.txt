@@ -1,0 +1,147 @@
+https://api.fda.gov/device/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Prosthetic%20Arm
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-22",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 49852
+    }
+  },
+  "results": [
+    {
+      "report_number": "6000032-2013-00010",
+      "manufacturer_contact_state": "MN",
+      "device_date_of_manufacturer": "",
+      "event_type": "Malfunction",
+      "source_type": [
+        "Health Professional"
+      ],
+      "manufacturer_g1_address_1": "7000 CENTRAL AVENUE NE RCW215",
+      "manufacturer_contact_pcountry": "",
+      "report_to_manufacturer": "N",
+      "previous_use_code": "I",
+      "manufacturer_postal_code": "",
+      "manufacturer_city": "HUMACAO",
+      "reporter_occupation_code": "HEALTH PROFESSIONAL",
+      "manufacturer_contact_extension": "",
+      "manufacturer_state": "PR",
+      "event_location": "",
+      "manufacturer_g1_country": "US",
+      "removal_correction_number": "",
+      "manufacturer_g1_city": "MINNEAPOLIS",
+      "mdr_text": [
+        {
+          "text": "IT WAS REPORTED THE PATIENT HAD AN INJURY AND STIMULATION ONLY WORKED WHEN THEY RAISED THEIR ARM ABOVE THEIR HEAD. ADDITIONAL INFORMATION HAS BEEN REQUESTED, A FOLLOW UP REPORT WILL BE SENT IF ADDITIONAL INFORMATION IS RECEIVED.",
+          "mdr_text_key": "18142131",
+          "text_type_code": "Description of Event or Problem",
+          "patient_sequence_number": "1"
+        },
+        {
+          "text": "PRODUCT ID: 7496-25, SERIAL# (B)(4), PRODUCT TYPE: EXTENSION. PRODUCT ID: 7496-25, SERIAL# (B)(4), PRODUCT TYPE: EXTENSION. PRODUCT ID: 7495-40, SERIAL# (B)(4), IMPLANTED: (B)(6) 2001, PRODUCT TYPE: EXTENSION. PRODUCT ID: 7495-40, SERIAL# (B)(4), PRODUCT TYPE: EXTENSION. PRODUCT ID: 7435, SERIAL# (B)(4), PRODUCT TYPE: PROGRAMMER. PRODUCT ID: 7435, SERIAL# (B)(4), PRODUCT TYPE: PROGRAMMER. PRODUCT ID: 7427V-NP, SERIAL# (B)(4), IMPLANTED: (B)(6) 2007, PRODUCT TYPE: IMPLANTABLE NEUROSTIMULATOR. PRODUCT ID: 3987A, LOT# N088746, IMPLANTED: (B)(6) 2007, PRODUCT TYPE: LEAD. PRODUCT ID: 3987, SERIAL# (B)(4), IMPLANTED: (B)(6) 1996, PRODUCT TYPE: LEAD. (B)(4).",
+          "mdr_text_key": "18142132",
+          "text_type_code": "Additional Manufacturer Narrative",
+          "patient_sequence_number": "1"
+        }
+      ],
+      "distributor_zip_code_ext": "",
+      "date_received": "20130111",
+      "manufacturer_zip_code": "00792",
+      "manufacturer_contact_address_2": "",
+      "date_report": "20121220",
+      "manufacturer_contact_address_1": "7000 CENTRAL AVENUE NE RCW215",
+      "manufacturer_contact_plocal": "",
+      "manufacturer_name": "MDT SOFAMOR DANEK PUERTO RICO MFG",
+      "type_of_report": [
+        "Initial submission"
+      ],
+      "reprocessed_and_reused_flag": "N",
+      "manufacturer_link_flag": "Y",
+      "manufacturer_contact_zip_code": "55432",
+      "manufacturer_g1_zip_code_ext": "",
+      "manufacturer_contact_country": "US",
+      "distributor_zip_code": "",
+      "report_source_code": "Manufacturer report",
+      "distributor_name": "",
+      "date_manufacturer_received": "20121220",
+      "remedial_action": "",
+      "manufacturer_contact_postal_code": "",
+      "manufacturer_contact_city": "MINNEAPOLIS",
+      "product_problem_flag": "Y",
+      "event_key": "2808516",
+      "manufacturer_g1_zip_code": "55432",
+      "manufacturer_g1_state": "MN",
+      "patient": [
+        {
+          "date_received": "20130111",
+          "patient_sequence_number": "1",
+          "sequence_number_treatment": ".;",
+          "sequence_number_outcome": []
+        }
+      ],
+      "manufacturer_contact_phone_number": "3987",
+      "manufacturer_zip_code_ext": "",
+      "manufacturer_contact_pcity": "",
+      "manufacturer_g1_postal_code": "",
+      "manufacturer_contact_area_code": "763",
+      "adverse_event_flag": "Y",
+      "single_use_flag": "Y",
+      "distributor_city": "",
+      "manufacturer_country": "US",
+      "manufacturer_contact_f_name": "DIANE",
+      "distributor_state": "",
+      "number_devices_in_event": "1",
+      "manufacturer_contact_exchange": "526",
+      "distributor_address_2": "",
+      "manufacturer_contact_t_name": "",
+      "distributor_address_1": "",
+      "manufacturer_g1_address_2": "",
+      "health_professional": "Y",
+      "initial_report_to_fda": "Unknown",
+      "number_patients_in_event": "1",
+      "mdr_report_key": "2912001",
+      "report_to_fda": "",
+      "manufacturer_address_2": "",
+      "manufacturer_address_1": "BARRIO MARIANNA RD 909, KM0.4",
+      "manufacturer_g1_name": "MEDTRONIC NEUROMODULATION",
+      "manufacturer_contact_zip_ext": "",
+      "manufacturer_contact_l_name": "WOLF",
+      "device": [
+        {
+          "date_removed_flag": "B",
+          "other_id_number": "",
+          "manufacturer_d_zip_code_ext": "",
+          "baseline_510_k__number": "",
+          "implant_flag": "Y",
+          "device_operator": "HEALTH PROFESSIONAL",
+          "brand_name": "SYNERGY",
+          "lot_number": "",
+          "expiration_date_of_device": "20010814",
+          "manufacturer_d_state": "PR",
+          "generic_name": "STIMULATOR, SPINAL-CORD, TOTALLY IMPLANTED FOR PAIN RELIEF",
+          "manufacturer_d_name": "MDT SOFAMOR DANEK PUERTO RICO MFG",
+          "device_availability": "No",
+          "manufacturer_d_city": "HUMACAO",
+          "device_sequence_number": "1",
+          "device_age_text": "",
+          "catalog_number": "7427",
+          "baseline_510_k__exempt_flag": "",
+          "date_received": "20130111",
+          "manufacturer_d_address_2": "",
+          "manufacturer_d_address_1": "BARRIO MARIANNA RD 909, KM0.4",
+          "manufacturer_d_postal_code": "",
+          "baseline_510_k__flag": "",
+          "model_number": "7427",
+          "manufacturer_d_zip_code": "00792",
+          "device_report_product_code": "LGW",
+          "manufacturer_d_country": "US",
+          "device_event_key": "2936187",
+          "device_evaluated_by_manufacturer": "*"
+        }
+      ]
+    }
+  ]
+}

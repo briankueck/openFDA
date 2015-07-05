@@ -1,0 +1,39 @@
+https://api.fda.gov/food/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=fish
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 93
+    }
+  },
+  "results": [
+    {
+      "recall_number": "F-1793-2012",
+      "reason_for_recall": "Pacific American Fish Company (PAFCO) is recalling recalling Korean Oysters because the product has been prepared, packed, or held under insanitary conditions whereby it may have become contaminated with filth, or whereby it may have been rendered injurious to health.",
+      "status": "Ongoing",
+      "distribution_pattern": "Nationwide in the US",
+      "product_quantity": null,
+      "recall_initiation_date": "20120628",
+      "state": "CA",
+      "event_id": "38284",
+      "product_type": "Food",
+      "product_description": "Oyster Half Shell Farm, OYS107, 144ps/cs,\nOyster Half Shell small Farm, OYS114, 144ps/cs,",
+      "country": "US",
+      "city": "Vernon",
+      "recalling_firm": "Pacific American Fish Co Inc",
+      "report_date": "20120801",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "PAFCO Code: OYS107, Lot# 202493-1, 204395-1, 210108-1, 211049-1, 211050-1, 218908-1, 219897-1.\n\nPAFCO Code: OYS114, Lot # 204395-2, 205669-1, 218908-2, 219897-1.",
+      "@id": "0135f00c297d8c51e908fba91e080255ca73f3e25100eb5b24bfe28f7d259d4e",
+      "openfda": {},
+      "initial_firm_notification": "Letter"
+    }
+  ]
+}

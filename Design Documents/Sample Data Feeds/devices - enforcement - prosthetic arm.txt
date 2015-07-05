@@ -1,0 +1,39 @@
+https://api.fda.gov/device/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Prosthetic%20Arm
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 140
+    }
+  },
+  "results": [
+    {
+      "recall_number": "Z-1849-2012",
+      "reason_for_recall": "Software Version 3.1.1 does not meet navigational accuracy.",
+      "status": "Terminated",
+      "distribution_pattern": "Nationwide Distribution including the states of CO,  IN, and MN.",
+      "product_quantity": "3 units",
+      "recall_initiation_date": "20101012",
+      "state": "MA",
+      "event_id": "61741",
+      "product_type": "Devices",
+      "product_description": "Medtronic 0-arm Imaging System with Software Version 3.1.1, Catalog Numbers: BI-700-00027-120R and BI-700-00027-120. The 0-arm  Imaging System is a mobile x-ray system designed for 2D fluoroscopic and 3D imaging.",
+      "country": "US",
+      "city": "Littleton",
+      "recalling_firm": "Medtronic Navigation, Inc.",
+      "report_date": "20120627",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "Serial Numbers:  125, 156, 234R.",
+      "@id": "00aa22d018fb0c69819a21c3709379a6c7da5252913a789b724a15055a2d6050",
+      "openfda": {},
+      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit"
+    }
+  ]
+}

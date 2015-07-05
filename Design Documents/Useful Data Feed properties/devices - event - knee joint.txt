@@ -1,0 +1,166 @@
+https://api.fda.gov/drug/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Knee%20Joint
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-01-21",
+    "results": {
+
+
+      "total": 54882
+    }
+  },
+  "results": [
+    {
+      "fulfillexpeditecriteria": "2",
+      "safetyreportid": "10003495",
+      "receiver": {
+        "receiverorganization": "FDA",
+        "receivertype": "6"
+      },
+      "duplicate": "1",
+      "receivedateformat": "102",
+      "reportduplicate": {
+        "duplicatesource": "PFIZER",
+        "duplicatenumb": "US-PFIZER INC-2014070595"
+      },
+      "reporttype": "1",
+      "receiptdateformat": "102",
+      "primarysource": {
+        "qualification": "5",
+        "reportercountry": "US"
+      },
+      "receivedate": "20140312",
+      "sender": {
+        "sendertype": "2",
+        "senderorganization": "FDA-Public Use"
+      },
+      "primarysourcecountry": "US",
+      "@epoch": 1417466131.85916,
+      "patient": {
+        "reaction": [
+          {
+            "reactionmeddrapt": "Drug ineffective",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          },
+          {
+            "reactionmeddrapt": "Swelling",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          },
+          {
+            "reactionmeddrapt": "Joint swelling",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          }
+        ],
+        "patientonsetage": "61",
+        "patientonsetageunit": "801",
+        "drug": [
+          {
+            "drugauthorizationnumb": "021446",
+            "drugcharacterization": "1",
+            "actiondrug": "1",
+            "drugindication": "FIBROMYALGIA",
+            "medicinalproduct": "LYRICA",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "spl_id": [
+                "acba4ee8-32fd-42e9-a2c6-6e3f28184267",
+                "97ad1752-d9b5-460f-b49c-c7551e70f07e"
+              ],
+              "product_ndc": [
+                "0071-1012",
+                "0071-1013",
+                "0071-1014",
+                "0071-1015",
+                "0071-1016",
+                "0071-1017",
+                "0071-1018",
+                "0071-1019",
+                "63539-014",
+                "63539-013",
+                "0071-1020"
+              ],
+              "route": [
+                "ORAL"
+              ],
+              "substance_name": [
+                "PREGABALIN"
+              ],
+              "rxcui": [
+                "607038",
+                "577127",
+                "607018",
+                "483438",
+                "898718",
+                "898715",
+                "607033",
+                "607028",
+                "607024",
+                "607026",
+                "483448",
+                "607022",
+                "607020",
+                "483442",
+                "483440",
+                "483450",
+                "483446",
+                "483444"
+              ],
+              "spl_set_id": [
+                "ce1a4b9d-3127-4416-8bf2-fee5899fc0ba",
+                "60185c88-ecfd-46f9-adb9-b97c6b00a553"
+              ],
+              "package_ndc": [
+                "0071-1018-68",
+                "0071-1016-41",
+                "0071-1012-68",
+                "0071-1014-41",
+                "0071-1019-68",
+                "63539-014-90",
+                "63539-013-41",
+                "0071-1014-68",
+                "0071-1015-41",
+                "0071-1015-68",
+                "0071-1016-68",
+                "0071-1020-01",
+                "0071-1013-68",
+                "0071-1013-41",
+                "0071-1017-68"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "generic_name": [
+                "PREGABALIN"
+              ],
+              "manufacturer_name": [
+                "Parke-Davis Div of Pfizer Inc",
+                "U.S. Pharmaceuticals"
+              ],
+              "brand_name": [
+                "LYRICA"
+              ],
+              "application_number": [
+                "NDA021446",
+                "NDA021724",
+                "NDA022488"
+              ]
+            }
+          }
+        ],
+        "patientsex": "2"
+      },
+      "receiptdate": "20140312",
+      "transmissiondate": "20141002",
+      "transmissiondateformat": "102",
+      "occurcountry": "US",
+      "safetyreportversion": "1",
+      "serious": "2",
+      "companynumb": "US-PFIZER INC-2014070595"
+    }
+  ]
+}

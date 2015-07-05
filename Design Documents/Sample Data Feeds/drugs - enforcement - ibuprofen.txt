@@ -1,0 +1,109 @@
+https://api.fda.gov/drug/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Ibuprofen
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 12
+    }
+  },
+  "results": [
+    {
+      "recall_number": "D-1166-2014",
+      "reason_for_recall": "Subpotent Drug: This lot is being recalled because of out-of-specification test results for Diphenhydramine citrate.",
+      "status": "Ongoing",
+      "distribution_pattern": "Nationwide",
+      "product_quantity": "70,704 bottles",
+      "recall_initiation_date": "20140226",
+      "state": "NY",
+      "event_id": "67617",
+      "product_type": "Drugs",
+      "product_description": "Advil PM Caplets, (Ibuprofen, 200 mg /Diphenhydramine citrate, 38 mg) 120 count bottle, OTC, Pfizer, Madison, NJ 07940 USA. NDC 0573-0164-43",
+      "country": "US",
+      "city": "New York",
+      "recalling_firm": "Pfizer Us Pharmaceutical Group",
+      "report_date": "20140326",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class III",
+      "code_info": "G85041",
+      "@id": "00b452d9f4f882d963763d8042f8f360e4c5e4b97d1c6fba00e1d04801c0d136",
+      "openfda": {
+        "unii": [
+          "8GTS82S83M"
+        ],
+        "spl_id": [
+          "8a1758ee-95d6-4a8b-bf7f-819c8132aad2"
+        ],
+        "product_ndc": [
+          "0573-0164"
+        ],
+        "substance_name": [
+          "DIPHENHYDRAMINE CITRATE",
+          "IBUPROFEN"
+        ],
+        "rxcui": [
+          "895664",
+          "901818"
+        ],
+        "spl_set_id": [
+          "658fc201-47c9-6a6d-8af9-6208298d43b4"
+        ],
+        "product_type": [
+          "HUMAN OTC DRUG"
+        ],
+        "manufacturer_name": [
+          "Pfizer Consumer Healthcare"
+        ],
+        "brand_name": [
+          "ADVIL PM"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "nui": [
+          "N0000175587",
+          "N0000000190"
+        ],
+        "pharm_class_moa": [
+          "Histamine H1 Receptor Antagonists [MoA]"
+        ],
+        "package_ndc": [
+          "0573-0164-04",
+          "0573-0164-05",
+          "0573-0164-20",
+          "0573-0164-21",
+          "0573-0164-12",
+          "0573-0164-45",
+          "0573-0164-55",
+          "0573-0164-14",
+          "0573-0164-91",
+          "0573-0164-40",
+          "0573-0164-41",
+          "0573-0164-43",
+          "0573-0164-44",
+          "0573-0164-30",
+          "0573-0164-33",
+          "0573-0164-32"
+        ],
+        "pharm_class_epc": [
+          "Histamine-1 Receptor Antagonist [EPC]"
+        ],
+        "generic_name": [
+          "DIPHENHYDRAMINE CITRATE AND IBUPROFEN"
+        ],
+        "application_number": [
+          "NDA021394"
+        ]
+      },
+      "initial_firm_notification": "Letter"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+https://api.fda.gov/drug/label.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Ibuprofen
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 4889
+    }
+  },
+  "results": [
+    {
+      "set_id": "00051a01-1c2e-4abb-b04c-548401f822c6",
+      "dosage_and_administration_table": [
+        "<table> <col width=\"24%\"/> <col width=\"74%\"/> <tbody> <tr> <td styleCode=\"Rrule Botrule Lrule Toprule \"> <paragraph>adults and children 12 years and older:</paragraph> </td> <td styleCode=\"Rrule Botrule Lrule Toprule \"> <list listType=\"unordered\"> <item> <caption>&#x2022;</caption>take 1 capsule every 8 to 12 hours while symptoms last</item> <item> <caption>&#x2022;</caption>for the first dose you may take 2 capsules within the first hour</item> <item> <caption>&#x2022;</caption>do not exceed 2 capsules in any 8- to 12-hour period</item> <item> <caption>&#x2022;</caption>do not exceed 3 capsules in a 24-hour period</item> </list> </td> </tr> <tr> <td styleCode=\"Rrule Botrule Lrule Toprule \"> <paragraph>children under 12 years:</paragraph> </td> <td styleCode=\"Rrule Botrule Lrule Toprule \"> <list listType=\"unordered\"> <item> <caption>&#x2022;</caption>ask a doctor</item> </list> </td> </tr> </tbody> </table>"
+      ],
+      "indications_and_usage": [
+        "Uses •temporarily relieves minor aches and pains due to: •minor pain of arthritis •muscular aches •backache •menstrual cramps •headache •toothache •the common cold •temporarily reduces fever"
+      ],
+      "stop_use": [
+        "Stop use and ask a doctor if •you experience any of the following signs of stomach bleeding: •feel faint •vomit blood •have bloody or black stools •have stomach pain that does not get better •pain gets worse or lasts more than 10 days •fever gets worse or lasts more than 3 days •redness or swelling is present in the painful area •any new symptoms appear •you have difficulty swallowing •it feels like the capsule is stuck in your throat"
+      ],
+      "keep_out_of_reach_of_children": [
+        "Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222)"
+      ],
+      "ask_doctor": [
+        "Ask a doctor before use if •the stomach bleeding warning applies to you •you have a history of stomach problems, such as heartburn •you have high blood pressure, heart disease, liver cirrhosis, or kidney disease •you are taking a diuretic •you have problems or serious side effects from taking pain relievers or fever reducers •you have asthma"
+      ],
+      "questions": [
+        "Questions or comments? 1-888-309-9030"
+      ],
+      "dosage_and_administration": [
+        "Directions •do not take more than directed •the smallest effective dose should be used •drink a full glass of water with each dose •if taken with food, this product may take longer to work adults and children 12 years and older: •take 1 capsule every 8 to 12 hours while symptoms last •for the first dose you may take 2 capsules within the first hour •do not exceed 2 capsules in any 8- to 12-hour period •do not exceed 3 capsules in a 24-hour period children under 12 years: •ask a doctor"
+      ],
+      "purpose": [
+        "Purpose Pain reliever/fever reducer"
+      ],
+      "storage_and_handling": [
+        "Other information •each capsule contains: sodium 20 mg •store at 20-25°C (68-77°F) avoid high humidity and excessive heat above 40°C (104°F) •do not use if printed foil under cap is broken or missing •read all directions and warnings before use. Keep carton."
+      ],
+      "ask_doctor_or_pharmacist": [
+        "Ask a doctor or pharmacist before use if you are •under a doctor’s care for any serious condition •taking any other drug"
+      ],
+      "do_not_use": [
+        "Do not use •if you have ever had an allergic reaction to any other pain reliever/fever reducer •right before or after heart surgery"
+      ],
+      "version": "3",
+      "id": "58657580-fafd-4ae0-87af-82fc7d060fb6",
+      "package_label_principal_display_panel": [
+        "Package/Label Principal Display Panel Naproxen Sodium Capsules, 220 mg (NSAID) Pain Reliever/Fever Reducer Compare to the active ingredient of Aleve® Liquid Gels Strength to Last 12 Hours Actual Size **LIQUID FILLED CAPSULES Naproxen Sodium, Capsules 220 mg (NSAID) Carton Image"
+      ],
+      "pregnancy_or_breast_feeding": [
+        "If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use naproxen sodium during the last 3 months of pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery."
+      ],
+      "active_ingredient": [
+        "Active ingredient (in each capsule) Naproxen sodium 220 mg (naproxen 200 mg) (NSAID)* *nonsteroidal anti-inflammatory drug"
+      ],
+      "inactive_ingredient": [
+        "Inactive ingredients FD&C blue #1, gelatin, glycerin, lactic acid, mannitol, pharmaceutical ink, polyethylene glycol, povidone, propylene glycol, purified water, sorbitan, sorbitol"
+      ],
+      "@epoch": 1416451272.131902,
+      "effective_time": "20130227",
+      "openfda": {
+        "unii": [
+          "57Y76R9ATQ"
+        ],
+        "spl_id": [
+          "58657580-fafd-4ae0-87af-82fc7d060fb6"
+        ],
+        "product_ndc": [
+          "55910-742"
+        ],
+        "substance_name": [
+          "NAPROXEN SODIUM"
+        ],
+        "rxcui": [
+          "1112231"
+        ],
+        "spl_set_id": [
+          "00051a01-1c2e-4abb-b04c-548401f822c6"
+        ],
+        "product_type": [
+          "HUMAN OTC DRUG"
+        ],
+        "pharm_class_cs": [
+          "Nonsteroidal Anti-inflammatory Compounds [Chemical/Ingredient]"
+        ],
+        "manufacturer_name": [
+          "Dolgencorp, LLC"
+        ],
+        "brand_name": [
+          "dg health naproxen sodium"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "nui": [
+          "N0000000160",
+          "N0000175722",
+          "N0000175721"
+        ],
+        "pharm_class_moa": [
+          "Cyclooxygenase Inhibitors [MoA]"
+        ],
+        "package_ndc": [
+          "55910-742-60",
+          "55910-742-65"
+        ],
+        "pharm_class_epc": [
+          "Nonsteroidal Anti-inflammatory Drug [EPC]"
+        ],
+        "generic_name": [
+          "NAPROXEN SODIUM"
+        ],
+        "application_number": [
+          "NDA021920"
+        ]
+      },
+      "spl_product_data_elements": [
+        "dg health naproxen sodium Naproxen sodium NAPROXEN SODIUM NAPROXEN FD&C BLUE NO. 1 GELATIN GLYCERIN LACTIC ACID MANNITOL POLYETHYLENE GLYCOLS POVIDONES PROPYLENE GLYCOL WATER SORBITAN SORBITOL Clear 742"
+      ],
+      "warnings": [
+        "Warnings Allergy alert: Naproxen sodium may cause a severe allergic reaction, especially in people allergic to aspirin. Symptoms may include: •hives •facial swelling •asthma (wheezing) •shock •skin reddening •rash •blisters If an allergic reaction occurs, stop use and seek medical help right away. Stomach bleeding warning: This product contains an NSAID, which may cause severe stomach bleeding. The chance is higher if you: •are age 60 or older •have had stomach ulcers or bleeding problems •take a blood thinning (anticoagulant) or steroid drug •take other drugs containing prescription or nonprescription NSAIDs (aspirin, ibuprofen, naproxen, or others) •have 3 or more alcoholic drinks every day while using this product •take more or for a longer time than directed Do not use •if you have ever had an allergic reaction to any other pain reliever/fever reducer •right before or after heart surgery Ask a doctor before use if •the stomach bleeding warning applies to you •you have a history of stomach problems, such as heartburn •you have high blood pressure, heart disease, liver cirrhosis, or kidney disease •you are taking a diuretic •you have problems or serious side effects from taking pain relievers or fever reducers •you have asthma Ask a doctor or pharmacist before use if you are •under a doctor’s care for any serious condition •taking any other drug When using this product •take with food or milk if stomach upset occurs •the risk of heart attack or stroke may increase if you use more than directed or for longer than directed Stop use and ask a doctor if •you experience any of the following signs of stomach bleeding: •feel faint •vomit blood •have bloody or black stools •have stomach pain that does not get better •pain gets worse or lasts more than 10 days •fever gets worse or lasts more than 3 days •redness or swelling is present in the painful area •any new symptoms appear •you have difficulty swallowing •it feels like the capsule is stuck in your throat If pregnant or breast-feeding, ask a health professional before use. It is especially important not to use naproxen sodium during the last 3 months of pregnancy unless definitely directed to do so by a doctor because it may cause problems in the unborn child or complications during delivery. Keep out of reach of children. In case of overdose, get medical help or contact a Poison Control Center right away. (1-800-222-1222)"
+      ],
+      "when_using": [
+        "When using this product •take with food or milk if stomach upset occurs •the risk of heart attack or stroke may increase if you use more than directed or for longer than directed"
+      ]
+    }
+  ]
+}

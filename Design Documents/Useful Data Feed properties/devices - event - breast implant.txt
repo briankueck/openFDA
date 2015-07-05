@@ -1,0 +1,582 @@
+https://api.fda.gov/drug/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Breast%20Implant
+
+This drug <b?%brand_name%<b>, which can cause the following reactions in patients:
+	Loop: results[i].patient.reaction[m].reactionmeddrapt
+	
+This drug is manufacturered by:
+	loop manufacturer names
+	
+Suggested Dosages for %medicinalproduct%:
+	loop: %drugdosagetext%
+	
+	"drugindication": "METASTASES TO BREAST",
+            "medicinalproduct": "DOCETAXEL",
+            "drugstructuredosagenumb": "100",
+            "drugdosagetext": "100 MG/M2, UNK",
+	
+States this drug is manufactured in:
+
+This drug is indicated for %drugindication%
+
+Number of companies in each state, which produce this drug:
+	Top 10 list of states with (# of companies) in loop.
+
+==========================================================================================	
+	
+This medical device <b>%DEVICE%</b> uses this drug, which can cause the following reactions in patients:
+
+This device is manufacturered by:
+	loop manufacturer names
+	
+Device Manufacturer Addresses:
+
+States this device is manufactured in:
+
+Number of companies in each state, which produce this device:
+	Top 10 list of states with (# of companies) in loop.
+
+
+==========================================================================================	
+
+reason_for_recall
+
+https://api.fda.gov/drug/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Amoxicillin
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-05-31",
+    "results": {
+
+
+      "total": 6
+    }
+  },
+  "results": [
+    {
+      "recall_number": "D-239-2013",
+      "reason_for_recall": "Microbial Contamination of Non-Sterile Products: Suspensions made from these lots of Amoxicillin 125 mg/5 mL showed yeast and mold growth at the 14 day time point.",
+      "status": "Ongoing",
+      "distribution_pattern": "Nationwide",
+      "product_quantity": "4236 Bottles",
+      "recall_initiation_date": "20130215",
+      "state": "TN",
+      "event_id": "64405",
+      "product_type": "Drugs",
+      "product_description": "Amoxicillin for Oral Suspension, 125mg/5mL,  a) 80 mL (NDC 43598-222-80); b) 100mL, (NDC 43598-222-52); c)150 mL (NDC 43598-222-53) bottles, Rx only, Dist. By:  Dr. REDDY'S Laboratories, Inc., Bridgewater, NJ  08807",
+      "country": "US",
+      "city": "Bristol",
+      "recalling_firm": "Dr Reddys Laboratories Tennessee LLC",
+      "report_date": "20130410",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "Lot #s: a) T200112; b) T200103, T200113; c) T200104, T200114",
+      "openfda": {
+        "is_original_packager": [
+          true
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "AMOXICILLIN"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "generic_name": [
+          "AMOXICILLIN"
+        ],
+        "manufacturer_name": [
+          "Dr Reddys Laboratories Inc"
+        ],
+        "brand_name": [
+          "AMOXICILLIN"
+        ],
+        "application_number": [
+          "ANDA062216"
+        ]
+      },
+      "initial_firm_notification": "Letter"
+    }
+  ]
+}
+
+==========================================================================================
+
+
+
+
+{
+  "meta": {
+    "last_updated": "2015-01-21",
+    "results": {
+      "total": 121803
+    }
+  },
+  "results": [
+    {
+      "fulfillexpeditecriteria": "1",
+      "receivedateformat": "102",
+      "receiver": {
+        "receiverorganization": "FDA",
+        "receivertype": "6"
+      },
+      "reportduplicate": {
+        "duplicatesource": "SANDOZ",
+        "duplicatenumb": "PHHY2014ES026521"
+      },
+      "receiptdateformat": "102",
+      "reporttype": "1",
+      "receivedate": "20140312",
+      "sender": {
+        "sendertype": "2",
+        "senderorganization": "FDA-Public Use"
+      },
+      "@epoch": 1417466131.85916,
+      "patient": {
+        "reaction": [
+          {
+            "reactionmeddrapt": "Type IV hypersensitivity reaction",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          },
+          {
+            "reactionmeddrapt": "Skin toxicity",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "1"
+          },
+          {
+            "reactionmeddrapt": "Palmar-plantar erythrodysaesthesia syndrome",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "1"
+          },
+          {
+            "reactionmeddrapt": "Nail toxicity",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "2"
+          },
+          {
+            "reactionmeddrapt": "Arthralgia",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          },
+          {
+            "reactionmeddrapt": "Myalgia",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "2"
+          },
+          {
+            "reactionmeddrapt": "Asthenia",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "2"
+          },
+          {
+            "reactionmeddrapt": "Diarrhoea",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "1"
+          },
+          {
+            "reactionmeddrapt": "Neuropathy peripheral",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "3"
+          }
+        ],
+        "patientonsetage": "55",
+        "patientonsetageunit": "801",
+        "drug": [
+          {
+            "drugauthorizationnumb": "078167",
+            "drugcharacterization": "1",
+            "actiondrug": "1",
+            "drugindication": "METASTASES TO BREAST",
+            "medicinalproduct": "PACLITAXEL",
+            "drugstructuredosagenumb": "80",
+            "drugdosagetext": "80 MG/M2, WEEKLY",
+            "openfda": {
+              "unii": [
+                "P88XT4IS4D"
+              ],
+              "spl_id": [
+                "0c04a432-4622-11e3-8f96-0800200c9a66",
+                "4dbbb7c8-a4b5-484d-a2a4-4d925010fc44",
+                "0670b0a1-8b62-4314-b681-768437c448a2",
+                "68db34d0-9187-414a-b1d2-7418da85dac0",
+                "44bb3dd5-e171-4887-b76c-90b96f8c356f",
+                "1cb73d76-10f3-419c-868d-df50d1d86225",
+                "72e5e3b9-f242-4470-a434-7786ce73ad81",
+                "4548f338-48ec-4d47-934a-34d6ddf31146",
+                "3473cc55-601b-4925-8cf5-06f1835f9ede",
+                "38668414-00b8-4c53-b48c-9de28ed0be5f"
+              ],
+              "product_ndc": [
+                "68817-134",
+                "0703-4764",
+                "0703-4767",
+                "0703-4766",
+                "44567-506",
+                "44567-505",
+                "44567-504",
+                "67457-471",
+                "61703-342",
+                "67457-434",
+                "63323-763",
+                "0069-0076",
+                "0703-4768",
+                "0069-0078",
+                "0069-0079",
+                "25021-213",
+                "67457-449",
+                "66758-043"
+              ],
+              "substance_name": [
+                "PACLITAXEL"
+              ],
+              "rxcui": [
+                "583214",
+                "312199",
+                "583218"
+              ],
+              "spl_set_id": [
+                "9ffd3e34-537f-4f65-b00e-57c25bab3b01",
+                "4dbbb7c8-a4b5-484d-a2a4-4d925010fc44",
+                "3d499be2-fdb5-4b9d-a7ce-3662ec9b2e34",
+                "88d7cdd2-e650-4a16-adec-873927e03e93",
+                "a6c24189-293f-42ca-b969-75870bb55af0",
+                "973efa93-7f9d-440a-a09f-521cf331b5e7",
+                "ea28753a-8631-460a-bfdc-b101eb8ac84a",
+                "1e1a3a8d-6a6b-46fd-90ae-c7ad9e9b364b",
+                "f10f730f-6479-4f6a-8edc-fa4bd2140c1b",
+                "24d10449-2936-4cd3-b7db-a7683db721e4"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "manufacturer_name": [
+                "Hospira Worldwide, Inc.",
+                "WG Critical Care, LLC",
+                "Mylan Institutional LLC",
+                "Pfizer Laboratories Div Pfizer Inc.",
+                "Sagent Pharmaceuticals",
+                "Fresenius Kabi USA, LLC",
+                "Teva Parenteral Medicines, Inc.",
+                "Sandoz Inc.",
+                "APP Pharmaceuticals, LLC",
+                "Abraxis BioScience, LLC"
+              ],
+              "brand_name": [
+                "ABRAXANE",
+                "PACLITAXEL"
+              ],
+              "pharm_class_pe": [
+                "Microtubule Inhibition [PE]"
+              ],
+              "route": [
+                "INTRAVENOUS"
+              ],
+              "nui": [
+                "N0000175592",
+                "N0000175085"
+              ],
+              "package_ndc": [
+                "0069-0079-01",
+                "44567-505-01",
+                "67457-449-17",
+                "0703-4766-01",
+                "68817-134-50",
+                "67457-471-52",
+                "25021-213-05",
+                "61703-342-50",
+                "63323-763-05",
+                "63323-763-06",
+                "0703-4767-01",
+                "44567-506-01",
+                "63323-763-16",
+                "0069-0078-01",
+                "61703-342-22",
+                "67457-434-51",
+                "44567-504-01",
+                "0703-4768-01",
+                "61703-342-09",
+                "25021-213-17",
+                "0069-0076-01",
+                "63323-763-52",
+                "63323-763-50",
+                "25021-213-50",
+                "66758-043-01",
+                "63323-763-17",
+                "66758-043-03",
+                "66758-043-02",
+                "0703-4764-01"
+              ],
+              "pharm_class_epc": [
+                "Microtubule Inhibitor [EPC]"
+              ],
+              "generic_name": [
+                "PACLITAXEL"
+              ],
+              "application_number": [
+                "ANDA076131",
+                "NDA021660",
+                "ANDA075184",
+                "ANDA078167",
+                "ANDA077574",
+                "ANDA091540",
+                "ANDA090130",
+                "NDA020262"
+              ]
+            },
+            "drugstructuredosageunit": "009"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "1",
+            "drugindication": "METASTASES TO BREAST",
+            "medicinalproduct": "DOCETAXEL",
+            "drugstructuredosagenumb": "100",
+            "drugdosagetext": "100 MG/M2, UNK",
+            "openfda": {
+              "unii": [
+                "699121PHCA"
+              ],
+              "spl_id": [
+                "26da17c5-ff40-4ac5-8aa1-c7363e6fca4d",
+                "9e1f9790-a935-495b-8ba0-14214bb4393c",
+                "3fead05a-55de-421f-bed1-bc208c99beae",
+                "5ceb0707-bf63-459c-8b87-7844197849cb",
+                "89631d9b-6528-430b-832f-2ee0dec0a624",
+                "fd227bec-76e2-434d-a0a7-7b3d199da333",
+                "44b65eab-6b98-4b1c-93cf-d158ba7d1cf3",
+                "d2c1c731-9c3d-4b06-9b37-0938dae9bfc4"
+              ],
+              "product_ndc": [
+                "16729-120",
+                "16729-267",
+                "0075-8004",
+                "0075-8003",
+                "0409-0201",
+                "25021-222",
+                "16729-228",
+                "0069-9144",
+                "0069-9142",
+                "0955-1020",
+                "0955-1021",
+                "0069-9141",
+                "45963-734",
+                "66758-050",
+                "16729-231"
+              ],
+              "substance_name": [
+                "DOCETAXEL",
+                "DOCETAXEL ANHYDROUS"
+              ],
+              "rxcui": [
+                "1001405",
+                "1001407",
+                "313949",
+                "1093280"
+              ],
+              "spl_set_id": [
+                "e03d1378-6889-43d5-a34c-f96132cffa88",
+                "f59f7811-70b7-4c44-99f7-4f4fdce3ed22",
+                "d2dc690b-4c69-428a-a67e-8ad007c39548",
+                "dd0ca36d-1f54-4568-8d19-a7152addcd52",
+                "2c806400-5fdc-4398-8475-37f700b3191f",
+                "45e6dce4-92e2-4ad1-bf11-bbcefb753636",
+                "a0ec4bcc-93ea-4c41-a4b6-95ec19491807",
+                "70aeb960-426c-4805-b956-476bebccd926"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "manufacturer_name": [
+                "Winthrop U.S.",
+                "Sagent Pharmaceuticals",
+                "Pfizer Laboratories Div Pfizer Inc",
+                "sanofi-aventis U.S. LLC",
+                "Hospira, Inc.",
+                "Sandoz Inc",
+                "Accord Healthcare Inc.",
+                "Actavis Pharma, Inc."
+              ],
+              "brand_name": [
+                "TAXOTERE",
+                "DOCETAXEL"
+              ],
+              "pharm_class_pe": [
+                "Microtubule Inhibition [PE]"
+              ],
+              "route": [
+                "INTRAVENOUS"
+              ],
+              "nui": [
+                "N0000175592",
+                "N0000175085"
+              ],
+              "package_ndc": [
+                "0955-1021-04",
+                "0075-8004-04",
+                "0075-8003-01",
+                "25021-222-04",
+                "0069-9142-22",
+                "45963-734-74",
+                "25021-222-01",
+                "45963-734-52",
+                "66758-050-01",
+                "66758-050-03",
+                "25021-222-07",
+                "0409-0201-02",
+                "45963-734-54",
+                "0409-0201-26",
+                "0409-0201-27",
+                "0409-0201-20",
+                "0955-1020-01",
+                "16729-120-49",
+                "16729-228-50",
+                "66758-050-02",
+                "0409-0201-25",
+                "16729-267-64",
+                "16729-267-65",
+                "16729-267-63",
+                "0069-9144-22",
+                "16729-231-65",
+                "16729-231-64",
+                "16729-231-63",
+                "0069-9141-22",
+                "0409-0201-10"
+              ],
+              "pharm_class_epc": [
+                "Microtubule Inhibitor [EPC]"
+              ],
+              "generic_name": [
+                "DOCETAXEL",
+                "DOCETAXEL ANHYDROUS"
+              ],
+              "application_number": [
+                "NDA201195",
+                "NDA201525",
+                "NDA020449",
+                "NDA022234",
+                "NDA203551",
+                "ANDA203551",
+                "NDA202356"
+              ]
+            },
+            "drugstructuredosageunit": "009"
+          },
+          {
+            "drugcharacterization": "2",
+            "actiondrug": "5",
+            "drugindication": "BREAST CANCER",
+            "medicinalproduct": "ADRIAMYCIN",
+            "drugstructuredosagenumb": "60",
+            "drugdosagetext": "60 MG/M2, UNK",
+            "drugstructuredosageunit": "009"
+          },
+          {
+            "drugcharacterization": "2",
+            "actiondrug": "5",
+            "drugindication": "BREAST CANCER",
+            "medicinalproduct": "CYCLOPHOSPHAMIDE",
+            "drugstructuredosagenumb": "600",
+            "drugdosagetext": "600 MG/M2, UNK",
+            "openfda": {
+              "spl_id": [
+                "da1a5cfb-b6b0-4cd0-a002-1425ae11a7a7",
+                "84d04468-9c0f-45b2-889d-ecd934a53984",
+                "38c490bd-6282-44a1-a6fa-b040b6b113a7",
+                "bd1316c9-f0e9-4e70-bef9-6bd57722d499"
+              ],
+              "product_ndc": [
+                "10019-988",
+                "10019-989",
+                "0054-4129",
+                "0054-0382",
+                "0054-0383",
+                "0054-4130",
+                "10019-990",
+                "10019-957",
+                "10019-956",
+                "10019-955"
+              ],
+              "route": [
+                "ORAL",
+                "INTRAVENOUS"
+              ],
+              "substance_name": [
+                "CYCLOPHOSPHAMIDE"
+              ],
+              "rxcui": [
+                "637543",
+                "1437968",
+                "1437969",
+                "197550",
+                "197549"
+              ],
+              "spl_set_id": [
+                "591d9955-3d9c-4cdc-a308-2f1288376b9f",
+                "369e6911-66bd-4544-9901-cf887fdf1dc2",
+                "1bd19d11-477e-4b4d-8d1d-4b376a403140",
+                "8135b917-882f-4b4c-99b7-fa8ea54af4bf"
+              ],
+              "package_ndc": [
+                "0054-0383-25",
+                "10019-955-01",
+                "0054-4130-25",
+                "10019-957-11",
+                "10019-988-01",
+                "10019-990-01",
+                "10019-957-01",
+                "10019-989-01",
+                "10019-956-01",
+                "0054-4129-25",
+                "10019-955-50",
+                "10019-956-16",
+                "0054-0382-25"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "generic_name": [
+                "CYCLOPHOSPHAMIDE"
+              ],
+              "manufacturer_name": [
+                "Baxter Healthcare Corporation",
+                "Roxane Laboratories, Inc.",
+                "Roxane Laboratories, Inc"
+              ],
+              "brand_name": [
+                "CYCLOPHOSPHAMIDE"
+              ],
+              "application_number": [
+                "ANDA040745",
+                "NDA203856",
+                "NDA012142",
+                "ANDA040032"
+              ]
+            },
+            "drugstructuredosageunit": "009"
+          }
+        ],
+        "patientsex": "2"
+      },
+      "receiptdate": "20140312",
+      "safetyreportversion": "1",
+      "serious": "1",
+      "companynumb": "PHHY2014ES026521",
+      "safetyreportid": "10003328",
+      "duplicate": "1",
+      "primarysource": {
+        "qualification": "3",
+        "reportercountry": "ES"
+      },
+      "seriousnessother": "1",
+      "primarysourcecountry": "ES",
+      "transmissiondate": "20141002",
+      "transmissiondateformat": "102",
+      "occurcountry": "ES"
+    }
+  ]
+}

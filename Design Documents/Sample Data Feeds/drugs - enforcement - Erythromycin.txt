@@ -1,0 +1,39 @@
+https://api.fda.gov/drug/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Erythromycin
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 3
+    }
+  },
+  "results": [
+    {
+      "recall_number": "D-536-2014",
+      "reason_for_recall": "Labeling: Label Mixup; ERYTHROMYCIN DR EC Tablet, 250 mg may be potentially mislabeled as\n\nmethylPREDNISolone, Tablet, 4 mg, NDC 00781502201, Pedigree: AD46426 10, EXP: 5/15/2014.",
+      "status": "Ongoing",
+      "distribution_pattern": "Repacked drugs were distributed in Arizona, California, Oregon, and Washington.",
+      "product_quantity": "100 Tablets",
+      "recall_initiation_date": "20130702",
+      "state": "WA",
+      "event_id": "65707",
+      "product_type": "Drugs",
+      "product_description": "ERYTHROMYCIN DR EC Tablet, 250 mg, Rx only, Distributed by: AidaPak Service, LLC, NDC 24338012213",
+      "country": "US",
+      "city": "Vancouver",
+      "recalling_firm": "Aidapak Services, LLC",
+      "report_date": "20140122",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "ERYTHROMYCIN DR EC Tablet, 250 mg has the following code\n\nPedigree: AD46426 13, EXP: 5/15/2014.",
+      "@id": "2679402a40bdaa2d69af33ac0bbf70f72f65edee7952e251ce3baf4bf12e75b4",
+      "openfda": {},
+      "initial_firm_notification": "Telephone"
+    }
+  ]
+}

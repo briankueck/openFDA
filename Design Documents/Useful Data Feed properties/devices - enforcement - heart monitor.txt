@@ -1,0 +1,39 @@
+https://api.fda.gov/device/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Heart%20Monitor
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-05-31",
+    "results": {
+
+
+      "total": 292
+    }
+  },
+  "results": [
+    {
+      "recall_number": "Z-1901-2013",
+      "reason_for_recall": "Reports of false abnormally high glucose readings from test strips",
+      "status": "Ongoing",
+      "distribution_pattern": "Worldwide Distribution - USA Nationwide and the countries of  Chile, England , Peru, Nicaragua",
+      "product_quantity": "*Kitted into System Kits 43435 and 45507",
+      "recall_initiation_date": "20130715",
+      "state": "MA",
+      "event_id": "65617",
+      "product_type": "Devices",
+      "product_description": "Nova Max Glucose Test Strips (10 Count Vials)\nCatalog Number: 43604\nThese strips are kitted into Nova Max Glucose Test Strip System Kits 43435 and 45507\n\nProduct Usage:   The Nova Max Glucose Test Strips are for use with the Nova Max Family of Glucose Monitors (Nova Max, Nova Max Plus, Nova Max Link, BD Logic and Paradigm Link). These monitors are intended to be used for the quantitative measurement of glucose in fresh capillary whole blood. They are intended for use by people with diabetes mellitus in the home and by healthcare professionals in clinical settings as an aid to monitor the effectiveness of diabetes control",
+      "country": "US",
+      "city": "Waltham",
+      "recalling_firm": "Nova Biomedical Corporation",
+      "report_date": "20130821",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class I",
+      "code_info": "Lot #/Exp.Date:\n1020212032 02/28/2014\n1020212153 06/30/2014\n1020212207 07/31/2014\n1020212291 10/31/2014\n1020213074 03/31/2015\n1020213109 04/30/2015\n1020412255 09/30/2014\n1020412341 12/31/2014\n1020512087 03/31/2014\n1020811350 12/31/2013\n102121304 02/28/2015",
+      "@id": "0059457d82ee5d2780160121b6e90c112bc5159b7401bb1882b01310efc6cb97",
+      "openfda": {},
+      "initial_firm_notification": "Letter"
+    }
+  ]
+}

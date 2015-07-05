@@ -1,0 +1,39 @@
+https://api.fda.gov/food/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Candy%20Corn
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 227
+    }
+  },
+  "results": [
+    {
+      "recall_number": "F-0359-2014",
+      "reason_for_recall": "Manufacturing defect leading to post-process\ncontamination.",
+      "status": "Ongoing",
+      "distribution_pattern": "Nationwide and to Korea, China, Mexico, Hong Kong, Singapore, Malaysia, Costa Rica, jordan, Bermuda, Indonesia and United Kingdom",
+      "product_quantity": "597,827 cases total, all varieties.",
+      "recall_initiation_date": "20131108",
+      "state": "CA",
+      "event_id": "66795",
+      "product_type": "Food",
+      "product_description": "Plum Organics Cherry & Sweet Corn Organic Baby Food, 4 oz. pouch. \n\nFlexible pouch with Resealable spout.\nPackaged for individual sale in 6 count cartons and in 4 count packages.\nBest By dates ranging from 08/05/14 to 12/08/14 and the letters AT.\n\nDISTRIBUTED BY:\nNEST COLLECTIVE, INC.\nEMERYVILLE, CA 94608\n1-877-914-PLUM\nWWW.NEST-COLLECTIVE.COM",
+      "country": "US",
+      "city": "Emeryville",
+      "recalling_firm": "Plum Inc",
+      "report_date": "20131204",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "Item number 1382:\nSelling Unit UPC: 846675001344 ;            \nCase UPC:846675001382 ;\nBest By dates ranging from 08/05/14 to 12/08/14 and the letters AT.",
+      "@id": "00842ef8b93853979cd74c5f8a198a912acdb2e4e5462000f7bb340173654478",
+      "openfda": {},
+      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit"
+    }
+  ]
+}

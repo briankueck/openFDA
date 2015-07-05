@@ -1,0 +1,75 @@
+https://api.fda.gov/drug/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=syring
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-01-21",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 26
+    }
+  },
+  "results": [
+    {
+      "fulfillexpeditecriteria": "2",
+      "safetyreportid": "10207205",
+      "receiver": {
+        "receiverorganization": "FDA",
+        "receivertype": "6"
+      },
+      "receivedateformat": "102",
+      "reporttype": "1",
+      "receiptdateformat": "102",
+      "primarysource": {
+        "qualification": "2",
+        "reportercountry": "US"
+      },
+      "receivedate": "20140528",
+      "seriousnessother": "1",
+      "sender": {
+        "sendertype": "2",
+        "senderorganization": "FDA-Public Use"
+      },
+      "primarysourcecountry": "US",
+      "@epoch": 1421888841.083659,
+      "patient": {
+        "reaction": [
+          {
+            "reactionmeddrapt": "Chest pain",
+            "reactionmeddraversionpt": "17.0"
+          },
+          {
+            "reactionmeddrapt": "Flushing",
+            "reactionmeddraversionpt": "17.0"
+          },
+          {
+            "reactionmeddrapt": "Palpitations",
+            "reactionmeddraversionpt": "17.0"
+          }
+        ],
+        "patientonsetage": "60",
+        "patientonsetageunit": "801",
+        "drug": [
+          {
+            "drugcharacterization": "1",
+            "drugseparatedosagenumb": "3",
+            "drugindication": "MULTIPLE SCLEROSIS",
+            "medicinalproduct": "COPAXONE 40 MG",
+            "drugadministrationroute": "058",
+            "drugdosagetext": "SYRING TIW SUBCUTANEOUS",
+            "drugintervaldosageunitnumb": "1",
+            "drugintervaldosagedefinition": "803"
+          }
+        ],
+        "patientsex": "2"
+      },
+      "receiptdate": "20140528",
+      "transmissiondate": "20141212",
+      "transmissiondateformat": "102",
+      "safetyreportversion": "1",
+      "serious": "1"
+    }
+  ]
+}

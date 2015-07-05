@@ -1,0 +1,39 @@
+https://api.fda.gov/food/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Bananas
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 3
+    }
+  },
+  "results": [
+    {
+      "recall_number": "F-0636-2013",
+      "reason_for_recall": "The products were manufactured using peanut butter recalled by Sunland Inc. because it may be contaminated with Salmonella.",
+      "status": "Ongoing",
+      "distribution_pattern": "Products were released for distribution in US.",
+      "product_quantity": "Unknown",
+      "recall_initiation_date": "20120924",
+      "state": "CA",
+      "event_id": "63346",
+      "product_type": "Food",
+      "product_description": "Jamba Juice brand Peanut Butter Moo'd Smoothie; All sizes (small, medium, large); A Blend Of: Nonfat Vanilla Yogurt (Contains Milk), Chocolate Moo'd Base (Contains Milk), Soymilk (Contains Soy), Ice, Bananas, Peanut Butter (Contains Peanuts); The product is processed and packaged by Jamba Juice Co.",
+      "country": "US",
+      "city": "Emeryville",
+      "recalling_firm": "Jamba Juice",
+      "report_date": "20121114",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class I",
+      "code_info": "No codes (Stop sale date: September 24, 2012)",
+      "@id": "17750215d9c4faf9c5ca074714a198d4ea21189a0d052cd56ce3f2d99458c75e",
+      "openfda": {},
+      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit"
+    }
+  ]
+}

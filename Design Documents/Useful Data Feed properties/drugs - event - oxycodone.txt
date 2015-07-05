@@ -1,0 +1,747 @@
+https://api.fda.gov/drug/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=oxycodone
+
+{
+  "meta": {
+    "last_updated": "2015-01-21",
+    "results": {
+      "total": 76228
+    }
+  },
+  "results": [
+    {
+      "fulfillexpeditecriteria": "2",
+      "safetyreportid": "10003304",
+      "receiver": {
+        "receiverorganization": "FDA",
+        "receivertype": "6"
+      },
+      "duplicate": "1",
+      "receivedateformat": "102",
+      "reportduplicate": {
+        "duplicatesource": "PFIZER",
+        "duplicatenumb": "US-PFIZER INC-2014063856"
+      },
+      "reporttype": "1",
+      "receiptdateformat": "102",
+      "primarysource": {
+        "qualification": "1",
+        "reportercountry": "US"
+      },
+      "receivedate": "20140312",
+      "sender": {
+        "sendertype": "2",
+        "senderorganization": "FDA-Public Use"
+      },
+      "primarysourcecountry": "US",
+      "@epoch": 1421888841.083659,
+      "patient": {
+        "reaction": [
+          {
+            "reactionmeddrapt": "Drug hypersensitivity",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          }
+        ],
+        "drug": [
+          {
+            "drugauthorizationnumb": "050007",
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "DOXYCYCLINE HYCLATE",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "DOXYCYCLINE HYCLATE"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Tetracyclines [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "TOLMAR Inc.",
+                "Midlothian Laboratories",
+                "Mutual Pharmaceutical Company, Inc.",
+                "Pfizer Laboratories Div Pfizer Inc",
+                "Heritage Pharmaceuticals Inc.",
+                "Blu Pharmaceuticals, LLC",
+                "Major Pharmaceuticals",
+                "C.O. Truxton, Inc.",
+                "Hikma Pharmaceutical",
+                "Watson Laboratories, Inc.",
+                "DAVA Pharmaceuticals, Inc.",
+                "Actavis Elizabeth LLC",
+                "Larken Laboratories, Inc.",
+                "Chartwell RX LLC",
+                "Chartwell Governmental and Specialty RX LLC",
+                "Harris Pharmaceutical, Inc",
+                "Medimetriks Pharmaceuticals, Inc.",
+                "Global Pharmaceuticals, Division of Impax Laboratories, Inc.",
+                "VersaPharm Incorporated",
+                "West-Ward Pharmaceutical Corp",
+                "Warner Chilcott (US), LLC",
+                "OCuSOFT INC.",
+                "Aqua Pharmaceuticals",
+                "Citron Pharma LLC",
+                "CHARTWELL GOVERNMENTAL & SPECIALTY RX LLC",
+                "Mylan Pharmaceuticals Inc.",
+                "Lannett Company, Inc.",
+                "CorePharma, LLC"
+              ],
+              "brand_name": [
+                "DOXYCYCLINE HYCLATE DELAYED RELEASE",
+                "DORYX",
+                "ACTICLATE",
+                "MORGIDOX",
+                "ATRIDOX",
+                "VIBRAMYCIN HYCLATE",
+                "DOXYCYCLINE",
+                "OCUDOX",
+                "DOXYCYCLINE HYCLATE",
+                "VIBRA-TABS",
+                "DOXYCYCLINE HYCLATE CAPSULES",
+                "DOXYCYCLATE HYCLATE"
+              ],
+              "route": [
+                "ORAL",
+                "INTRAVENOUS"
+              ],
+              "pharm_class_epc": [
+                "Tetracycline-class Drug [EPC]"
+              ],
+              "generic_name": [
+                "DOXYCYCLINE",
+                "DOXYCYCLINE HYCLATE"
+              ],
+              "application_number": [
+                "ANDA065287",
+                "ANDA090505",
+                "ANDA062396",
+                "NDA205931",
+                "ANDA062432",
+                "ANDA062337",
+                "ANDA062269",
+                "ANDA065095",
+                "ANDA065277",
+                "ANDA065134",
+                "ANDA062031",
+                "ANDA090431",
+                "ANDA062421",
+                "ANDA062505",
+                "ANDA091052",
+                "ANDA062500",
+                "ANDA200856",
+                "ANDA091406",
+                "NDA050795",
+                "NDA050533",
+                "NDA050007",
+                "NDA050751",
+                "ANDA065182",
+                "ANDA062675",
+                "ANDA062677",
+                "ANDA062676",
+                "ANDA090134"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "TRAMADOL HYDROCHLORIDE",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "TRAMADOL HYDROCHLORIDE"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "manufacturer_name": [
+                "KLE 2, Inc.",
+                "Virtus Pharmaceuticals LLC",
+                "Lupin Pharmaceuticals, Inc.",
+                "Northstar RxLLC",
+                "Major Pharmaceuticals",
+                "Mylan Pharmaceuticals Inc.",
+                "Teva Pharmaceuticals USA Inc",
+                "Aurobindo Pharma Limited",
+                "Rhodes Pharmaceuticals L.P.",
+                "Zydus Pharmaceuticals (USA) Inc.",
+                "Amneal Pharmaceuticals of New York, LLC",
+                "Vertical Pharmaceuticals Inc.",
+                "Patriot Pharmaceuticals, LLC",
+                "Vertical Pharmaceuticals, LLC",
+                "Shionogi Inc.",
+                "Janssen Pharmaceuticals, Inc.",
+                "Par Pharmaceutical, Inc.",
+                "Cadila Healthcare Limited",
+                "Par Pharmaceutical Inc.",
+                "Apotex Corp.",
+                "Sun Pharma Global FZE",
+                "Sun Pharmaceutical Industries, Inc."
+              ],
+              "brand_name": [
+                "RYBIX ODT",
+                "ULTRAM ER",
+                "ULTRAM",
+                "TRAMADOL HYDROCHLORIDE",
+                "TRAMADOL HYDROCHLORIDE EXTENDED-RELEASE",
+                "CONZIP"
+              ],
+              "route": [
+                "ORAL"
+              ],
+              "pharm_class_moa": [
+                "Full Opioid Agonists [MoA]"
+              ],
+              "pharm_class_epc": [
+                "Opioid Agonist [EPC]"
+              ],
+              "generic_name": [
+                "TRAMADOL HYDROCHLORIDE",
+                "TRAMADOL HYDROCHLORIDE EXTENDED-RELEASE TABLETS"
+              ],
+              "application_number": [
+                "ANDA076003",
+                "ANDA201384",
+                "NDA021693",
+                "ANDA075964",
+                "NDA022370",
+                "ANDA091607",
+                "ANDA075986",
+                "NDA021692",
+                "ANDA075977",
+                "ANDA203494",
+                "NDA020281",
+                "ANDA091498",
+                "ANDA078783",
+                "NDA021745",
+                "ANDA075981",
+                "ANDA090404",
+                "ANDA078935",
+                "ANDA200503",
+                "ANDA200491"
+              ]
+            },
+            "drugdosageform": "TABLET"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "OXYCONTIN",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "OXYCODONE HYDROCHLORIDE"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "manufacturer_name": [
+                "Purdue Pharma LP"
+              ],
+              "brand_name": [
+                "OXYCONTIN"
+              ],
+              "route": [
+                "ORAL"
+              ],
+              "pharm_class_moa": [
+                "Full Opioid Agonists [MoA]"
+              ],
+              "pharm_class_epc": [
+                "Opioid Agonist [EPC]"
+              ],
+              "generic_name": [
+                "OXYCODONE HYDROCHLORIDE"
+              ],
+              "application_number": [
+                "NDA022272"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "TALWIN",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "PENTAZOCINE LACTATE"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "manufacturer_name": [
+                "Hospira, Inc."
+              ],
+              "brand_name": [
+                "TALWIN"
+              ],
+              "route": [
+                "INTRAMUSCULAR",
+                "INTRAVENOUS",
+                "SUBCUTANEOUS"
+              ],
+              "pharm_class_moa": [
+                "Partial Opioid Agonists [MoA]",
+                "Competitive Opioid Antagonists [MoA]"
+              ],
+              "pharm_class_epc": [
+                "Partial Opioid Agonist/Antagonist [EPC]"
+              ],
+              "generic_name": [
+                "PENTAZOCINE LACTATE"
+              ],
+              "application_number": [
+                "NDA016194"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "CODEINE",
+            "drugdosagetext": "UNK"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "IODINE",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "route": [
+                "TOPICAL",
+                "ORAL"
+              ],
+              "substance_name": [
+                "IODINE"
+              ],
+              "rxcui": [
+                "311093",
+                "1045318"
+              ],
+              "product_type": [
+                "HUMAN OTC DRUG"
+              ],
+              "generic_name": [
+                "IODINE"
+              ],
+              "manufacturer_name": [
+                "JCI INSTITUTE OF MEDICAL SCIENCE",
+                "CareFusion 213 LLC",
+                "Natural Health Supply"
+              ],
+              "brand_name": [
+                "COLLOIDAL IODINE",
+                "DRY COUGH",
+                "IODINE SEPP",
+                "COLLOIDAL IODINE OPHTHALMIC"
+              ],
+              "application_number": [
+                "part333A"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "ASPIRIN",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "ASPIRIN"
+              ],
+              "product_type": [
+                "HUMAN OTC DRUG"
+              ],
+              "pharm_class_cs": [
+                "Nonsteroidal Anti-inflammatory Compounds [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "Rite Aid",
+                "P and L Development of New York Corporation",
+                "Geiss, Destin & Dunn, Inc (Goodsense)",
+                "DOLGENCORP, LLC",
+                "Conney Safety Products, LLC",
+                "TIME CAP LABORATORIES INC.",
+                "Ajes Pharmaceuticals,LLC",
+                "Access Business Group International LLC",
+                "L.N.K. International, Inc.",
+                "Stephen L. LaFrance Pharmacy, Inc.",
+                "TARGET Corporation",
+                "Henry Schein, Inc.",
+                "Raritan Pharmaceuticals Inc",
+                "DZA Brands LLC",
+                "HART Health",
+                "WOONSOCKET PRESCRIPTION CENTER, INCORPORATED",
+                "Bayer Corporation Consumer Care Division",
+                "Target Corporation",
+                "The Kroger Co.",
+                "Kareway Product, Inc.",
+                "Pharmadel LLC",
+                "EQUATE (Walmart Stores, Inc.)",
+                "AmerisourceBergen (Good Neighbor Pharmacy)",
+                "Publix Supermarkets, Inc.",
+                "Major Pharmaceuticals Inc",
+                "Care One (American Sales Company)",
+                "NASH-FINCH COMPANY",
+                "Navajo Manufacturing Company Inc.",
+                "TIME CAP LABORATORIES, INC",
+                "Medicine Shoppe International Inc",
+                "Zee Medical Inc",
+                "CHAIN DRUG MARKETING ASSOCIATION INC",
+                "Pharbest Pharmaceuticals, Inc",
+                "Advance Pharmaceutical Inc.",
+                "Family Dollar",
+                "L. Perrigo Company",
+                "PureTek Corporation",
+                "North Safety Products",
+                "Breakthrough Products Inc.",
+                "Unifirst First Aid Corporation",
+                "The Kroger Co",
+                "Geri Care Pharmaceutical",
+                "Ducere Pharma LLC",
+                "AmerisourceBergen (Good Neighbor Pharmacy) 46122",
+                "Preferred Plus (Kinray)",
+                "Hannaford Brothers Company",
+                "A&Z Pharmaceutical, Inc.",
+                "CVS Pharmacy",
+                "Gemini Pharmaceuticals, Inc. dba Plus Pharmaceuticals",
+                "CARDINAL HEALTH",
+                "Wal-Mart Stores Inc",
+                "Pace Wellness Inc.",
+                "Velocity Pharma",
+                "Western Family Foods, Inc.",
+                "Chain Drug Consortium, LLC (Premier Value)",
+                "Premier Value (Chain Drug Consortium, LLC)",
+                "Moore Medical LLC",
+                "ARMY AND AIR FORCE EXCHANGE SERVICE",
+                "RUGBY LABORATORIES, INC",
+                "Salado Sales, Inc.",
+                "Pharbest Pharmaceuticals, Inc.",
+                "Cardinal Health (Leader)",
+                "COSTCO WHOLESALE CORPORATION",
+                "Avema Pharma Solutions",
+                "FRED'S, INC.",
+                "Winder Laboratories, LLC",
+                "TOP CARE (Topco Associates LLC)",
+                "Kmart Corporation",
+                "ILEX Consumer Products Group, LLC (ST. JOSEPH)",
+                "Western Family Foods Inc",
+                "SAVE-A-LOT FOOD STORES, LTD.",
+                "Major Pharmaceuticals",
+                "QUALITY CHOICE (Chain Drug Marketing Association)",
+                "American Sales Company",
+                "Cardinal Health",
+                "Publix Super Markets Inc",
+                "Dolgencorp, LLC",
+                "Geri-Care Pharmaceutical Corp",
+                "SMART SENSE (Kmart)",
+                "Sam's West Inc",
+                "Lil' Drug Store Products, Inc.",
+                "New World Imports, Inc",
+                "Best Choice (Valu Merchandisers Company)",
+                "Novartis Consumer Health, Inc.",
+                "Medtech Products Inc.",
+                "Supervalu Inc",
+                "Safeway",
+                "Ilex Consumer Products Group, LLC",
+                "Bedrock Brands, LLC (ST. JOSEPH)",
+                "Genuine First Aid LLC",
+                "BJWC",
+                "ASSURED / DOLLAR TREE (Greenbrier International, Inc.)",
+                "Qualitest Pharmaceutical, Inc.",
+                "Zandi LLC",
+                "Cispharma, Inc",
+                "Sunrise Pharmaceutical Inc",
+                "Freds Inc",
+                "L Perrigo Company",
+                "Bayer HealthCare LLC, Consumer Care",
+                "MEIJER, INC.",
+                "HyVee Inc",
+                "Rugby Laboratories",
+                "Family Dollar (FAMILY WELLNESS)",
+                "AAA Pharmaceutical, Inc.",
+                "Meijer Distribution Inc",
+                "Valu Merchandisers Company (Best Choice)",
+                "VALUE MERCHANDISERS COMPANY, INC.",
+                "Paddock Laboratories, LLC",
+                "Hy-Vee",
+                "SuperValu (Equaline)",
+                "A&Z Pharmaceutical Inc.",
+                "HIMPRIT PHARMACHEM PVT LTD",
+                "AmerisourceBergen Drug Corporation (Good Neighbor Pharmacy) 24385",
+                "Bayer HealthCare Consumer Care",
+                "TIME CAP LABS INC",
+                "BJWC (Berkley & Jensen / BJ's)",
+                "H E B",
+                "Rugby Laboratories, Inc",
+                "McKesson (Sunmark)",
+                "WOONSOCKET PRESCRIPTION CENTER,INCORPORATED",
+                "Kroger Company",
+                "P and L Development of New York Corporation (ReadyInCase)",
+                "WALGREEN CO.",
+                "Amerisource Bergen",
+                "McKesson",
+                "GREAT LAKES WHOLESALE, MARKETING, & SALES, INC.",
+                "Topco Associates LLC",
+                "Belmora LLC",
+                "Healthy Accents (DZA Brands, LLC)",
+                "7-Eleven",
+                "America Medic",
+                "Gemini Pharmaceuticals, Inc. dba Plus Pharma",
+                "Nobel Laboratories, LLC",
+                "McKesson (Health Mart)",
+                "Good Sense (Geiss, Destin & Dunn, Inc.)",
+                "Rugby Laboratories Inc.",
+                "Lab Safety Supply, Inc.",
+                "Time-Cap Labs, Inc",
+                "SUPERVALU INC."
+              ],
+              "brand_name": [
+                "HENRY SCHEIN ASPIRIN",
+                "HEALTH MART ASPIRIN",
+                "PHARBEST ASPIRIN 325MG",
+                "REGULAR STRENGTH TRI-BUFFERED ASPIRIN",
+                "GOOD NEIGHBOR PHARMACY ASPIRIN ENTERIC SAFETY COATED",
+                "ENTERIC SAFETY COATED ASPIRIN",
+                "ENTERIC COATED LOW DOSE ASPIRIN",
+                "PHARBEST REGULAR STRENGTH ASPIRIN",
+                "CARE ONE ASPIRIN",
+                "SMART HEALTH ASPIRIN REGULAR STRENGTH",
+                "BAYER",
+                "EQUATE ASPIRIN",
+                "REGULAR STRENGTH ASPIRIN",
+                "ST. JOSEPH CHEWABLE ASPIRIN",
+                "ENTERIC COATED ASPRIN 81 MG",
+                "ASPIRIN LOW DOSE SAFETY COATED",
+                "ENTERIC COATED ASPIRIN",
+                "LOW DOSE CHEWABLE ASPIRIN",
+                "VALUE PHARMA ASPIRIN PAIN RELIEVER",
+                "EQUATE ASPIRIN CHEWABLE",
+                "ASPIRIN ADULT LOW STRENGTH ASPIRIN",
+                "LOW STRENGTH CHEWABLE ASPIRIN",
+                "HANDY SOLUTIONS GENUINE ASPIRIN BAYER",
+                "ASPIRIN LOW DOSE ENTERIC COATED",
+                "ASPIRIN SAFETY COATED",
+                "EQUALINE ASPIRIN ADULT LOW DOSE",
+                "BUFFERIN LOW DOSE BUFFERED ASPIRIN",
+                "LOW DOSE PAIN RELIEF ASPIRIN",
+                "LEADER CARDINAL HEALTH ASPIRIN",
+                "BERKLEY AND JENSEN ASPIRIN",
+                "FORMUCARE ASPIRIN",
+                "ASPIRIN LOW DOSE CHEWABLE",
+                "DIRECT SAFETY ASPIRIN",
+                "ASPIRIN ADULT LOW STRENGTH",
+                "7 SELECT ADULT CHEWABLE ASPIRIN",
+                "ENTERIC COATED ASPIRIN REGULAR STRENGTH",
+                "KROGER VALUE ASPIRIN",
+                "SUNMARK ASPIRIN LOW DOSE",
+                "ASPIRIN REGULAR STRENGTH REGULAR STRENGTH",
+                "CHEWABLE ADULT LOW DOSE ASPIRIN",
+                "ASPIRIN DELAYED RELEASE",
+                "UNCOATED ASPIRIN",
+                "GOOD NEIGHBOR PHARMACY ASPIRIN ORANGE FLAVOR CHEWABLE",
+                "SAFETY COATED ENTERIC ASPIRIN",
+                "GOOD SENSE ASPIRIN",
+                "RUGBY ASPIRIN",
+                "ASPIRIN EXTRA STRENGTH",
+                "LOW DOSE ASPIRIN ENTERIC SAFETY COATED",
+                "LOW DOSE ASPIRIN 81 MG SAFETY COATED",
+                "ADULT LOW DOSE ASPIRIN ENTERIC SAFETY COATED",
+                "DG HEALTH ASPIRIN",
+                "REGULAR STRENGTH ENTERIC ASPIRIN",
+                "SUNMARK ASPIRIN ADULT LOW STRENGTH",
+                "ASPIRIN ENTERIC COATED",
+                "REXALL ASPIRIN",
+                "LOW DOSE ASPIRIN",
+                "ASPIRIN ENTERIC SAFETY COATED",
+                "ADULT LOW STRENGTH ASPIRIN",
+                "ENTERIC ASPIRIN",
+                "CRITICAL CARE ASPIRIN TO GO",
+                "ZEE ASPIRIN",
+                "MEDI-FIRST ASPIRIN",
+                "REGULAR STRENGTH PAIN RELIEF",
+                "UP AND UP ASPIRIN",
+                "ASPIRIN ADULT LOW DOSE",
+                "LOW DOSE MINIPRIN ENTERIC SAFETY COATED",
+                "BAYER LOW DOSE",
+                "CHEWABLE ASPIRIN",
+                "LOW DOSE ADULT ASPIRIN",
+                "NORTH ASPIRIN",
+                "ASPIRIN LOW DOSE",
+                "PLUS PHARMA NSAID 325 MG",
+                "MINIPRIN",
+                "GOOD SENSE ASPIRIN ENTERIC SAFETY COATED",
+                "GENUINE ASPIRIN",
+                "MEDI FIRST PLUS ASPIRIN",
+                "REGULAR STRENGTH ASPIRIN EC",
+                "ASPIRIN NSAID",
+                "HEALTHY ACCENTS ASPIRIN",
+                "ASPIRIN",
+                "BAYER ADVANCED ASPIRIN EXTRA STRENGTH",
+                "LOW-DOSE ASPIRIN",
+                "LEADER ASPIRIN",
+                "FASPRIN",
+                "BAYER ADVANCED ASPIRIN REGULAR STRENGTH",
+                "ECOTRIN",
+                "EQUALINE ASPIRIN",
+                "REGULAR STRENGTH BUFFERED ASPIRIN",
+                "ASPIRIN ENTERIC SAFETY-COATED",
+                "BUFFERIN",
+                "CVS ASPIRIN",
+                "GOOD NEIGHBOR PHARMACY ASPIRIN",
+                "RAPID COMFORT ASPIRIN",
+                "TRI-BUFFERED ASPIRIN",
+                "PAIN RELIEF ASPIRIN",
+                "ASPRIN",
+                "LOW DOSE ASPRIN",
+                "7 SELECT ASPIRIN",
+                "SUNMARK ASPIRIN",
+                "ADULT LOW DOSE ASPIRIN",
+                "BAYER FAST RELEASE",
+                "ADULT CHEWABLE LOW DOSE ASPIRIN",
+                "FLANAX ASPIRIN PAIN RELIEVER",
+                "RX ACT ASPIRIN",
+                "CHEWABLE LOW DOSE ASPIRIN",
+                "VALUE PHARMAPAIN RELIEVER EXTRA STRENGTH",
+                "MICRO-COATED ASPIRIN",
+                "SMART SENSE ASPIRIN",
+                "ASCRIPTIN MAXIMUM STRENGTH BUFFERED ASPIRIN",
+                "BAYER GENUINE ASPIRIN",
+                "HEALTH MART REGULAR STRENGTH ENTERIC COATED ASPIRIN",
+                "BUFFERED ASPIRIN",
+                "ASPIRIN 81 MG",
+                "ASPIRING",
+                "MEDIQUE ASPIRIN",
+                "SOLVES - ASPIRIN CHERRY",
+                "ST. JOSEPH SAFETY COATED ASPIRIN",
+                "SUNMARK ASPIRIN REGULAR STRENGTH",
+                "TOPCARE ASPIRIN",
+                "LEADER LOW DOSE ASPIRIN",
+                "ECOTRIN REGULAR STRENGTH",
+                "REGULAR STRENGTH ENTERIC COATED ASPIRIN",
+                "ASPIRIN REGULAR STRENGTH",
+                "SAFETY COATED ASPIRIN",
+                "ASCRIPTIN REGULAR STRENGTH BUFFERED ASPIRIN"
+              ],
+              "pharm_class_pe": [
+                "Decreased Prostaglandin Production [PE]"
+              ],
+              "route": [
+                "ORAL",
+                "RECTAL"
+              ],
+              "pharm_class_moa": [
+                "Cyclooxygenase Inhibitors [MoA]"
+              ],
+              "pharm_class_epc": [
+                "Nonsteroidal Anti-inflammatory Drug [EPC]"
+              ],
+              "generic_name": [
+                "ASPIRIN"
+              ],
+              "application_number": [
+                "part341",
+                "part356",
+                "part343"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "LORTAB",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "HYDROCODONE BITARTRATE",
+                "ACETAMINOPHEN"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "manufacturer_name": [
+                "ECR Pharmaceuticals"
+              ],
+              "brand_name": [
+                "LORTAB"
+              ],
+              "route": [
+                "ORAL"
+              ],
+              "pharm_class_moa": [
+                "Opioid Agonists [MoA]"
+              ],
+              "package_ndc": [
+                "0095-9090-16"
+              ],
+              "pharm_class_epc": [
+                "Opioid Agonist [EPC]"
+              ],
+              "generic_name": [
+                "HYDROCODONE BITARTRATE AND ACETAMINOPHEN"
+              ],
+              "application_number": [
+                "ANDA040881"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "FIORINAL",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "BUTALBITAL",
+                "CAFFEINE",
+                "ASPIRIN"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Nonsteroidal Anti-inflammatory Compounds [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "Watson Pharma, Inc."
+              ],
+              "brand_name": [
+                "FIORINAL"
+              ],
+              "pharm_class_pe": [
+                "Decreased Prostaglandin Production [PE]"
+              ],
+              "route": [
+                "ORAL"
+              ],
+              "pharm_class_moa": [
+                "Cyclooxygenase Inhibitors [MoA]"
+              ],
+              "pharm_class_epc": [
+                "Nonsteroidal Anti-inflammatory Drug [EPC]"
+              ],
+              "generic_name": [
+                "BUTALBITAL, ASPIRIN, AND CAFFEINE"
+              ],
+              "application_number": [
+                "NDA017534"
+              ]
+            }
+          }
+        ],
+        "patientsex": "2"
+      },
+      "receiptdate": "20140424",
+      "transmissiondate": "20141212",
+      "transmissiondateformat": "102",
+      "occurcountry": "US",
+      "safetyreportversion": "2",
+      "serious": "2",
+      "companynumb": "US-PFIZER INC-2014063856"
+    }
+  ]
+}

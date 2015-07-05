@@ -1,0 +1,39 @@
+All food searches have this same format:
+
+{
+  "meta": {
+    "disclaimer": string,
+    "license": url,
+    "last_updated": date,
+    "results": {
+      "skip": integer,
+      "limit": integer,
+      "total": integer <- Useful: "We found %total% results!"
+    }
+  },
+  "results": [
+    {
+      "recall_number": string,
+      "reason_for_recall": string,
+      "status": string,
+      "distribution_pattern": string,
+      "product_quantity": string,
+      "recall_initiation_date": date,
+      "state": string,
+      "event_id": string,
+      "product_type": string,
+      "product_description": string,
+      "country": string,
+      "city": string,
+      "recalling_firm": string,
+      "report_date": date,
+      "@epoch": floating_point_timestamp,
+      "voluntary_mandated": string,
+      "classification": string,
+      "code_info": string,
+      "@id": string,
+      "openfda": object,
+      "initial_firm_notification": string
+    }
+  ]
+}

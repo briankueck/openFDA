@@ -1,0 +1,94 @@
+https://api.fda.gov/drug/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Amoxicillin
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-05-31",
+    "results": {
+
+
+      "total": 6
+    }
+  },
+  "results": [
+    {
+      "recall_number": "D-239-2013",
+      "reason_for_recall": "Microbial Contamination of Non-Sterile Products: Suspensions made from these lots of Amoxicillin 125 mg/5 mL showed yeast and mold growth at the 14 day time point.",
+      "status": "Ongoing",
+      "distribution_pattern": "Nationwide",
+      "product_quantity": "4236 Bottles",
+      "recall_initiation_date": "20130215",
+      "state": "TN",
+      "event_id": "64405",
+      "product_type": "Drugs",
+      "product_description": "Amoxicillin for Oral Suspension, 125mg/5mL,  a) 80 mL (NDC 43598-222-80); b) 100mL, (NDC 43598-222-52); c)150 mL (NDC 43598-222-53) bottles, Rx only, Dist. By:  Dr. REDDY'S Laboratories, Inc., Bridgewater, NJ  08807",
+      "country": "US",
+      "city": "Bristol",
+      "recalling_firm": "Dr Reddys Laboratories Tennessee LLC",
+      "report_date": "20130410",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "Lot #s: a) T200112; b) T200103, T200113; c) T200104, T200114",
+      "@id": "1c94fe13c05d3baff8501dcb825097d1024f10535d8ec108cf4a3df466062bda",
+      "openfda": {
+        "spl_id": [
+          "75ca51d0-343c-48c2-9873-2a3c45e8ffe8"
+        ],
+        "product_ndc": [
+          "43598-205",
+          "43598-222",
+          "43598-225",
+          "43598-209"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "substance_name": [
+          "AMOXICILLIN"
+        ],
+        "rxcui": [
+          "313797",
+          "308191",
+          "308182",
+          "239191"
+        ],
+        "spl_set_id": [
+          "001d050d-f488-4d67-8457-36fef148f546"
+        ],
+        "package_ndc": [
+          "43598-209-53",
+          "43598-209-52",
+          "43598-222-52",
+          "43598-222-53",
+          "43598-205-01",
+          "43598-205-05",
+          "43598-209-80",
+          "43598-222-80",
+          "43598-225-05",
+          "43598-225-01"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "generic_name": [
+          "AMOXICILLIN"
+        ],
+        "manufacturer_name": [
+          "Dr Reddys Laboratories Inc"
+        ],
+        "brand_name": [
+          "AMOXICILLIN"
+        ],
+        "application_number": [
+          "ANDA062216"
+        ]
+      },
+      "initial_firm_notification": "Letter"
+    }
+  ]
+}

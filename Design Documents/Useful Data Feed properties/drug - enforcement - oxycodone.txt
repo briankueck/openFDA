@@ -1,0 +1,94 @@
+https://api.fda.gov/drug/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=oxycodone
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-05-31",
+    "results": {
+
+
+      "total": 9
+    }
+  },
+  "results": [
+    {
+      "recall_number": "D-823-2013",
+      "reason_for_recall": "Subpotent drug: Two lots of Oxycodone and Acetaminophen Capsules, USP 5/500 mg are being recalled due to low out of specification (OOS) assay result obtained at expiry (24 months) for the oxycodone portion of the product.",
+      "status": "Ongoing",
+      "distribution_pattern": "Nationwide",
+      "product_quantity": "1,260 bottles",
+      "recall_initiation_date": "20130719",
+      "state": "CA",
+      "event_id": "65747",
+      "product_type": "Drugs",
+      "product_description": "Oxycodone and Acetaminophen Capsules, USP 5mg/500 mg, packaged in a)100-count bottle (NDC 0591-0737-01), b) 500-count bottle (NDC 0591-0737-05), Rx only, Manufactured by Watson Laboratories, Inc., Corona, CA92880.",
+      "country": "US",
+      "city": "Corona",
+      "recalling_firm": "Watson Laboratories Inc",
+      "report_date": "20130731",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class III",
+      "code_info": "Lot # a) 444971A, Exp 8/13; b) 444973A, Exp 8/13",
+      "@id": "0339770dca94dfe33942de00ac9c3d81dbe0189b58c4d1e5e9f442100a14173d",
+      "openfda": {
+        "unii": [
+          "CD35PMG570"
+        ],
+        "spl_id": [
+          "e0af1c2e-6963-4c40-8d57-ce39fa3f36f0"
+        ],
+        "product_ndc": [
+          "0591-0737"
+        ],
+        "substance_name": [
+          "OXYCODONE HYDROCHLORIDE",
+          "ACETAMINOPHEN"
+        ],
+        "rxcui": [
+          "1049658"
+        ],
+        "spl_set_id": [
+          "a1df89be-8dbe-465b-9d52-a4e767ab7dc3"
+        ],
+        "product_type": [
+          "HUMAN PRESCRIPTION DRUG"
+        ],
+        "manufacturer_name": [
+          "Watson Laboratories, Inc."
+        ],
+        "brand_name": [
+          "OXYCODONE AND ACETAMINOPHEN"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "nui": [
+          "N0000175690",
+          "N0000175684"
+        ],
+        "pharm_class_moa": [
+          "Full Opioid Agonists [MoA]"
+        ],
+        "package_ndc": [
+          "0591-0737-01",
+          "0591-0737-05"
+        ],
+        "pharm_class_epc": [
+          "Opioid Agonist [EPC]"
+        ],
+        "generic_name": [
+          "OXYCODONE AND ACETAMINOPHEN"
+        ],
+        "application_number": [
+          "ANDA040234"
+        ]
+      },
+      "initial_firm_notification": "Letter"
+    }
+  ]
+}

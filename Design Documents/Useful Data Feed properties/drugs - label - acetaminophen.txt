@@ -1,0 +1,85 @@
+https://api.fda.gov/drug/label.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Acetaminophen
+
+{
+  "meta": {
+    "last_updated": "2015-05-31",
+    "results": {
+      "total": 6066
+    }
+  },
+  "results": [
+    {
+      "indications_and_usage": [
+        "Uses temporarily relieves minor aches and pains due to: headache the common cold backache minor pain of arthritis toothache muscular aches premenstrual and menstrual cramps temporarily reduces fever"
+      ],
+      "stop_use": [
+        "Stop use and ask a doctor if pain gets worse or lasts more than 10 days fever gets worse or lasts more than 3 days new symptoms occur redness or swelling is present These could be signs of a serious condition."
+      ],
+      "keep_out_of_reach_of_children": [
+        "Keep out of reach of children. Overdose warning: Taking more than the recommended dose (overdose) may cause liver damage. In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away. Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms."
+      ],
+      "ask_doctor": [
+        "Ask a doctor before use if you have liver disease."
+      ],
+      "questions": [
+        "Questions or comments? 1-800-426-9391"
+      ],
+      "dosage_and_administration": [
+        "Directions do not take more than directed (see overdose warning) adults and children 12 years and over take 2 gelcaps every 4 to 6 hours while symptoms last do not take more than 8 gelcaps in 24 hours do not take for more than 10 days unless directed by a doctor children under 12 years: do not use this adult extra strength product in children under 12 years of age; this will provide more than the recommended dose (overdose) of acetaminophen and may cause liver damage"
+      ],
+      "purpose": [
+        "Purpose Pain reliever/fever reducer"
+      ],
+      "storage_and_handling": [
+        "Other information store at 25ºC (77ºF); excursions permitted between 15°-30°C (59°-86°F) avoid high humidity see end flap for expiration date and lot number"
+      ],
+      "ask_doctor_or_pharmacist": [
+        "Ask a doctor or pharmacist before use if you are taking the blood thinning drug warfarin."
+      ],
+      "do_not_use": [
+        "Do not use with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist."
+      ],
+      "package_label_principal_display_panel": [
+        "Principal Display Panel COMPARE TO THE ACTIVE INGREDIENT IN EXTRA STRENGTH TYLENOL® RAPID RELEASE GELS* Best Choice® EXTRA STRENGTH Pain Relief ACETAMINOPHEN Pain Reliever / Fever Reducer Contains No Aspirin RAPID RELEASE 50 GELCAPS 500 mg EACH TAMPER EVIDENT: DO NOT USE IF IMPRINTED SAFETY SEAL UNDER CAP IS BROKEN OR MISSING *This product is not manufactured or distributed by McNeil Consumer Healthcare, owner of the registered trademark Extra Strength Tylenol® Rapid Release Gels. 50844 REV0513E51912 Best Choice® 100% Guaranteed www.bestchoicebrand.com PROUDLY DISTRIBUTED BY: VALU MERCHANDISERS, CO. 5000 KANSAS AVE KANSAS CITY, KS 66106 Best Choice 44-519 Best Choice 44-519"
+      ],
+      "pregnancy_or_breast_feeding": [
+        "If pregnant or breast-feeding, ask a health professional before use."
+      ],
+      "active_ingredient": [
+        "Active ingredient (in each gelcap) Acetaminophen 500 mg"
+      ],
+      "inactive_ingredient": [
+        "Inactive ingredients croscarmellose sodium, D&C red #33, FD&C blue #1, FD&C red #40, gelatin, hydroxypropyl cellulose, hypromellose, iron oxide black, iron oxide red, iron oxide yellow, polyethylene glycol, povidone, pregelatinized starch, propylene glycol, shellac glaze, stearic acid, titanium dioxide"
+      ],
+      "openfda": {
+        "substance_name": [
+          "ACETAMINOPHEN"
+        ],
+        "product_type": [
+          "HUMAN OTC DRUG"
+        ],
+        "manufacturer_name": [
+          "VALUE MERCHANDISERS COMPANY, INC."
+        ],
+        "brand_name": [
+          "Pain Relief Extra Strength"
+        ],
+        "is_original_packager": [
+          true
+        ],
+        "route": [
+          "ORAL"
+        ],
+        "generic_name": [
+          "ACETAMINOPHEN"
+        ]
+      },
+      "spl_product_data_elements": [
+        "Pain ReliefExtra Strength Acetaminophen ACETAMINOPHEN ACETAMINOPHEN CROSCARMELLOSE SODIUM D&C RED NO. 33 FD&C BLUE NO. 1 FD&C RED NO. 40 GELATIN HYDROXYPROPYL CELLULOSE (TYPE H) HYPROMELLOSES FERROSOFERRIC OXIDE FERRIC OXIDE YELLOW POLYETHYLENE GLYCOLS POVIDONES PROPYLENE GLYCOL STEARIC ACID TITANIUM DIOXIDE red, gray and blue L;5"
+      ],
+      "warnings": [
+        "Warnings Liver warning: This product contains acetaminophen. The maximum daily dose of this product is 6 gelcaps (3,000 mg) in 24 hours. Severe liver damage may occur if you take: more than 4,000 mg of acetaminophen in 24 hours with other drugs containing acetaminophen 3 or more alcoholic drinks ever day while using this product Do not use with any other drug containing acetaminophen (prescription or nonprescription). If you are not sure whether a drug contains acetaminophen, ask a doctor or pharmacist. Ask a doctor before use if you have liver disease. Ask a doctor or pharmacist before use if you are taking the blood thinning drug warfarin. Stop use and ask a doctor if pain gets worse or lasts more than 10 days fever gets worse or lasts more than 3 days new symptoms occur redness or swelling is present These could be signs of a serious condition. If pregnant or breast-feeding, ask a health professional before use. Keep out of reach of children. Overdose warning: Taking more than the recommended dose (overdose) may cause liver damage. In case of overdose, get medical help or contact a Poison Control Center (1-800-222-1222) right away. Quick medical attention is critical for adults as well as for children even if you do not notice any signs or symptoms."
+      ]
+    }
+  ]
+}

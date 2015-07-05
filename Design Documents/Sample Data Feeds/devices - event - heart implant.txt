@@ -1,0 +1,150 @@
+https://api.fda.gov/device/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Heart%20Implant
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-22",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 486992
+    }
+  },
+  "results": [
+    {
+      "report_number": "1119421-2012-01021",
+      "manufacturer_contact_state": "TX",
+      "device_date_of_manufacturer": "05/01/2012",
+      "event_type": "Injury",
+      "source_type": [
+        "Health Professional"
+      ],
+      "manufacturer_g1_address_1": "6065 KYLE LANE",
+      "manufacturer_contact_pcountry": "",
+      "report_to_manufacturer": "N",
+      "previous_use_code": "I",
+      "manufacturer_postal_code": "",
+      "manufacturer_city": "HUNTINGTON",
+      "reporter_occupation_code": "OTHER",
+      "manufacturer_contact_extension": "",
+      "manufacturer_state": "WV",
+      "event_location": "",
+      "date_of_event": "20120713",
+      "manufacturer_g1_country": "US",
+      "removal_correction_number": "NA",
+      "manufacturer_g1_city": "HUNTINGTON",
+      "mdr_text": [
+        {
+          "text": "EVAL SUMMARY - THE PRODUCT WAS NOT RETURNED FOR ANALYSIS. RESULTS FROM THE PRODUCT HISTORY RECORD REVIEW INDICATED THE PRODUCT MET RELEASE CRITERIA. THE ACCOUNT INDICATED THE USE OF AN UNAPPROVED VISCOELASTIC AND FAILURE TO FOLLOW THE DFU. THE PRODUCT INVESTIGATION COULD NOT IDENTIFY A ROOT CAUSE. THERE HAVE BEEN NO OTHER COMPLAINTS REPORTED IN THE LOT NUMBER. ADD'L INFO WAS REQUESTED ON 07/18/2012 BY FAX AND MAIL. A COMPLETED QUESTIONNAIRE WAS RECEIVED ON 08/07/2012. (B)(4).",
+          "mdr_text_key": "15484782",
+          "text_type_code": "Additional Manufacturer Narrative",
+          "patient_sequence_number": "1"
+        },
+        {
+          "text": "A SURGEON REPORTED A PT WITH AN UNEXPECTED POSTOPERATIVE OUTCOME FOLLOWING INTRAOCULAR LENS (IOL) IMPLANT SURGERY. ADD'L INFO WAS RECEIVED FROM THE SURGICAL COORDINATOR THAT THE PT WAS OUT OF SOFT CONTACT LENSES APPROX TWO WEEKS BEFORE THE SURGICAL MEASUREMENTS WERE DONE. SHE REPORTED THE PT WAS EXPERIENCING BLURRED VISION AND THE LENS WAS EVENTUALLY EXCHANGED FOR THE SAME TYPE, DIFFERENT POWER LENS. ADD'L INFO WAS ALSO RECEIVED FROM THE SURGEON WHO REPORTED THE EVENT RESOLVED FOLLOWING THE EXCHANGE. INFO RECEIVED INDICATED THE USE OF AN UNAPPROVED VISCOELASTIC.",
+          "mdr_text_key": "15484773",
+          "text_type_code": "Description of Event or Problem",
+          "patient_sequence_number": "1"
+        }
+      ],
+      "distributor_zip_code_ext": "",
+      "date_received": "20120817",
+      "manufacturer_zip_code": "25702",
+      "manufacturer_contact_address_2": "R3-16",
+      "date_report": "20120717",
+      "manufacturer_contact_address_1": "6201 S. FREEWAY",
+      "manufacturer_contact_plocal": "",
+      "manufacturer_name": "ALCON RESEARCH, LTD / HUNTINGTON",
+      "type_of_report": [
+        "Initial submission"
+      ],
+      "reprocessed_and_reused_flag": "N",
+      "manufacturer_link_flag": "Y",
+      "manufacturer_contact_zip_code": "76134",
+      "manufacturer_g1_zip_code_ext": "",
+      "manufacturer_contact_country": "US",
+      "distributor_zip_code": "",
+      "report_source_code": "Manufacturer report",
+      "distributor_name": "",
+      "date_manufacturer_received": "20120717",
+      "remedial_action": "",
+      "manufacturer_contact_postal_code": "",
+      "manufacturer_contact_city": "FORT WORTH",
+      "product_problem_flag": "N",
+      "event_key": "2593434",
+      "manufacturer_g1_zip_code": "25702",
+      "manufacturer_g1_state": "WV",
+      "patient": [
+        {
+          "date_received": "20120817",
+          "patient_sequence_number": "1",
+          "sequence_number_treatment": "MONARCH CARTRIDGE C;MONARCH HANDPIECE II;HEALON GV;OMNIPRED;VIGAMOX;",
+          "sequence_number_outcome": [
+            "1, Required Intervention"
+          ]
+        }
+      ],
+      "manufacturer_contact_phone_number": "2440",
+      "manufacturer_zip_code_ext": "",
+      "manufacturer_contact_pcity": "",
+      "manufacturer_g1_postal_code": "",
+      "manufacturer_contact_area_code": "817",
+      "adverse_event_flag": "Y",
+      "single_use_flag": "Y",
+      "distributor_city": "",
+      "manufacturer_country": "US",
+      "manufacturer_contact_f_name": "PAUL",
+      "distributor_state": "",
+      "number_devices_in_event": "1",
+      "manufacturer_contact_exchange": "615",
+      "distributor_address_2": "",
+      "manufacturer_contact_t_name": "",
+      "distributor_address_1": "",
+      "manufacturer_g1_address_2": "",
+      "health_professional": "Y",
+      "initial_report_to_fda": "Unknown",
+      "number_patients_in_event": "1",
+      "mdr_report_key": "2705889",
+      "report_to_fda": "",
+      "manufacturer_address_2": "",
+      "manufacturer_address_1": "6065 KYLE LANE",
+      "manufacturer_g1_name": "ALCON RESEARCH, LTD / HUNTINGTON",
+      "manufacturer_contact_zip_ext": "",
+      "manufacturer_contact_l_name": "NITSCHMANN",
+      "device": [
+        {
+          "date_removed_flag": "V",
+          "other_id_number": "NA",
+          "manufacturer_d_zip_code_ext": "",
+          "baseline_510_k__number": "",
+          "implant_flag": "N",
+          "device_operator": "HEALTH PROFESSIONAL",
+          "brand_name": "ACRYSOF IQ TORIC",
+          "lot_number": "12150095",
+          "expiration_date_of_device": "20170430",
+          "manufacturer_d_state": "WV",
+          "generic_name": "INTRAOCULAR LENS",
+          "manufacturer_d_name": "ALCON RESEARCH, LTD / HUNTINGTON",
+          "device_availability": "No",
+          "manufacturer_d_city": "HUNTINGTON",
+          "device_sequence_number": "1",
+          "device_age_text": "DA",
+          "catalog_number": "NA",
+          "baseline_510_k__exempt_flag": "",
+          "date_received": "20120817",
+          "manufacturer_d_address_2": "",
+          "manufacturer_d_address_1": "6065 KYLE LANE",
+          "manufacturer_d_postal_code": "",
+          "baseline_510_k__flag": "",
+          "model_number": "SN6AT3",
+          "manufacturer_d_zip_code": "25702",
+          "device_report_product_code": "HQL",
+          "manufacturer_d_country": "US",
+          "device_event_key": "2738229",
+          "device_evaluated_by_manufacturer": "R"
+        }
+      ]
+    }
+  ]
+}

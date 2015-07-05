@@ -1,0 +1,149 @@
+https://api.fda.gov/drug/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Viagra
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-01-21",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 20216
+    }
+  },
+  "results": [
+    {
+      "fulfillexpeditecriteria": "2",
+      "safetyreportid": "10003497",
+      "receiver": {
+        "receiverorganization": "FDA",
+        "receivertype": "6"
+      },
+      "duplicate": "1",
+      "receivedateformat": "102",
+      "reportduplicate": {
+        "duplicatesource": "PFIZER",
+        "duplicatenumb": "US-PFIZER INC-2014067866"
+      },
+      "reporttype": "1",
+      "receiptdateformat": "102",
+      "primarysource": {
+        "qualification": "5",
+        "reportercountry": "US"
+      },
+      "receivedate": "20140312",
+      "sender": {
+        "sendertype": "2",
+        "senderorganization": "FDA-Public Use"
+      },
+      "primarysourcecountry": "US",
+      "@epoch": 1417466131.85916,
+      "patient": {
+        "reaction": [
+          {
+            "reactionmeddrapt": "Headache",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          },
+          {
+            "reactionmeddrapt": "Drug ineffective",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          }
+        ],
+        "patientonsetage": "56",
+        "patientonsetageunit": "801",
+        "drug": [
+          {
+            "drugauthorizationnumb": "020895",
+            "drugstartdateformat": "602",
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "VIAGRA",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "unii": [
+                "3M7OB98Y7H"
+              ],
+              "spl_id": [
+                "7538ff2c-8c51-486a-a4c0-2665e6a16bf6",
+                "00e25d8b-ebac-4924-9ebf-93caf82dcce1"
+              ],
+              "product_ndc": [
+                "0069-4210",
+                "0069-4200",
+                "63539-422",
+                "0069-4220",
+                "63539-421"
+              ],
+              "substance_name": [
+                "SILDENAFIL CITRATE"
+              ],
+              "rxcui": [
+                "314228",
+                "314229",
+                "213271",
+                "213270",
+                "312950",
+                "213269"
+              ],
+              "spl_set_id": [
+                "442a09ee-e7de-4d53-a32e-07c7530cdede",
+                "0b0be196-0c62-461c-94f4-9a35339b4501"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "manufacturer_name": [
+                "U.S. Pharmaceuticals",
+                "Pfizer Laboratories Div Pfizer Inc"
+              ],
+              "brand_name": [
+                "VIAGRA"
+              ],
+              "route": [
+                "ORAL"
+              ],
+              "nui": [
+                "N0000175599",
+                "N0000020026"
+              ],
+              "pharm_class_moa": [
+                "Phosphodiesterase 5 Inhibitors [MoA]"
+              ],
+              "package_ndc": [
+                "0069-4210-30",
+                "63539-422-02",
+                "63539-422-03",
+                "0069-4210-66",
+                "0069-4220-66",
+                "63539-421-97",
+                "0069-4220-30",
+                "0069-4200-30"
+              ],
+              "pharm_class_epc": [
+                "Phosphodiesterase 5 Inhibitor [EPC]"
+              ],
+              "generic_name": [
+                "SILDENAFIL CITRATE"
+              ],
+              "application_number": [
+                "NDA020895"
+              ]
+            },
+            "drugstartdate": "2008",
+            "drugdosageform": "FILM-COATED TABLET"
+          }
+        ],
+        "patientsex": "1"
+      },
+      "receiptdate": "20140312",
+      "transmissiondate": "20141002",
+      "transmissiondateformat": "102",
+      "occurcountry": "US",
+      "safetyreportversion": "1",
+      "serious": "2",
+      "companynumb": "US-PFIZER INC-2014067866"
+    }
+  ]
+}

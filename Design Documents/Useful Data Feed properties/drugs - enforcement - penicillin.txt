@@ -1,0 +1,39 @@
+https://api.fda.gov/drug/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Penicillin
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-05-31",
+    "results": {
+
+
+      "total": 492
+    }
+  },
+  "results": [
+    {
+      "recall_number": "D-499-2015",
+      "reason_for_recall": "Penicillin Cross Contamination: All lots of all products repackaged and distributed between 01/05/12 and 02/12/15 are being recalled because they were repackaged in a facility with penicillin products without adequate separation which could introduce the potential for cross contamination with penicillin.",
+      "status": "Ongoing",
+      "distribution_pattern": "Nationwide to compounding pharmacies and research organizations.",
+      "product_quantity": "2100 grams",
+      "recall_initiation_date": "20141114",
+      "state": null,
+      "event_id": "70452",
+      "product_type": "Drugs",
+      "product_description": "Acetazolamide active pharmaceutical ingredient packaged in varying grams or kg in bags or drums, Attix Pharmaceuticals, 184 Front Street East, Unit 801, Toronto, Ontario M5A 4N3, Canada",
+      "country": "CA",
+      "city": "Toronto",
+      "recalling_firm": "Attix Pharmaceuticals",
+      "report_date": "20150429",
+      "@epoch": 1430515130.085608,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "All lots repackaged and distributed between 01/05/12 to 02/12/15",
+      "@id": "00294049130d68f2d9f84fe16ba25cd64cf9a5164ce59e31faef64130fcdeafc",
+      "openfda": {},
+      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit"
+    }
+  ]
+}

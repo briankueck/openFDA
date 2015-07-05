@@ -1,0 +1,39 @@
+https://api.fda.gov/drug/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Acetaminophen
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-05-31",
+    "results": {
+
+
+      "total": 71
+    }
+  },
+  "results": [
+    {
+      "recall_number": "D-713-2014",
+      "reason_for_recall": "Labeling:Label Mixup; BENAZEPRIL HCL Tablet, 40 mg may be potentially mislabeled as\n\nNEFAZODONE HCL, Tablet, 200 mg, NDC 00093102506, Pedigree: AD46414 44, EXP: 5/16/2014;\nguaiFENesin ER, Tablet, 600 mg, NDC 63824000834, Pedigree: W003931, EXP: 6/28/2014;\nCALCIUM ACETATE, Capsule, 667 mg, NDC 00054008826, Pedigree: AD42592 1, EXP: 5/14/2014;\nACETAMINOPHEN/ ASPIRIN/ CAFFEINE, Tablet, 250 mg/250 mg/65 mg, NDC 00904513559, Pedigree: AD68022 4, EXP: 5/28/2014.",
+      "status": "Ongoing",
+      "distribution_pattern": "Repacked drugs were distributed in Arizona, California, Oregon, and Washington.",
+      "product_quantity": "799 Tablets",
+      "recall_initiation_date": "20130702",
+      "state": "WA",
+      "event_id": "65707",
+      "product_type": "Drugs",
+      "product_description": "BENAZEPRIL HCL Tablet, 40 mg, Rx only, Distributed by: AidaPak Service, LLC, NDC 65162075410",
+      "country": "US",
+      "city": "Vancouver",
+      "recalling_firm": "Aidapak Services, LLC",
+      "report_date": "20140122",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "BENAZEPRIL HCL Tablet, 40 mg has the following codes\n\nPedigree: AD49423 1, EXP: 5/16/2014;\nPedigree: W003918, EXP: 6/28/2014;\nPedigree: AD32757 7, EXP: 5/13/2014;\nPedigree: AD68010 1, EXP: 5/28/2014.",
+      "@id": "00835d8423a76a64a0f0f0920db8e5344c2ea76c8b955e697c547e87a5c500d9",
+      "openfda": {},
+      "initial_firm_notification": "Telephone"
+    }
+  ]
+}

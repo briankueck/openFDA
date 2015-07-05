@@ -1,0 +1,39 @@
+https://api.fda.gov/drug/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Naproxen
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 7
+    }
+  },
+  "results": [
+    {
+      "recall_number": "D-1327-2014",
+      "reason_for_recall": "Marketed without an Approved NDA/ANDA; FDA analysis found the product to contain Chlorzoxazone, Nefopam, Diclofenac, Ibuprofen, Naproxen, and Indomethacin",
+      "status": "Ongoing",
+      "distribution_pattern": "Nationwide",
+      "product_quantity": "24,268 bottles",
+      "recall_initiation_date": "20140113",
+      "state": "CA",
+      "event_id": "67265",
+      "product_type": "Drugs",
+      "product_description": "PRO ArthMax Dietary Supplement tablets, 750 mg, 120 count bottles, Distributed by Human Science Foundation, Los Angeles, CA",
+      "country": "US",
+      "city": "Gardena",
+      "recalling_firm": "HUMAN SCIENCE FOUNDATION",
+      "report_date": "20140528",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class I",
+      "code_info": "Lot# 220113; Exp. 01/16 \nLot# 800213; Exp. 03/16\nLot# U133000; Exp. 04/16\nLot# U143200; Exp. 08/16\nLot# YJK015311; Exp. 10/16",
+      "@id": "11942f2df4397204ef7e3f3dfd56fb287e1bbd5c2cebe176a1d6a13401c106a3",
+      "openfda": {},
+      "initial_firm_notification": "Press Release"
+    }
+  ]
+}

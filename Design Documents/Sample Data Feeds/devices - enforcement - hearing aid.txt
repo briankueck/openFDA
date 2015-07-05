@@ -1,0 +1,39 @@
+https://api.fda.gov/drug/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Hearing%20Aid
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 25
+    }
+  },
+  "results": [
+    {
+      "recall_number": "D-197-2013",
+      "reason_for_recall": "Microbial Contamination of Non-Sterile Product(s): The product has the potential to be contaminated with Bulkholderia gladioli.",
+      "status": "Ongoing",
+      "distribution_pattern": "Nationwide",
+      "product_quantity": "1,269,846 bottles",
+      "recall_initiation_date": "20130117",
+      "state": "TX",
+      "event_id": "64416",
+      "product_type": "Drugs",
+      "product_description": "Mercuroclear Antiseptic Anesthetic First Aid Helps prevent infection and relieves pain and itching of minor cuts, scrapes, burns and insect bites.  Active Ingredients Benzalkonium chloride 0.13% - First Aid antiseptic, Lidocaine hydrochloride 2.5% - External analgesic,  Sold under the following brands:  a) Good Neighbor Pharmacy, NDC 24385-593-46; b) Quality Choice, NDC 63868-0488-02; c) Select Brand NDC 15127-885-59; d) Premier Value; e) CVS Pharmacy; f) Rite Aid Pharmacy; g) Top Care; h) HEB; and i) Humco.",
+      "country": "US",
+      "city": "Texarkana",
+      "recalling_firm": "Humco Holding Group, Inc",
+      "report_date": "20130320",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "a) Good Neighbor, Item Number 163792006:  Lot #s: 534204, 538468, 540540; b)  Quality Choice, Item Number 163792066:  Lot #s: 538835, 539431; c) Select Brands, Item Number 163792067:  Lot #: 540529; d) Premier Value, Item Number 163792079: Lot #s: 534545 and 535307; e) CVS, Item Number 163791091 (1 oz.):  Lot #s 533472, 534055, 534256, 534546, 534995, 535249, 535318, 535683, 536302, 537285, 538138, 538189, 538439, 538672; and Item Number 163792091 (2 oz.): Lot #s: 538408, 540530, 540542, 540712; f) Rite Aid, Item Number 163792088: Lot #s: 533471, 534067, 534337, 534548, 535512, 535876, 536526, 537076, 537284, 538229, 538469, 538864, 539475, 540714, 541285, 541304, 541415, 541672; g) Top Care, Item Number 163792101:  Lot #: 535070, 535681, 537323, 537376, and 537587; h) H.E.B, Item Number 163793800: Lot #s: 534442, 534701, 534981, 535332, 535403, 536300; and i) HUMCO, Item Number 163792001, 163792015 (2 oz.): Lot #s 534612, 534767, 535402, 535845, 536899, 537335, 537586, 538219, 538470, 538865, 539691, 539803, 539845, 541193 and 533470, 533554, 534032, 534057, 534158, 534399, 534547, 534686, 535069, 535246, 535317, 535682, 535874, 536247, 536301, 536900, 537075, 537283, 537588, 537722, 537960, 538190, 538191, 538289, 538410, 538671, 538673, 539640, 539692, 540143, 540144, 540176, 540539, 540713, 540820, 540851, 541101, 541146, 541195, 541611, 541673; and Item Number 163793001 (3 oz.): Lot #s: 534165, 534748, 535404, 537751, 539387, 540029, 540296, 540711.",
+      "@id": "0df85c6dea3695e6d22f4d2aa7cf320371b864824a0ce2f40df8d83c548201bb",
+      "openfda": {},
+      "initial_firm_notification": "Letter"
+    }
+  ]
+}

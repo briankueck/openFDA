@@ -1,0 +1,39 @@
+https://api.fda.gov/food/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Pizza
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-05-31",
+    "results": {
+
+
+      "total": 31
+    }
+  },
+  "results": [
+    {
+      "recall_number": "F-1368-2013",
+      "reason_for_recall": "Products potentially contaminated with E. coli O121.",
+      "status": "Ongoing",
+      "distribution_pattern": "Nationwide",
+      "product_quantity": "21,874 cases (product code 65265), 185,646 cases ( product code 65268)",
+      "recall_initiation_date": "20130328",
+      "state": "NY",
+      "event_id": "64788",
+      "product_type": "Food",
+      "product_description": "Farm Rich Stuffed Crust Pizza Dippers-Pizza Dough Stuffed with Mozzarella Cheese, Net Wt. 27-LBS (10 X 2.7-LB), UPC Code 10041322652659, Product Code 65265; Net Wt. 25-LB (1 X 25-LB) UPC Code 10041322652680, Product Code 65268.",
+      "country": "US",
+      "city": "Buffalo",
+      "recalling_firm": "Rich Products Corp",
+      "report_date": "20130508",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class I",
+      "code_info": "Julian Dates 15821182 to 15823088; Best By Dates January 1, 2013 - September 29, 2013",
+      "@id": "0ed9ae981cf257b0e1bb2ef4d78b7f8b81242f85c04aff5eddc1ca45ca120f9e",
+      "openfda": {},
+      "initial_firm_notification": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit"
+    }
+  ]
+}

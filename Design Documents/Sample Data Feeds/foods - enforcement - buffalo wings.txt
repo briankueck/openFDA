@@ -1,0 +1,39 @@
+https://api.fda.gov/food/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Buffalo%20Wings
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 10
+    }
+  },
+  "results": [
+    {
+      "recall_number": "F-2004-2015",
+      "reason_for_recall": "Giant Eagle Chicken products made with buffalo sauce (in natural flavor) contains undeclared milk",
+      "status": "Ongoing",
+      "distribution_pattern": "MD OH PA WV",
+      "product_quantity": "123 units",
+      "recall_initiation_date": "20150325",
+      "state": "PA",
+      "event_id": "70879",
+      "product_type": "Food",
+      "product_description": "Giant Eagle Heat/Serve Buffalo Style Chicken Wings; PLU: 66624; Sell By: (up to and including) 03/30/2015; Contains: Soy; Keep Refrigerated;\n\nDistributed by: Giant Eagle, Inc., Pittsburgh, PA 15238\n\nPacked in rigid plastic Clear/Black container\nPrepared and packaged at retail store.\nFINISHED PRODUCT IS NOT A USDA INSPECTED PRODUCT",
+      "country": "US",
+      "city": "Pittsburgh",
+      "recalling_firm": "Giant Eagle, Inc.",
+      "report_date": "20150506",
+      "@epoch": 1432336601.5075,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "Sell By: 03/30/15; PLU#66634",
+      "@id": "2d16de8960f19f0cac2e399014a55328cbea9c7c0cd60bcb3a130da923541b43",
+      "openfda": {},
+      "initial_firm_notification": "E-Mail"
+    }
+  ]
+}

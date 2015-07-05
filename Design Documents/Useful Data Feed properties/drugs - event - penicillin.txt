@@ -1,0 +1,446 @@
+https://api.fda.gov/drug/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=penicillin
+
+{
+  "meta": {
+    "last_updated": "2015-01-21",
+    "results": {
+      "total": 8262
+    }
+  },
+  "results": [
+    {
+      "fulfillexpeditecriteria": "2",
+      "safetyreportid": "10003494",
+      "receiver": {
+        "receiverorganization": "FDA",
+        "receivertype": "6"
+      },
+      "duplicate": "1",
+      "receivedateformat": "102",
+      "reportduplicate": {
+        "duplicatesource": "PFIZER",
+        "duplicatenumb": "US-PFIZER INC-2014070054"
+      },
+      "reporttype": "1",
+      "receiptdateformat": "102",
+      "primarysource": {
+        "qualification": "1",
+        "reportercountry": "US"
+      },
+      "receivedate": "20140312",
+      "sender": {
+        "sendertype": "2",
+        "senderorganization": "FDA-Public Use"
+      },
+      "primarysourcecountry": "US",
+      "@epoch": 1417466131.85916,
+      "patient": {
+        "reaction": [
+          {
+            "reactionmeddrapt": "Drug hypersensitivity",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          }
+        ],
+        "patientonsetage": "49",
+        "patientonsetageunit": "801",
+        "drug": [
+          {
+            "drugauthorizationnumb": "50670",
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "ZITHROMAX",
+            "drugstructuredosagenumb": "500",
+            "drugdosagetext": "500 MG, UNK",
+            "openfda": {
+              "unii": [
+                "F94OW58Y8V"
+              ],
+              "substance_name": [
+                "AZITHROMYCIN DIHYDRATE"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Macrolides [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "Pfizer Laboratories Div Pfizer Inc"
+              ],
+              "brand_name": [
+                "ZITHROMAX"
+              ],
+              "route": [
+                "ORAL",
+                "INTRAVENOUS"
+              ],
+              "pharm_class_epc": [
+                "Macrolide Antimicrobial [EPC]"
+              ],
+              "generic_name": [
+                "AZITHROMYCIN DIHYDRATE"
+              ],
+              "application_number": [
+                "NDA050693",
+                "NDA050730",
+                "NDA050733",
+                "NDA050784",
+                "NDA050711",
+                "NDA050710"
+              ]
+            },
+            "drugstructuredosageunit": "003"
+          },
+          {
+            "drugauthorizationnumb": "050007",
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "VIBRAMYCIN",
+            "drugstructuredosagenumb": "100",
+            "drugdosagetext": "100 MG, UNK",
+            "drugstructuredosageunit": "003",
+            "drugdosageform": "CAPSULE, HARD"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "CEFUROXIME",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "CEFUROXIME SODIUM",
+                "CEFUROXIME"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Cephalosporins [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "WG Critical Care, LLC",
+                "Covis Pharmaceuticals Inc",
+                "Sagent Pharmaceuticals",
+                "West-ward Pharmaceutical Corp",
+                "Hospira, Inc.",
+                "APP Pharmaceuticals, LLC"
+              ],
+              "brand_name": [
+                "ZINACEF",
+                "CEFUROXIME"
+              ],
+              "route": [
+                "INTRAMUSCULAR",
+                "INTRAVENOUS"
+              ],
+              "pharm_class_epc": [
+                "Cephalosporin Antibacterial [EPC]"
+              ],
+              "generic_name": [
+                "CEFUROXIME SODIUM",
+                "CEFUROXIME"
+              ],
+              "application_number": [
+                "ANDA065503",
+                "ANDA065046",
+                "ANDA064125",
+                "ANDA064124",
+                "ANDA065048",
+                "NDA050558",
+                "NDA050643"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "GENTAMICIN SULFATE",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "GENTAMICIN SULFATE",
+                "GENTAMICIN"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Aminoglycosides [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "E. Fougera & Co. a division of Fougera Pharmaceuticals Inc.",
+                "Akorn, Inc.",
+                "Fera Pharmaceuticals, LLC",
+                "Pacific Pharma, Inc.",
+                "Sandoz Inc",
+                "Fresenius Kabi USA, LLC",
+                "Paddock Laboratories, LLC",
+                "E. FOUGERA & CO., A division of Fougera Pharmaceuticals Inc.",
+                "Hospira, Inc.",
+                "Bausch & Lomb Incorporated",
+                "APP Pharmaceuticals, LLC",
+                "Perrigo New York Inc",
+                "Baxter Healthcare Corporation"
+              ],
+              "brand_name": [
+                "GENTAMICIN SULFATE IN SODIUM CHLORIDE",
+                "GENTAMICIN",
+                "GENTAK",
+                "GENTAMICIN SULFATE",
+                "GARAMYCIN GENTAMICIN SULFATE",
+                "GARAMYCIN"
+              ],
+              "route": [
+                "TOPICAL",
+                "INTRAMUSCULAR",
+                "INTRAVENOUS",
+                "OPHTHALMIC"
+              ],
+              "pharm_class_epc": [
+                "Aminoglycoside Antibacterial [EPC]"
+              ],
+              "generic_name": [
+                "GENTAMICIN SULFATE"
+              ],
+              "application_number": [
+                "ANDA065024",
+                "ANDA062373",
+                "ANDA062420",
+                "ANDA062366",
+                "ANDA062196",
+                "ANDA062531",
+                "ANDA064048",
+                "ANDA065121",
+                "ANDA062356",
+                "ANDA062414",
+                "ANDA062533",
+                "ANDA062351",
+                "ANDA064093",
+                "ANDA062612",
+                "ANDA062452",
+                "ANDA064163",
+                "ANDA062307"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "MEROPENEM",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "route": [
+                "INTRAVENOUS"
+              ],
+              "substance_name": [
+                "MEROPENEM"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "generic_name": [
+                "MEROPENEM"
+              ],
+              "manufacturer_name": [
+                "AstraZeneca Pharmaceuticals LP",
+                "Sandoz Inc",
+                "Fresenius Kabi USA, LLC",
+                "APP Pharmaceuticals, LLC",
+                "Hospira, Inc."
+              ],
+              "brand_name": [
+                "MERREM IV",
+                "MEROPENEM"
+              ],
+              "application_number": [
+                "ANDA091404",
+                "NDA050706",
+                "ANDA090940",
+                "ANDA091201"
+              ]
+            },
+            "drugdosageform": "POWDER FOR SOLUTION FOR INFUSION"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "PRIMAQUINE",
+            "drugdosagetext": "UNK",
+            "openfda": {}
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "AUGMENTIN XR",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "route": [
+                "ORAL"
+              ],
+              "substance_name": [
+                "CLAVULANATE POTASSIUM",
+                "AMOXICILLIN",
+                "AMOXICILLIN SODIUM"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "generic_name": [
+                "AMOXICILLIN AND CLAVULANATE POTASSIUM"
+              ],
+              "manufacturer_name": [
+                "Dr Reddys Laboratories Inc"
+              ],
+              "brand_name": [
+                "AUGMENTIN XR"
+              ],
+              "application_number": [
+                "NDA050785"
+              ]
+            },
+            "drugdosageform": "TABLET"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "AZTREONAM",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "AZTREONAM"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Monobactams [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "Gilead Sciences, Inc.",
+                "Fresenius Kabi USA, LLC",
+                "E.R. Squibb & Sons, L.L.C."
+              ],
+              "brand_name": [
+                "CAYSTON",
+                "AZACTAM",
+                "AZTREONAM"
+              ],
+              "route": [
+                "INTRAMUSCULAR",
+                "INTRAVENOUS"
+              ],
+              "pharm_class_epc": [
+                "Monobactam Antibacterial [EPC]"
+              ],
+              "generic_name": [
+                "AZTREONAM"
+              ],
+              "application_number": [
+                "NDA050632",
+                "ANDA065439",
+                "NDA050814",
+                "NDA050580"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "BIAXIN",
+            "drugstructuredosagenumb": "250",
+            "drugdosagetext": "250 MG, UNK",
+            "openfda": {
+              "substance_name": [
+                "CLARITHROMYCIN"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Macrolides [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "AbbVie Inc."
+              ],
+              "brand_name": [
+                "BIAXIN"
+              ],
+              "route": [
+                "ORAL"
+              ],
+              "pharm_class_moa": [
+                "P-Glycoprotein Inhibitors [MoA]",
+                "Cytochrome P450 3A4 Inhibitors [MoA]",
+                "Cytochrome P450 3A Inhibitors [MoA]"
+              ],
+              "pharm_class_epc": [
+                "Macrolide Antimicrobial [EPC]"
+              ],
+              "generic_name": [
+                "CLARITHROMYCIN"
+              ],
+              "application_number": [
+                "NDA050775",
+                "NDA050662",
+                "NDA050698"
+              ]
+            },
+            "drugstructuredosageunit": "003"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "CECLOR",
+            "drugdosagetext": "UNK"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "TIMENTIN",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "substance_name": [
+                "CLAVULANATE POTASSIUM",
+                "TICARCILLIN DISODIUM"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Penicillins [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "GlaxoSmithKline LLC"
+              ],
+              "brand_name": [
+                "TIMENTIN"
+              ],
+              "route": [
+                "INTRAVENOUS"
+              ],
+              "pharm_class_epc": [
+                "Penicillin-class Antibacterial [EPC]"
+              ],
+              "generic_name": [
+                "TICARCILLIN DISODIUM AND CLAVULANATE POTASSIUM"
+              ],
+              "application_number": [
+                "NDA050590",
+                "NDA050658"
+              ]
+            }
+          }
+        ],
+        "patientsex": "2"
+      },
+      "receiptdate": "20140312",
+      "transmissiondate": "20141002",
+      "transmissiondateformat": "102",
+      "occurcountry": "US",
+      "safetyreportversion": "1",
+      "serious": "2",
+      "companynumb": "US-PFIZER INC-2014070054"
+    }
+  ]
+}

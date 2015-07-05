@@ -1,0 +1,39 @@
+https://api.fda.gov/device/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Breast%20Implant
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-05-31",
+    "results": {
+
+
+      "total": 234
+    }
+  },
+  "results": [
+    {
+      "recall_number": "Z-1978-2014",
+      "reason_for_recall": "Tritanium Patella Inserter Instrument fracture during implantation.  .",
+      "status": "Ongoing",
+      "distribution_pattern": "US Nationwide  Distribution - in the states of Arizona, Florida, Kentucky, Louisiana and New Jersey.",
+      "product_quantity": "22 Units",
+      "recall_initiation_date": "20140501",
+      "state": "NJ",
+      "event_id": "68500",
+      "product_type": "Devices",
+      "product_description": "Stryker Orthopaedics Triathlon Tritanium Patella Inserter, . NON-STERILE\n\nProduct Usage:\nThe Triathlon Tritanium Patella Inserter is part of the Tritanium Knee System Instrument Set. It is used to implant the Tritanium Patella after the patellar bone has been prepared using the existing Triathlon Patella Resection Guide, Metal Backed Patella Drill and Patella Peg Drill Templates as per the Triathlon Tritanium Surgical Protocol.",
+      "country": "US",
+      "city": "Mahwah",
+      "recalling_firm": "Stryker Howmedica Osteonics Corp.",
+      "report_date": "20140709",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "Catalog No. 6541-3-530.  Lot Codes: CTD2778 and CTD2779.",
+      "@id": "011a40b9ee1012ef89d8f9849328a97fe6aa433fa7b3e02a65cdcd8dd559fedc",
+      "openfda": {},
+      "initial_firm_notification": "Letter"
+    }
+  ]
+}

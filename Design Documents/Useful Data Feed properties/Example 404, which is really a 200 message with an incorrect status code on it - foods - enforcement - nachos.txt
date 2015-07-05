@@ -1,0 +1,8 @@
+https://api.fda.gov/food/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=nachos
+
+{
+  "error": {
+    "code": "NOT_FOUND",
+    "message": "No matches found!"
+  }
+}

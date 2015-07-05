@@ -1,0 +1,39 @@
+https://api.fda.gov/food/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Soy%20Beans
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-05-31",
+    "results": {
+
+
+      "total": 73
+    }
+  },
+  "results": [
+    {
+      "recall_number": "F-0920-2013",
+      "reason_for_recall": "State of CA inspection found four products do not declare allergy statements which reflect the use of milk, wheat and eggs.",
+      "status": "Ongoing",
+      "distribution_pattern": "CA, WA  and MD",
+      "product_quantity": "471 retail, 3723 5 lb balls.",
+      "recall_initiation_date": "20121221",
+      "state": "CA",
+      "event_id": "63956",
+      "product_type": "Food",
+      "product_description": "Falafel with Tahini Sauce;\nnuggets of ground garbanzo beans with a rich, tangy tahini sauce.\nSold in 5 oz retail rectangular deli containers and 5 lb bulk foodservice.\nUndeclared wheat\nManufactured by Haigs Delicacies, Hayward, CA.",
+      "country": "US",
+      "city": "Hayward",
+      "recalling_firm": "Haig's Delicacies",
+      "report_date": "20130130",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class II",
+      "code_info": "all products",
+      "@id": "017aecd69cc95d241a7b9d0196a02d2f99563f026b15355ba6117e0f9b982a7f",
+      "openfda": {},
+      "initial_firm_notification": "Press Release"
+    }
+  ]
+}

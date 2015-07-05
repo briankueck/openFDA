@@ -1,0 +1,126 @@
+https://api.fda.gov/drug/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=Prosthetic%20Leg
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-01-21",
+    "results": {
+
+
+      "total": 1774
+    }
+  },
+  "results": [
+    {
+      "fulfillexpeditecriteria": "1",
+      "receivedateformat": "102",
+      "receiver": {
+        "receiverorganization": "FDA",
+        "receivertype": "6"
+      },
+      "reportduplicate": {
+        "duplicatesource": "ACTELION",
+        "duplicatenumb": "US-ACTELION-A-NJ2014-95953"
+      },
+      "receiptdateformat": "102",
+      "reporttype": "2",
+      "receivedate": "20140314",
+      "sender": {
+        "sendertype": "2",
+        "senderorganization": "FDA-Public Use"
+      },
+      "@epoch": 1421888841.083659,
+      "patient": {
+        "reaction": [
+          {
+            "reactionmeddrapt": "Leg amputation",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          },
+          {
+            "reactionmeddrapt": "Pain",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          }
+        ],
+        "patientonsetage": "50",
+        "patientonsetageunit": "801",
+        "drug": [
+          {
+            "drugauthorizationnumb": "021290",
+            "drugbatchnumb": "IP043P0101",
+            "drugcharacterization": "1",
+            "actiondrug": "4",
+            "drugindication": "PULMONARY ARTERIAL HYPERTENSION",
+            "medicinalproduct": "TRACLEER",
+            "drugadministrationroute": "048",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "spl_id": [
+                "569ae365-529f-42d0-a721-f40f4a396e52"
+              ],
+              "product_ndc": [
+                "66215-102",
+                "66215-101"
+              ],
+              "route": [
+                "ORAL"
+              ],
+              "substance_name": [
+                "BOSENTAN"
+              ],
+              "rxcui": [
+                "352066",
+                "349253",
+                "656660",
+                "656659"
+              ],
+              "spl_set_id": [
+                "749e42fb-2fe0-45dd-9268-b43bb3f4081c"
+              ],
+              "package_ndc": [
+                "66215-102-03",
+                "66215-101-03",
+                "66215-101-06",
+                "66215-102-06"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "generic_name": [
+                "BOSENTAN"
+              ],
+              "manufacturer_name": [
+                "Actelion Pharmaceuticals US, Inc."
+              ],
+              "brand_name": [
+                "TRACLEER"
+              ],
+              "application_number": [
+                "NDA021290"
+              ]
+            },
+            "drugdosageform": "TABLET"
+          }
+        ],
+        "patientsex": "2"
+      },
+      "receiptdate": "20140403",
+      "safetyreportversion": "2",
+      "serious": "1",
+      "companynumb": "US-ACTELION-A-NJ2014-95953",
+      "safetyreportid": "10012394",
+      "duplicate": "1",
+      "primarysource": {
+        "qualification": "1",
+        "reportercountry": "US"
+      },
+      "seriousnessother": "1",
+      "primarysourcecountry": "US",
+      "transmissiondate": "20141212",
+      "transmissiondateformat": "102",
+      "occurcountry": "US"
+    }
+  ]
+}

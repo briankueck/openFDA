@@ -1,0 +1,39 @@
+https://api.fda.gov/device/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=X-ray%20machine
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-05-31",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 35
+    }
+  },
+  "results": [
+    {
+      "recall_number": "Z-0018-2013",
+      "reason_for_recall": "Accutron is recalling the Flowmeter (Analgesia Gas Machine) because when it flows Nitrous Gas without Oxygen gas being turned on, it functions in an incorrect manner.",
+      "status": "Ongoing",
+      "distribution_pattern": "US Nationwide Distribution",
+      "product_quantity": "220 units total",
+      "recall_initiation_date": "20120429",
+      "state": "AZ",
+      "event_id": "63174",
+      "product_type": "Devices",
+      "product_description": "Ultra PC% Cabinet Mount Package G, Model #36600, \nSerial # 13593, 13594, 13595, 13596, 13597, 13598, 13599, 13600, 13602, 13605, 13610, 13611, 13612, 13615, 13616, 13617, 13621, 13622, 13624, 13625, 13627, 13628, 13633, 13634, 13635, 13636, 13637, 13638, 13639, 13640, 13642, 13643, 13644, 13647, 13650, 13669, 13675, 13673, 13678, 13679, 13680, 13683, 13685, 13687, 13691, 13693, 13694, 13695, 13696, 13697, 13701, 13702, 13705, 13706, 13709, 13710, 13711, 13724, 13725, 13728, 13729, 13735, 13739, 13743, 13746, 13750, 13751, 13753, 13754, 13755, 13756, 13760, 13762, 13766, 13774, 13775, 13777, 13781, 13782, 13783, 13785, 13786, 13788, 13792, 13794, 13796, 13799, 13800, 13803, 13804, 13809, 13810, 28298, 28299, 28304, 28305, 28306, 28307, \nUltra PC% Cabinet Mount Pkg I, Model #36800, Serial #\n13601, 13603, 13607, 13608, 13609, 13613, 13618, 13620, 13623, 13626, 13629, 13630, 13631, 13632, 13641, 13645, 13646, 13648, 13649, 13651, 13652, 13653, 13654, 13655, 13656, 13657, 13658, 13659, 13660, 13661, 13665, 13666, 13667, 13668, 13671, 13672, 13674, 13676, 13677, 13684, 13688, 13689, 13698, 13700, 13707, 13723, 13727, 13730, 13732, 13734, 13741, 13742, 13757, 13758, 13759, 13761, 13762, 13763, 13764, 13765, 13767, 13769, 13789, 13790, 13791, 13795, 13797, 13801, 13802, 13806, 13808, 28300, 28302, 28303, \nUltra PC% Cabinet Mount Pkg G, Model#36600-NS, Serial#\n13805, 13807, 13811, 13812.\n\nUltra PC% Cabinet Mount Pkg H, Model#36800-NS, Serial#\n13744, 13745,13752, 13773, 13774, 13778, 13779, 13780\n\n\nProduct Usage:  \nConscious Sedation Unit Analgesia Gas Machine.",
+      "country": "US",
+      "city": "Phoenix",
+      "recalling_firm": "Accutron Inc",
+      "report_date": "20121017",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class I",
+      "code_info": "Model #36600, Lot # 73778, 73740, 73851, 73920, 74475, 74035, 74012, 74219, 74118, 74471, 75583, 74372, 75049, 74745, 75049, 75283, 75616, 75299, 74926, 75767, 75344, 75311, 74513.\n\nModel #36800, Lot# 73739, 73852, 74011, 73921, 74470, 74032, 74011, 73969, 74139, 74125, 74204, 74220, 74143, 74617, 74573, 74746, 75584, 75449, 74927, 75617, 74568\n\nModel#36600-NS, Lot#75328.\n\nModel#36800-NS, Lot#75286.",
+      "@id": "0211a10f6c1b8cc1b324833e72c4fb6526d7982f30ac07c1ec44d7b59e23b65c",
+      "openfda": {},
+      "initial_firm_notification": "Letter"
+    }
+  ]
+}

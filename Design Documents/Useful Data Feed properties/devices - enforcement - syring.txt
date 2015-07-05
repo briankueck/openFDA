@@ -1,0 +1,39 @@
+https://api.fda.gov/device/enforcement.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=syring
+
+{
+  "meta": {
+
+
+    "last_updated": "2015-05-31",
+    "results": {
+
+
+      "total": 1
+    }
+  },
+  "results": [
+    {
+      "recall_number": "Z-2455-2014",
+      "reason_for_recall": "Customed has determined that there is the possibility that packaging integrity may be compromised on different catalog numbers (multiple lots). This could result in an injury to the patient due to product contamination or loss of sterility condition.",
+      "status": "Ongoing",
+      "distribution_pattern": "Worldwide Distribution - US (nationwide) in the state of  Florida including Puerto Rico (USA); & USVI (St John) and the countries of Tortola, Trinidad, Dominican Republic, Costa Rica and Mexico.",
+      "product_quantity": "3 lots/27 units (multiple units per lot)",
+      "recall_initiation_date": "20140520",
+      "state": "PR",
+      "event_id": "68536",
+      "product_type": "Devices",
+      "product_description": "EAR PACK \nCONTENTS:\n(I)    CAUTERY PENC IL ROCKER SW I TI-I CH ( I )   EMESIS BASIN  l Oin 700cc\n(2)    LABEL FOR SKIN MARKERS\n( I)   NEEDLE HYPODERMIC 1 80  X I Y,\n( I)    WASI-l BASIN ROUND 6QT\n(I)    INSTRUMENT POUCH 7 X I I    2 COMPART\n(I)   STRIP STER I CLOSURE W' X 4\" LIF\n(I)   SYRINGE 3cc W/0 NEEDLE LILOCK L/F (2)    SY RI NGE I ML W/0 NEEDLE LILOCK LIF ( I )   CAUTERY POLISHER TI P LIF\n( I)    SH EET ENT SPLIT 11 0 X 77\n(2)    LITE GLOVE\n(2)   NEEDLE H YPODERM IC 27G X I  !..''\n(1 2) TOWELS CLOTH HUCK (BLUE)\n( I )   TUBE SUCTION CONNECT.'!.\" X 12' L/F ( I )   EAR ULCER SYRINGE 2oz LIF\n( I )   TABLE COYER REINFORCED 50\" X 90\" LIF ( I )    UTILITY BOWL 1 6oz LIF\n(4)   COTrON  APPLICATOR 6\" WOOD\n( I )    INSTRUMENT WIPE I MM 8.25 X 8.25\n( I )   MAYO STAND COYER REINFORCED LIF\n( I )   NEEDLE & BLADE COUNTER 20c FOAM/MAG LIF ( I )   SKIN MARK ER W/R ULER\n( I )   SYRINGE IOcc W/0 NEEDLE LILOCK LIF \n( I )   TRAY MAYO SMALL\n( I )   SYRING E IOcc TI P CONTROL LILOCK LIF\n( I )   DRAPE MICROSCOPE ZEI SS\n( I )  TOWELS ABSORBENT 1 5'' X 20\" LIF\n( I )   TIME OUT BEACON NON WOV EN ST LIF\n( I )   BLADE M INUATURE CARBON STEEL\n( I 0)  GAUZE SPONGE 4\" X 4\" 1 6PLY XRD LIF\n( I )   NEEDLE BLUNT FI LL 1 80 X I Y,\n(2)   SCALPEL SAFETY WEIGHTED # 1 5\n( I )   GOWN SURG, I MP ER. M I CROCOOL LG E (2)   GOWN XL SURG ICAL MICROCOOL\n( I )   MERLINO SKIN PREP APPLIC. 39ML  LIF\n( I )   WRAPPER 24\" X 24\"\n\nWET SKIN PACK CONTA INING: ( I )   WRAPPER 30\" X 30\"\n( I )  TRAY 3/COMPARTM ENT\n( I )   PYP SCRUB SOLUTI ON 4oz. BOTrLE\n(3)  TI P ABSORBENT APPLICATOR STICK SPONGE\n(3)  TOWELS ABSORBENT 15\" X 20\" L/F (6)  SPONGE WING SMALL  LIF\n(2)  GLOVE MED FREETOUCI-1 VYN I L P/F\n(2)  COTrON  APPLICATOR 6\" WOOD\n\nProduct Usage:\nEO sterilized surgical convenient packs packaged into polyester/polyethylene breather bag with Tyvek double vents.",
+      "country": "US",
+      "city": "Fajardo",
+      "recalling_firm": "Customed, Inc",
+      "report_date": "20140910",
+      "@epoch": 1424553174.836488,
+      "voluntary_mandated": "Voluntary: Firm Initiated",
+      "classification": "Class I",
+      "code_info": "Product code 900-2423 ,3 lots\n131010019\n140111210\n140312131",
+      "@id": "0fa6b826caa02c5858899d8871bf70f7c2f19ba31ce877f20648ae1d111c15ed",
+      "openfda": {},
+      "initial_firm_notification": "Letter"
+    }
+  ]
+}

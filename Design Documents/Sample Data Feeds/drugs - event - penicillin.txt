@@ -1,0 +1,947 @@
+https://api.fda.gov/drug/event.json?api_key=XusHycT6WtxBypy1TjXNVU6EKAlv3QAN5NqEA57H&search=penicillin
+
+{
+  "meta": {
+    "disclaimer": "openFDA is a beta research project and not for clinical use. While we make every effort to ensure that data is accurate, you should assume all results are unvalidated.",
+    "license": "http://open.fda.gov/license",
+    "last_updated": "2015-01-21",
+    "results": {
+      "skip": 0,
+      "limit": 1,
+      "total": 8262
+    }
+  },
+  "results": [
+    {
+      "fulfillexpeditecriteria": "2",
+      "safetyreportid": "10003494",
+      "receiver": {
+        "receiverorganization": "FDA",
+        "receivertype": "6"
+      },
+      "duplicate": "1",
+      "receivedateformat": "102",
+      "reportduplicate": {
+        "duplicatesource": "PFIZER",
+        "duplicatenumb": "US-PFIZER INC-2014070054"
+      },
+      "reporttype": "1",
+      "receiptdateformat": "102",
+      "primarysource": {
+        "qualification": "1",
+        "reportercountry": "US"
+      },
+      "receivedate": "20140312",
+      "sender": {
+        "sendertype": "2",
+        "senderorganization": "FDA-Public Use"
+      },
+      "primarysourcecountry": "US",
+      "@epoch": 1417466131.85916,
+      "patient": {
+        "reaction": [
+          {
+            "reactionmeddrapt": "Drug hypersensitivity",
+            "reactionmeddraversionpt": "17.0",
+            "reactionoutcome": "6"
+          }
+        ],
+        "patientonsetage": "49",
+        "patientonsetageunit": "801",
+        "drug": [
+          {
+            "drugauthorizationnumb": "50670",
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "ZITHROMAX",
+            "drugstructuredosagenumb": "500",
+            "drugdosagetext": "500 MG, UNK",
+            "openfda": {
+              "unii": [
+                "F94OW58Y8V"
+              ],
+              "spl_id": [
+                "071a2e0b-347d-4d7f-88c0-1b33cee1aed2",
+                "65a868b7-6811-4a6e-8527-f702dfa2b4dd",
+                "5c783bbf-6994-4f87-86ef-29c034c825f1",
+                "a3f99f4e-114c-47e4-ab48-413f25248fda"
+              ],
+              "product_ndc": [
+                "0069-3120",
+                "0069-3130",
+                "0069-3140",
+                "0069-3150",
+                "0069-3110",
+                "0069-3070",
+                "0069-3060",
+                "0069-3051",
+                "0069-0400",
+                "0069-3080"
+              ],
+              "substance_name": [
+                "AZITHROMYCIN DIHYDRATE"
+              ],
+              "rxcui": [
+                "351772",
+                "226827",
+                "248656",
+                "749780",
+                "750149",
+                "204844",
+                "141963",
+                "750157",
+                "308461",
+                "212446",
+                "211307",
+                "308459",
+                "211511",
+                "861416",
+                "861417",
+                "749783",
+                "105260",
+                "308460"
+              ],
+              "spl_set_id": [
+                "8d24bacb-feff-4c6a-b8df-625e1435387a",
+                "3b631aa1-2d46-40bc-a614-d698301ea4f9",
+                "db52b91e-79f7-4cc1-9564-f2eee8e31c45",
+                "b749df83-49b0-433e-8a62-589a048dd716"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Macrolides [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "Pfizer Laboratories Div Pfizer Inc"
+              ],
+              "brand_name": [
+                "ZITHROMAX"
+              ],
+              "route": [
+                "ORAL",
+                "INTRAVENOUS"
+              ],
+              "nui": [
+                "N0000175935",
+                "N0000007529"
+              ],
+              "package_ndc": [
+                "0069-0400-01",
+                "0069-3150-83",
+                "0069-0400-10",
+                "0069-3070-30",
+                "0069-3060-30",
+                "0069-3051-75",
+                "0069-3120-19",
+                "0069-3140-19",
+                "0069-3060-75",
+                "0069-3070-75",
+                "0069-3080-30",
+                "0069-3110-19",
+                "0069-3150-14",
+                "0069-3130-19",
+                "0069-3051-07",
+                "0069-3150-84",
+                "0069-3060-86",
+                "0069-3070-86"
+              ],
+              "pharm_class_epc": [
+                "Macrolide Antimicrobial [EPC]"
+              ],
+              "generic_name": [
+                "AZITHROMYCIN DIHYDRATE"
+              ],
+              "application_number": [
+                "NDA050693",
+                "NDA050730",
+                "NDA050733",
+                "NDA050784",
+                "NDA050711",
+                "NDA050710"
+              ]
+            },
+            "drugstructuredosageunit": "003"
+          },
+          {
+            "drugauthorizationnumb": "050007",
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "VIBRAMYCIN",
+            "drugstructuredosagenumb": "100",
+            "drugdosagetext": "100 MG, UNK",
+            "drugstructuredosageunit": "003",
+            "drugdosageform": "CAPSULE, HARD"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "CEFUROXIME",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "unii": [
+                "O1R9FJ93ED"
+              ],
+              "spl_id": [
+                "90d7095e-1a39-4c18-a211-8f6f78d8d280",
+                "ba2a55a1-a0ab-4571-8920-687ca04bfc51",
+                "4d14b1a4-39d2-4e96-b84d-e193fbc99b16",
+                "e4a6cecb-b7bd-4e27-9535-4ab73c2ccc00",
+                "c864cc8d-90d5-45b6-b068-e5c720f5d555",
+                "d9a7dfe9-6a64-44af-83a1-36693f57c6c0",
+                "a7e702f9-9c04-4d75-8360-5871ca0a2fe5",
+                "48d601be-4a99-4808-841e-fe48d04f5d9b",
+                "c0ae7bae-5a98-4bb5-8f29-153aacacc74f"
+              ],
+              "product_ndc": [
+                "24987-425",
+                "63323-354",
+                "63323-353",
+                "63323-352",
+                "24987-437",
+                "0409-0802",
+                "25021-120",
+                "24987-352",
+                "44567-722",
+                "44567-720",
+                "24987-354",
+                "0143-9977",
+                "0143-9976",
+                "0143-9979",
+                "24987-436",
+                "24987-400",
+                "44567-712",
+                "44567-710",
+                "44567-711"
+              ],
+              "substance_name": [
+                "CEFUROXIME SODIUM",
+                "CEFUROXIME"
+              ],
+              "rxcui": [
+                "211996",
+                "204929",
+                "309101",
+                "309100",
+                "309099",
+                "997632",
+                "201814"
+              ],
+              "spl_set_id": [
+                "cc834761-8700-4970-ba49-b8ddecb51a1b",
+                "703cc338-c0b6-4a02-b8db-c27aeff181df",
+                "a1c53a0c-78b0-4c6e-b2bc-0ee90cbe9e73",
+                "1fd2babd-4737-45ad-9464-a7479a3816d9",
+                "5aa67341-d2fd-493d-ba58-0a0a573fb64a",
+                "68e22782-f3a6-4e2c-8612-3f1608547919",
+                "f4797359-d4a0-4967-86d3-d348518b3fe4",
+                "65daa2aa-cc4a-4eba-b7dc-7a151806865a",
+                "a7b50175-e978-4edd-9d61-593df4806657"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Cephalosporins [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "WG Critical Care, LLC",
+                "Covis Pharmaceuticals Inc",
+                "Sagent Pharmaceuticals",
+                "West-ward Pharmaceutical Corp",
+                "Hospira, Inc.",
+                "APP Pharmaceuticals, LLC"
+              ],
+              "brand_name": [
+                "ZINACEF",
+                "CEFUROXIME"
+              ],
+              "route": [
+                "INTRAMUSCULAR",
+                "INTRAVENOUS"
+              ],
+              "nui": [
+                "N0000011161",
+                "N0000175488"
+              ],
+              "package_ndc": [
+                "0143-9976-03",
+                "24987-437-00",
+                "24987-354-10",
+                "0143-9979-22",
+                "25021-120-59",
+                "44567-722-10",
+                "44567-710-10",
+                "44567-711-10",
+                "44567-712-10",
+                "63323-353-45",
+                "24987-400-00",
+                "24987-425-00",
+                "0143-9977-22",
+                "44567-720-10",
+                "24987-436-00",
+                "0409-0802-01",
+                "63323-352-45",
+                "24987-352-10",
+                "63323-354-45"
+              ],
+              "pharm_class_epc": [
+                "Cephalosporin Antibacterial [EPC]"
+              ],
+              "generic_name": [
+                "CEFUROXIME SODIUM",
+                "CEFUROXIME"
+              ],
+              "application_number": [
+                "ANDA065503",
+                "ANDA065046",
+                "ANDA064125",
+                "ANDA064124",
+                "ANDA065048",
+                "NDA050558",
+                "NDA050643"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "GENTAMICIN SULFATE",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "unii": [
+                "T6Z9V48IKG"
+              ],
+              "spl_id": [
+                "53c582bc-f0a4-4c8e-9470-1382c902ad67",
+                "ef7158be-5768-4cbf-85ae-7fdee2b58300",
+                "b24f76fa-8bac-460b-a916-f51ce6713b3e",
+                "c25e8532-f15c-477f-9157-976b8d916a14",
+                "45bf825e-2e72-4033-b599-c884005d0504",
+                "e855bb7e-6d8d-40c0-907f-58b4406ccdc6",
+                "fecd2ff0-bf01-4a4d-9f0c-ab6e28e907c8",
+                "92020d72-0164-43ae-9034-64c5294366cf",
+                "f05abe69-df12-4141-8688-de977d3dc913",
+                "9793d819-b777-4312-a731-9cb0665fc944",
+                "a5471dfb-05ab-4e26-acb0-c244d0f932a7",
+                "0a06d479-363d-468c-8881-6f1919c8cd53",
+                "0f1c5d9a-51ad-42c6-9801-fceba81831de",
+                "405cd14c-1719-4942-986c-af184c1a30a5",
+                "b73f7d63-8035-40bc-8b81-04ff67968d06",
+                "eaee2ec5-bad5-4a13-968d-b040e83d2d03",
+                "d9702c76-5f4e-4a76-b3a4-e7635f39d504",
+                "26026202-e55b-4f1d-a07e-f4cf03fc5c77",
+                "c6dd33a2-904b-4015-8477-5018db198fdc",
+                "6cc0c93c-804d-4eba-a5f0-5fe237a573d3",
+                "bde455c4-7557-48dd-aabe-621d8ed85d95",
+                "3789cbb4-fbab-4985-9fcd-868efe1407b2",
+                "c4dafa35-2e51-4c24-9516-f5c8b716e091",
+                "88f7a153-56d8-4934-8ff7-d4a64f19e5c3",
+                "fd22de1a-d4c8-43ff-bbfb-3cf8ce604f10"
+              ],
+              "product_ndc": [
+                "63323-010",
+                "0409-7889",
+                "17478-827",
+                "0574-4102",
+                "0409-7883",
+                "0409-7881",
+                "0409-7886",
+                "0409-7884",
+                "45802-056",
+                "61314-633",
+                "0409-7879",
+                "17478-826",
+                "17478-284",
+                "0338-0509",
+                "17478-283",
+                "0338-0503",
+                "0409-1207",
+                "0338-0501",
+                "0338-0507",
+                "0338-0505",
+                "63323-513",
+                "48102-102",
+                "0574-4072",
+                "48102-022",
+                "48102-009",
+                "24208-580",
+                "0409-3402",
+                "60758-188",
+                "0409-3400",
+                "0409-3401",
+                "0168-0071",
+                "45802-046",
+                "0168-0078",
+                "0338-0511"
+              ],
+              "substance_name": [
+                "GENTAMICIN SULFATE",
+                "GENTAMICIN"
+              ],
+              "rxcui": [
+                "545236",
+                "313996",
+                "310465",
+                "310466",
+                "310467",
+                "310477",
+                "310476",
+                "310475",
+                "242816",
+                "310473",
+                "310472",
+                "1046307",
+                "239204",
+                "197736",
+                "197735",
+                "1046301",
+                "310474"
+              ],
+              "spl_set_id": [
+                "561cf436-74b8-452c-9fd2-e42f859c87dd",
+                "449c9a41-d61e-49fd-b5e3-d76f74b92acf",
+                "a357d23d-1f10-44ce-a2fa-a6a5e03e7739",
+                "b24f76fa-8bac-460b-a916-f51ce6713b3e",
+                "a73a5453-c091-43fd-aae2-d992152363b1",
+                "41d01350-5c4b-42fc-be5f-986ceec02bd3",
+                "aa2b006d-f67c-4c71-abce-55d55295b5bb",
+                "eed34897-8455-4556-bfe6-eedb08ff54cd",
+                "9e32f256-56fe-46a5-a144-e36717ef4073",
+                "84f5c763-1cd3-4d85-9afb-934db8666fbf",
+                "877ab1fd-6c0e-42f6-9522-f5efaa96018d",
+                "bb2e10d2-1500-4dde-8281-8ab44abf28f0",
+                "32d5af97-70bd-4ee4-81d4-67578dc677a0",
+                "2fcd1c1f-bd01-42c7-2c89-5eee2fe7055b",
+                "4f35bd00-b600-4972-6cba-ea5702f7d9bc",
+                "ca625340-377b-4256-92e2-d62471a8d852",
+                "0cce2238-28d3-4280-b520-ffc3067a2ffa",
+                "5e8da3cb-9156-4d46-a35a-96fe326e238d",
+                "a9486ae1-350b-41c5-ae0c-a4d692bb2dfd",
+                "f986fa2a-e667-452f-be4c-bad8588af525",
+                "c4dafa35-2e51-4c24-9516-f5c8b716e091",
+                "4cfbe37e-11d6-46fc-b287-0561387b17b7",
+                "977180b3-a222-4282-d485-4a3217674305",
+                "0bc9fa00-1755-4989-a222-a038e970371f",
+                "a213fb9c-08ea-4f30-a6c9-93c7a9ba5280"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Aminoglycosides [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "E. Fougera & Co. a division of Fougera Pharmaceuticals Inc.",
+                "Akorn, Inc.",
+                "Fera Pharmaceuticals, LLC",
+                "Pacific Pharma, Inc.",
+                "Sandoz Inc",
+                "Fresenius Kabi USA, LLC",
+                "Paddock Laboratories, LLC",
+                "E. FOUGERA & CO., A division of Fougera Pharmaceuticals Inc.",
+                "Hospira, Inc.",
+                "Bausch & Lomb Incorporated",
+                "APP Pharmaceuticals, LLC",
+                "Perrigo New York Inc",
+                "Baxter Healthcare Corporation"
+              ],
+              "brand_name": [
+                "GENTAMICIN SULFATE IN SODIUM CHLORIDE",
+                "GENTAMICIN",
+                "GENTAK",
+                "GENTAMICIN SULFATE",
+                "GARAMYCIN GENTAMICIN SULFATE",
+                "GARAMYCIN"
+              ],
+              "route": [
+                "TOPICAL",
+                "INTRAMUSCULAR",
+                "INTRAVENOUS",
+                "OPHTHALMIC"
+              ],
+              "nui": [
+                "N0000175477",
+                "N0000007853"
+              ],
+              "package_ndc": [
+                "63323-513-02",
+                "0409-7886-23",
+                "0338-0511-41",
+                "24208-580-64",
+                "0574-4102-35",
+                "0338-0501-48",
+                "24208-580-60",
+                "0338-0507-48",
+                "60758-188-05",
+                "0338-0507-41",
+                "0168-0078-15",
+                "17478-827-35",
+                "0409-3400-01",
+                "0409-3401-01",
+                "0409-7884-23",
+                "0409-1207-03",
+                "0409-3402-01",
+                "0338-0509-41",
+                "0409-7879-13",
+                "0409-1207-25",
+                "0409-7889-23",
+                "17478-283-10",
+                "45802-056-35",
+                "48102-009-35",
+                "45802-046-35",
+                "63323-010-02",
+                "63323-010-20",
+                "17478-284-35",
+                "45802-056-11",
+                "17478-826-05",
+                "0409-7883-13",
+                "0338-0503-48",
+                "48102-102-35",
+                "0168-0071-15",
+                "63323-010-95",
+                "63323-010-94",
+                "0574-4072-05",
+                "63323-010-96",
+                "0409-7881-13",
+                "0338-0505-48",
+                "48102-022-05",
+                "61314-633-05",
+                "45802-046-11"
+              ],
+              "pharm_class_epc": [
+                "Aminoglycoside Antibacterial [EPC]"
+              ],
+              "generic_name": [
+                "GENTAMICIN SULFATE"
+              ],
+              "application_number": [
+                "ANDA065024",
+                "ANDA062373",
+                "ANDA062420",
+                "ANDA062366",
+                "ANDA062196",
+                "ANDA062531",
+                "ANDA064048",
+                "ANDA065121",
+                "ANDA062356",
+                "ANDA062414",
+                "ANDA062533",
+                "ANDA062351",
+                "ANDA064093",
+                "ANDA062612",
+                "ANDA062452",
+                "ANDA064163",
+                "ANDA062307"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "MEROPENEM",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "spl_id": [
+                "00519448-d0ae-48e5-8921-5ddf5d87601e",
+                "6cd104ad-b6af-4621-8a96-7b8bd963876f",
+                "247bb5e2-dfb0-4a75-bca8-f4504c71937e",
+                "3e1e3b23-2854-46f1-88c1-d569fa367142",
+                "50365fe4-70db-487f-8259-42b54e85a2a8"
+              ],
+              "product_ndc": [
+                "63323-507",
+                "63323-508",
+                "0409-3506",
+                "0409-3505",
+                "0310-0321",
+                "0781-3267",
+                "0781-3265",
+                "0310-0325"
+              ],
+              "route": [
+                "INTRAVENOUS"
+              ],
+              "substance_name": [
+                "MEROPENEM"
+              ],
+              "rxcui": [
+                "211309",
+                "311549"
+              ],
+              "spl_set_id": [
+                "12714f80-d6e5-4453-b66c-62f57c16ddfc",
+                "a0fcc561-9566-4223-84b3-baa5cf3e0a20",
+                "a27ce7d2-0b75-47e8-9a7e-1e561b603216",
+                "c15e88d3-d903-4e7a-f683-e29f51afa848",
+                "185181e3-c004-4d61-b992-5df94fe57a90"
+              ],
+              "package_ndc": [
+                "63323-508-31",
+                "63323-508-30",
+                "0781-3265-95",
+                "0409-3506-01",
+                "63323-507-21",
+                "63323-507-20",
+                "0310-0325-20",
+                "0310-0325-64",
+                "0310-0321-65",
+                "0409-3505-01",
+                "0781-3267-90",
+                "0781-3265-80",
+                "0781-3267-95",
+                "0310-0321-30"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "generic_name": [
+                "MEROPENEM"
+              ],
+              "manufacturer_name": [
+                "AstraZeneca Pharmaceuticals LP",
+                "Sandoz Inc",
+                "Fresenius Kabi USA, LLC",
+                "APP Pharmaceuticals, LLC",
+                "Hospira, Inc."
+              ],
+              "brand_name": [
+                "MERREM IV",
+                "MEROPENEM"
+              ],
+              "application_number": [
+                "ANDA091404",
+                "NDA050706",
+                "ANDA090940",
+                "ANDA091201"
+              ]
+            },
+            "drugdosageform": "POWDER FOR SOLUTION FOR INFUSION"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "PRIMAQUINE",
+            "drugdosagetext": "UNK",
+            "openfda": {}
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "AUGMENTIN XR",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "spl_id": [
+                "403f620b-fbf3-3bb3-88e7-c69ee5c9527d"
+              ],
+              "product_ndc": [
+                "43598-020"
+              ],
+              "route": [
+                "ORAL"
+              ],
+              "substance_name": [
+                "CLAVULANATE POTASSIUM",
+                "AMOXICILLIN",
+                "AMOXICILLIN SODIUM"
+              ],
+              "rxcui": [
+                "861689",
+                "617995"
+              ],
+              "spl_set_id": [
+                "6ddf7302-5780-43b4-bc26-fce14c815013"
+              ],
+              "package_ndc": [
+                "43598-020-40",
+                "43598-020-28"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "generic_name": [
+                "AMOXICILLIN AND CLAVULANATE POTASSIUM"
+              ],
+              "manufacturer_name": [
+                "Dr Reddys Laboratories Inc"
+              ],
+              "brand_name": [
+                "AUGMENTIN XR"
+              ],
+              "application_number": [
+                "NDA050785"
+              ]
+            },
+            "drugdosageform": "TABLET"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "AZTREONAM",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "unii": [
+                "G2B4VE5GH8"
+              ],
+              "spl_id": [
+                "8b9fb753-74fe-4e7c-8532-ba985db52454",
+                "d84afe3b-ca13-44cf-b0de-410165d07149",
+                "66c3b04a-c7ec-4784-a515-2f5601c648ba",
+                "a5fce801-f057-467e-ac01-a2966f9c76dd",
+                "0d2b8cc7-2781-44e4-8aa7-f613eebb87db"
+              ],
+              "product_ndc": [
+                "0003-2560",
+                "63323-402",
+                "63323-401",
+                "61958-0901",
+                "0003-2570",
+                "0003-2230",
+                "0003-2240"
+              ],
+              "substance_name": [
+                "AZTREONAM"
+              ],
+              "rxcui": [
+                "201828",
+                "901614",
+                "213590",
+                "901610",
+                "308467",
+                "308466",
+                "213589",
+                "308468"
+              ],
+              "spl_set_id": [
+                "1b11750e-4db4-4dd3-8b21-c9917b00aeaa",
+                "9a105eaf-ee77-4016-beeb-d425a5565db2",
+                "67300ca3-8c53-4ce4-8e86-2c03be1f9b8a",
+                "5f5ebb63-6ac5-4fb4-bcc1-d069c123eb18",
+                "c6cf7e13-a04e-47e2-9cec-44a278ee6bec"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Monobactams [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "Gilead Sciences, Inc.",
+                "Fresenius Kabi USA, LLC",
+                "E.R. Squibb & Sons, L.L.C."
+              ],
+              "brand_name": [
+                "CAYSTON",
+                "AZACTAM",
+                "AZTREONAM"
+              ],
+              "route": [
+                "INTRAMUSCULAR",
+                "INTRAVENOUS"
+              ],
+              "nui": [
+                "N0000011311",
+                "N0000175493"
+              ],
+              "package_ndc": [
+                "63323-401-24",
+                "63323-402-20",
+                "0003-2570-16",
+                "63323-401-20",
+                "63323-402-24",
+                "0003-2560-16",
+                "61958-0901-1",
+                "0003-2240-11",
+                "0003-2230-11"
+              ],
+              "pharm_class_epc": [
+                "Monobactam Antibacterial [EPC]"
+              ],
+              "generic_name": [
+                "AZTREONAM"
+              ],
+              "application_number": [
+                "NDA050632",
+                "ANDA065439",
+                "NDA050814",
+                "NDA050580"
+              ]
+            }
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "BIAXIN",
+            "drugstructuredosagenumb": "250",
+            "drugdosagetext": "250 MG, UNK",
+            "openfda": {
+              "unii": [
+                "H1250JIK0A"
+              ],
+              "spl_id": [
+                "69651db8-0f37-f1bc-9e3a-087494e4a977"
+              ],
+              "product_ndc": [
+                "0074-3188",
+                "0074-2586",
+                "0074-3368",
+                "0074-3165",
+                "0074-3163"
+              ],
+              "substance_name": [
+                "CLARITHROMYCIN"
+              ],
+              "rxcui": [
+                "197517",
+                "197516",
+                "205866",
+                "205860",
+                "205863",
+                "205857",
+                "835341",
+                "359385",
+                "309322",
+                "240741",
+                "835342",
+                "685543"
+              ],
+              "spl_set_id": [
+                "aa44552c-3cfe-4111-8aa5-4251aeed9be9"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Macrolides [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "AbbVie Inc."
+              ],
+              "brand_name": [
+                "BIAXIN"
+              ],
+              "route": [
+                "ORAL"
+              ],
+              "nui": [
+                "N0000190114",
+                "N0000175935",
+                "N0000182141",
+                "N0000007529",
+                "N0000185503"
+              ],
+              "pharm_class_moa": [
+                "P-Glycoprotein Inhibitors [MoA]",
+                "Cytochrome P450 3A4 Inhibitors [MoA]",
+                "Cytochrome P450 3A Inhibitors [MoA]"
+              ],
+              "package_ndc": [
+                "0074-3163-13",
+                "0074-2586-11",
+                "0074-3165-41",
+                "0074-3165-60",
+                "0074-3188-13",
+                "0074-3368-60",
+                "0074-2586-60",
+                "0074-3163-50",
+                "0074-3165-11",
+                "0074-3188-50"
+              ],
+              "pharm_class_epc": [
+                "Macrolide Antimicrobial [EPC]"
+              ],
+              "generic_name": [
+                "CLARITHROMYCIN"
+              ],
+              "application_number": [
+                "NDA050775",
+                "NDA050662",
+                "NDA050698"
+              ]
+            },
+            "drugstructuredosageunit": "003"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "CECLOR",
+            "drugdosagetext": "UNK"
+          },
+          {
+            "drugcharacterization": "1",
+            "actiondrug": "5",
+            "medicinalproduct": "TIMENTIN",
+            "drugdosagetext": "UNK",
+            "openfda": {
+              "unii": [
+                "F93UJX4SWT"
+              ],
+              "spl_id": [
+                "6537eaaf-652b-4f59-b00e-e0a2e77489f5"
+              ],
+              "product_ndc": [
+                "0029-6575",
+                "0029-6579",
+                "0029-6571"
+              ],
+              "substance_name": [
+                "CLAVULANATE POTASSIUM",
+                "TICARCILLIN DISODIUM"
+              ],
+              "rxcui": [
+                "351239",
+                "853066"
+              ],
+              "spl_set_id": [
+                "8ffe8c3f-9694-4029-fca3-1b19c5cc2f93"
+              ],
+              "product_type": [
+                "HUMAN PRESCRIPTION DRUG"
+              ],
+              "pharm_class_cs": [
+                "Penicillins [Chemical/Ingredient]"
+              ],
+              "manufacturer_name": [
+                "GlaxoSmithKline LLC"
+              ],
+              "brand_name": [
+                "TIMENTIN"
+              ],
+              "route": [
+                "INTRAVENOUS"
+              ],
+              "nui": [
+                "N0000175497",
+                "N0000011281"
+              ],
+              "package_ndc": [
+                "0029-6575-31",
+                "0029-6579-21",
+                "0029-6571-26"
+              ],
+              "pharm_class_epc": [
+                "Penicillin-class Antibacterial [EPC]"
+              ],
+              "generic_name": [
+                "TICARCILLIN DISODIUM AND CLAVULANATE POTASSIUM"
+              ],
+              "application_number": [
+                "NDA050590",
+                "NDA050658"
+              ]
+            }
+          }
+        ],
+        "patientsex": "2"
+      },
+      "receiptdate": "20140312",
+      "transmissiondate": "20141002",
+      "transmissiondateformat": "102",
+      "occurcountry": "US",
+      "safetyreportversion": "1",
+      "serious": "2",
+      "companynumb": "US-PFIZER INC-2014070054"
+    }
+  ]
+}
