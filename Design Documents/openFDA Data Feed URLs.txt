@@ -1,0 +1,16 @@
+https://open.fda.gov
+
+Drugs
+
+	Adverse events 			http://api.fda.gov/drug/event
+	Labeling 	   			http://api.fda.gov/drug/label
+	Enforcement reports 	http://api.fda.gov/drug/enforcement
+
+Devices
+
+	Adverse events 			http://api.fda.gov/device/event
+	Enforcement reports 	http://api.fda.gov/device/enforcement
+
+Foods
+
+	Enforcement reports 	http://api.fda.gov/food/enforcement
