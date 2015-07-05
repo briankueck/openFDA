@@ -1,0 +1,23 @@
+.red {
+	color: #FF0000;
+}
+
+.green {
+	color: #00FF00;
+}
+
+.blue {
+	color: #0000FF;
+}
+
+.bk-blue.dark {
+	background-color: #054dc4;
+}
+
+.bk-blue.light {
+	background-color: #94BFE4;
+}
+
+.bk-blue.medium {
+	background-color: #6495ED;
+}

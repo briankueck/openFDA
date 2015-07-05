@@ -1,0 +1,83 @@
+.demo .queryBuilder .btn,
+.demo .queryBuilder .glyphicon-warning-sign {
+	display: none;
+}
+
+.demo .queryBuilder .rules-list {
+	list-style-type: none;
+}
+
+.demo .queryBuilder .rule-filter-container,
+.demo .queryBuilder .rule-operator-container,
+.demo .queryBuilder .rule-value-container {
+	float: left;
+	margin-left: 5px;
+}
+
+.demo .queryBuilder #btnSearch {
+	margin: 3px 0 0 10px;
+}
+
+.demo [name='queryBuilder_rule_0_operator'] {
+	display: none;
+}
+
+.demo .sampleLists {
+	float: left;
+	margin: 0px 5px 5px 5px;
+	width: 150px;
+}
+
+.demo #ajax-results {
+	font-size: 12px;
+	margin: 20px 0 0 5px;
+}
+
+.demo #ajax-results h3 {
+	color: navy;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 0 0;
+}
+
+.demo #ajax-results .ui-widget-content a {
+	color: blue;
+}
+
+.demo #ajax-results .accordion {
+	margin-bottom: 13px;
+}
+
+.demo #ajax-results .ui-accordion-content {
+	padding: 5px 10px 10px 10px;
+}
+
+.demo #ajax-results .serp-header {
+	margin-bottom: 10px;
+	border-bottom: 1px solid silver;
+}
+
+.demo #ajax-results .path {
+	color: gray;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+.demo #ajax-results .property {
+	font-size: 13px;
+	margin-right: 5px;
+}
+
+.demo #ajax-results .data-results {
+	margin: 0 0 10px 0;
+}
+
+.demo #ajax-results p {
+	font-size: 13px;
+	margin: 0 0 0 0;
+	padding: 3px 0 0 0;
+}
+
+.demo .radio-group {
+	margin: 10px 0 0 0;
+}

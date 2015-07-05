@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title id="lang-title"></title>
+
+	<!-- FYI -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="author" content="Brian Kueck, @briankueck">
+
+	<!-- SEO information: -->
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="TBD">
+	<meta name="keywords" content="To, Be, Determined">
+
+	<!-- CSS Libraries -->
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<!-- Bootstrap's Date Picker -->
+	<link href="libs/bootstrap/1.4.0/css/bootstrap-datepicker.css" rel="stylesheet" />
+	<link href="libs/bootstrap/1.4.0/css/bootstrap-datepicker.standalone.css" rel="stylesheet" />
+	<link href="libs/bootstrap/1.4.0/css/bootstrap-datepicker3.css" rel="stylesheet" />
+	<link href="libs/bootstrap/1.4.0/css/bootstrap-datepicker3.standalone.css" rel="stylesheet" />
+
+	<!-- Jasmine -->
+	<link rel="stylesheet" type="text/css" href="libs/jasmine/2.3.4/css/jasmine.css">
+
+	<!-- jQuery Mobile -->
+	<!-- Enable these if needed:
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.external-png-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.icons-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.inline-png-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.inline-svg-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.structure-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.theme-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile-1.4.5.min.css"> -->
+
+	<!-- jQuery UI -->
+	<link rel="stylesheet" type="text/css" href="libs/jqueryui/1.11.4/css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jqueryui/1.11.4/css/jquery-ui.structure.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jqueryui/1.11.4/css/jquery-ui.theme.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jqueryui/1.11.4/themes/smoothness/css/jquery-ui.css">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/queryBuilder.css">
+	<link rel="stylesheet" type="text/css" href="css/colors.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+	<!-- jQuery from http://jquery.com -->
+	<script src="libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- We sure hope that you're not using IE 6-8 anymore. If you are, you will need to enable this... instead of the above version:
+	<script src="libs/jquery/1.11.3/jquery.min.js"></script> -->
+
+</head>
+<body class="demo bk-blue dark">
+	<div class="main">
+		<h1 class="left">
+			AJAX Search / JSON Analyzer Tool Demo for <a href="https://open.fda.gov" target="_blank">openFDA</a>
+		</h1>
+		<div class="clear"></div>
+		<div id="home" class="pageText">
+			<h3>Search Options</h3>
+			<div class="queryBuilder">
+				<div id="queryBuilder"></div>
+
+				<select id="sampleLists-drugs" class="form-control sampleLists">
+					<option>Acetaminophen</option>
+					<option>Amoxicillin</option>
+					<option>Aspirin</option>
+					<option>Erythromycin</option>
+					<option>Ibuprofen</option>
+					<option>Naproxen</option>
+					<option>Oxycodone</option>
+					<option>Penicillin</option>
+				</select>
+
+				<select id="sampleLists-devices" class="form-control sampleLists hidden">
+					<option>Hearing Aid</option>
+					<option>Heart Monitor</option>
+					<option>Heart Implants</option>
+					<option>Knee Joint</option>
+					<option>Prosthetic Arm</option>
+					<option>Prosthetic Leg</option>
+					<option>Syring</option>
+					<option>X-ray machine</option>
+				</select>
+
+				<select id="sampleLists-foods" class="form-control sampleLists hidden">
+					<option>Bananas</option>
+					<option>Buffalo Wings</option>
+					<option>Candy Corn</option>
+					<option>Coca-Cola&reg;</option>
+					<option>Fish</option>
+					<option>Kraft&reg; Cheese</option>
+					<option>Pepsi&reg;</option>
+					<option>Pizza</option>
+					<option>Soy Beans</option>
+					<option>Sugar</option>
+				</select>
+
+				<button id="btnSearch" class="btn-primary btn-submit">Search</button>
+				<div class="clear"></div>
+
+				<div class="fl radio-group">
+					<label><input type="radio" name="useAllAccordions" value="false" checked> Use Flat List with Accordions for IDs/GUIDs</label>
+					<label><input type="radio" name="useAllAccordions" value="true"> Use All Accordions</label>
+					<label><input type="checkbox" id="showPaths" checked> Show Paths</label>
+				</div>
+				<div class="clear"></div>
+
+				<div id="ajax-results"></div>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+</body>
+<footer>
+	<!-- Additional JS Libraries -->
+
+	<!-- Underscore from http://underscorejs.org
+	<script src="libs/underscore/1.8.3/underscore.min.js"></script> -->
+
+	<!-- Angular from https://angularjs.org
+	<script src="libs/angular/1.4.1/angular.min.js"></script> -->
+
+	<!-- Bootstrap from http://getbootstrap.com -->
+	<script src="libs/bootstrap/3.3.5/js/affix.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/alert.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/button.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/carousel.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/collapse.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/dropdown.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/modal.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/popover.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/scrollspy.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/tab.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/tooltip.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/transition.js"></script>
+
+	<!-- Bootstrap's Date Picker -->
+	<script src="libs/bootstrap/1.4.0/js/bootstrap-datepicker.min.js"></script>
+
+	<!-- Data-Driven Documents (D3) from http://d3js.org
+	<script src="libs/d3js/3.5.5/d3.min.js" charset="utf-8"></script> -->
+
+	<!-- Jasmine from http://jasmine.github.io -->
+	<script src="libs/jasmine/2.3.4/js/jasmine.js"></script>
+	<script src="libs/jasmine/2.3.4/js/jasmine-html.js" ></script>
+	<script src="libs/jasmine/2.3.4/js/boot.js"></script>
+
+	<!-- jQuery Query Builder from http://mistic100.github.io/jQuery-QueryBuilder/ -->
+	<script src="libs/jquery-querybuilder/2.2.0/dist/js/query-builder.standalone.min.js"></script>
+
+	<!-- jQuery Mobile from http://jquerymobile.com
+	<script src="libs/jquerymobile/1.4.5/js/jquery.mobile.min.js"></script> -->
+
+	<!-- jQuery UI from http://jqueryui.com -->
+	<script src="libs/jqueryui/1.11.4/js/jquery-ui.min.js"></script>
+
+	<!-- Moment JS from http://momentjs.com It's used by Bootstrap's Date Picker. -->
+	<script src="libs/moment/2.10.3/moment.min.js"></script>
+
+	<!-- Console Log Helper Functions -->
+	<script src="js/firebug-shortcuts.js"></script>
+
+	<!-- Demo Program -->
+	<script src="js/demo.js"></script>
+
+	<!-- Jasmine spec files -->
+	<script src="libs/jasmine/2.3.4/specs/demo.js"></script>
+
+</footer>
+</html>

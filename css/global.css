@@ -1,0 +1,120 @@
+.demo {
+	font-family: "Arial", "Verdana", "sans-serif";
+	margin: 0px;
+	padding: 0px;
+}
+
+.demo h1, 
+.demo h2, 
+.demo h3, 
+.demo h4, 
+.demo h5, 
+.demo h6 {
+	margin: 0px;
+	padding: 0px;
+}
+
+.demo ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.demo #searchBox {
+	border-radius: 4px;
+}
+
+.demo .main {
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 10px;
+	height: 100%;
+	margin: 50px auto 50px auto;
+	padding: 10px;
+	position: relative;
+	width: 958px;
+	z-index: 10;
+}
+
+.demo .ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.demo .clear {
+	clear: both;
+}
+
+.demo .hidden {
+	display: none;
+}
+
+.demo .fl,
+.demo .float-left,
+.demo .left {
+	float: left;
+}
+
+.demo .center {
+	display: block;
+	margin: auto;
+}
+
+.demo .fr,
+.demo .float-right,
+.demo .right{
+	float: right;
+}
+
+.demo .pageTitle {
+	display: none;
+}
+
+.demo .menu {
+	height: 40px;
+	margin-top: 5px;
+}
+
+.demo .menuLinks {
+	border-radius: 10px;
+	color: #FFFFFF;
+	font-weight: bold;
+	display: block;
+	float: left;
+	margin: 5px 13px 0 0;
+	padding: 2px 5px 2px 5px;
+	width: auto;
+}
+
+.demo .pageTitle .leftText {
+	margin-right: 10px;
+}
+
+.demo .pageText {
+	margin-top: 45fpx;
+}
+
+.demo .pageCopy {
+	border-top: 1px solid silver;
+	padding: 10px 0 0 0;
+}
+
+.demo .footer {
+	border-top: 1px solid silver;
+	display: block;
+	margin-top: 10px;
+	padding-top: 7px;
+}
+
+.demo .footer .extraLinks {
+	font-weight: bold;
+}
+
+.demo .footer .separators {
+	margin: 0 3px 0 3px;
+}
+
+.demo .footer .copyright {
+	border-top: 1px solid silver;
+	margin-top: 10px;
+	padding: 10px 0 0 200px;
+}
