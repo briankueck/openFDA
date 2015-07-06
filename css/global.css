@@ -85,6 +85,10 @@
 	width: auto;
 }
 
+.demo .menuLinks.selected {
+	font-style: italic;
+}
+
 .demo .pageTitle .leftText {
 	margin-right: 10px;
 }
@@ -117,4 +121,10 @@
 	border-top: 1px solid silver;
 	margin-top: 10px;
 	padding: 10px 0 0 200px;
+}
+
+.demo table th,
+.demo table td {
+	border: 1px solid silver;
+	padding: 5px;
 }

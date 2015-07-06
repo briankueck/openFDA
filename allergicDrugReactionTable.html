@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title id="lang-title">Allergic Drug Reaction Table</title>
+
+	<!-- FYI -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="author" content="Brian Kueck, @briankueck">
+	<meta name="copyright" content="Copyright © 2015 by, Clomp Web Design, Inc. All Rights Reserved.">
+	<meta name="licensee" content="Licensed to Crescent Allied Solutions by, Clomp Web Design, Inc.">
+
+	<!-- SEO information: -->
+	<meta name="robots" content="index, follow">
+	<meta name="description" content="TBD">
+	<meta name="keywords" content="To, Be, Determined">
+
+	<!-- CSS Libraries -->
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+	<!-- Bootstrap's Date Picker -->
+	<link href="libs/bootstrap/1.4.0/css/bootstrap-datepicker.css" rel="stylesheet" />
+	<link href="libs/bootstrap/1.4.0/css/bootstrap-datepicker.standalone.css" rel="stylesheet" />
+	<link href="libs/bootstrap/1.4.0/css/bootstrap-datepicker3.css" rel="stylesheet" />
+	<link href="libs/bootstrap/1.4.0/css/bootstrap-datepicker3.standalone.css" rel="stylesheet" />
+
+	<!-- Jasmine -->
+	<!-- <link rel="shortcut icon" type="image/png" href="libs/jasmine/2.3.4/images/jasmine_favicon.png"> -->
+	<link rel="stylesheet" type="text/css" href="libs/jasmine/2.3.4/css/jasmine.css">
+
+	<!-- jQuery Mobile -->
+	<!-- Enable these if needed:
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.external-png-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.icons-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.inline-png-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.inline-svg-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.structure-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile.theme-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jquerymobile/1.4.5/css/jquery.mobile-1.4.5.min.css"> -->
+
+	<!-- jQuery UI -->
+	<link rel="stylesheet" type="text/css" href="libs/jqueryui/1.11.4/css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jqueryui/1.11.4/css/jquery-ui.structure.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jqueryui/1.11.4/css/jquery-ui.theme.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/jqueryui/1.11.4/themes/smoothness/css/jquery-ui.css">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/global.css">
+	<link rel="stylesheet" type="text/css" href="css/queryBuilder.css">
+	<link rel="stylesheet" type="text/css" href="css/colors.css">
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+	<!-- jQuery from http://jquery.com -->
+	<script src="libs/jquery/2.1.4/jquery.min.js"></script>
+	<!-- We sure hope that you're not using IE 6-8 anymore. If you are, you will need to enable this... instead of the above version:
+	<script src="libs/jquery/1.11.3/jquery.min.js"></script> -->
+
+</head>
+<body class="demo bk-blue dark">
+	<div class="main">
+		<h1 class="left">
+			AJAX Search / JSON Analyzer Tool Demo for <a href="https://open.fda.gov" target="_blank">openFDA</a>
+		</h1>
+		<div class="clear"></div>
+		<div class="menu">
+			<a href="index.html" class="menuLinks bk-blue medium">Home</a>
+			<b class="menuLinks bk-blue medium selected">Allergic Drug Reaction Table</b>
+			<a href="purpose.html" class="menuLinks bk-blue medium">Demo Purpose</a>
+			<a href="instructions.html" class="menuLinks bk-blue medium">Instructions</a>
+		</div>
+		<div id="allergicDrugReactionTable" class="pageText">
+			<h2 class="pageTitle">Allergic Drug Reaction Table</h2>
+			<div class="introText"></div>
+			<div class="pageCopy">
+				<p><b>Medical professionals</b> &mdash; such as Doctors, Nurses, Pharmacists & Pharmaceutical Lab Scientists &mdash; might be interested in finding out how 2 drugs interact & react with each other. So we've built this page to showcase how an AJAX search for 25 drug results could be used to create a list of the most frequent types of allergic drug reactions.</p><p>Doctors, Nurses & Pharmacists would be especially interested in the names of the drugs, which are being mixed to create those reactions. The goal is to make sure that prescription drugs aren&rsquo;t being mixed, which could be potentially harmful or fatal to their patients.</p><p>Pharmaceutical Lab Lawyers might also use this to make sure that their drugs aren&rsquo;t going to become a future multi-million dollar lawsuit against their company.</p><p>We thought that this would be extremely valuable information, which we&rsquo;ve mined from the <a href="https://open.fda.gov" target="_blank">openFDA</a> API data feeds. If we wanted to build &ldquo;Top 10&rdquo; visualization charts like these examples, well we can do that too! <a href='https://95dc84c8ef29e5c8d045d7b6fe00cff63334c8a7.googledrive.com/host/0BwcmXsFAhzhoOTdydHhoRktlOUU/app/#/' target='_blank'>Example 1</a> & <a href='http://www.statwonk.com/openfda-dashboard/' target='_blank'>Example 2</a>. We can also build a search form like <a href='http://www.researchae.com/drugevent' target='_blank'>this</a> &ndash; if needed &ndash; because we build search engines too!</p><p>We thought it would be a wise use of our time, to create something that had concrete real-world value rather than eye-candy appeal. We can always add the eye-candy appeal later on, as needed. Our site showcases which items when combined can cause <b>Cardiac failure</b>. That may be a little hard to find on other demo websites. It should be #11 below.</p><p><i>Note: This search may take a few moments to update... as the openFDA data sets aren&rsquo;t as blazingly fast... as you might expect them to be. Please be patient. You should see a table here soon.</i></p>
+			</div>
+
+			<div id="ajax-results"></div>
+			<script>
+				$(function() {
+					demo.search({
+						"noun": "drugs",
+						"type": 0,
+						"searchPhrase": "drugs",
+						"limit": 25,
+						"fnCallback": function(meta, results){
+							// This will be used to store the totals of each drug reaction symptom.
+							var topReactionSymptoms = [];
+							var indexList = '';
+							
+							// Loops the data...
+							for (var i=0, j=results.length; i<j; i++) {
+								var patientReaction = results[i].patient.reaction;
+								for (var m=0, n=patientReaction.length; m<n; m++) {
+									var reactionSymptom = patientReaction[m].reactionmeddrapt;
+									var hasBeenAdded = ((indexList+'|').indexOf('|' + reactionSymptom + '|') > -1);
+									if (hasBeenAdded) { // 'topReactionSymptoms[reactionSymptom] && topReactionSymptoms[reactionSymptom].count) {
+										for (var q=0, r=topReactionSymptoms.length; q<r; q++) {
+											if (topReactionSymptoms[q].reactionSymptom === reactionSymptom) {
+												topReactionSymptoms[q].count++;
+												break;
+											}
+										}
+									} else {
+										var drugNames = [];
+										var patientDrugList = results[i].patient.drug;
+										for (var q=0, r=patientDrugList.length; q<r; q++) {
+											if (patientDrugList[q] && patientDrugList[q].openfda && patientDrugList[q].openfda.substance_name) {
+												var drugNameArray = patientDrugList[q].openfda.substance_name;
+
+												// Pushes drug names to a new array, without duplicates.
+												for (var s=0, t=drugNameArray.length; s<t; s++) {
+													var drugName = drugNameArray[s];
+													var hasDrugNameBeenAdded = $.inArray(drugName,drugNames);
+													if (hasDrugNameBeenAdded === -1) {
+														drugNames.push(drugName);
+													}
+												}
+											}
+										}
+
+										topReactionSymptoms.push({
+											"reactionSymptom": reactionSymptom,
+											"count": 1,
+											"drugNames": drugNames.join(', ')
+										});
+										indexList += '|' + reactionSymptom;
+									}
+								}
+							}
+							
+							// Sorts data
+							topReactionSymptoms.sort(function(a, b){
+								return b.count - a.count; // We're looking for descending, not ascending, which is: a.count - b.count;
+								/* If we wanted to support ascending, descending & no sorting... then we could do this:
+								if (a.count < b.count) {
+									return -1;
+								} else if (a.count > b.count) {
+									return 1;
+								} else return 0; */
+							});
+
+							// Show output
+							var html = '<h2>Frequent List of Allergic Drug Reactions:</h2>';
+							html += '<table>'; // Tables are still useful for tabular data!
+							html += '<tr><th>#</th><th>Reaction Name</th><th>Frequency</th><th>Possibly Caused By Combinations of the Following Drugs, Gasses & Liquids</th></tr>';
+							var i = 0;
+							for (var key in topReactionSymptoms) {
+								var obj = topReactionSymptoms[key];
+								html += '<tr><td>' + (++i) + '</td><td>' + obj.reactionSymptom + '</td><td>' + obj.count + '</td><td>' + obj.drugNames + '</td></tr>';
+							}
+							html += '</table>';
+							$('#ajax-results').html(html);
+						}
+					});
+				});
+			</script>
+		</div>
+		<div class="clear"></div>
+		<div class="footer">
+			<span class="extraLinks">Extra Links:</span>
+			<a href="index.html" class="footerLinks">Home</a>
+			<span class="separators">|</span>
+			<b class="footerLinks selected">Drug Reaction Table</b>
+			<span class="separators">|</span>
+			<a href="purpose.html" class="footerLinks">Demo Purpose</a>
+			<span class="separators">|</span>
+			<a href="instructions.html" class="footerLinks">Instructions</a>
+			<div class="clear"></div>
+		</div>
+	</div>
+</body>
+<footer>
+	<!-- Additional JS Libraries -->
+
+	<!-- Underscore from http://underscorejs.org
+	<script src="libs/underscore/1.8.3/underscore.min.js"></script> -->
+
+	<!-- Angular from https://angularjs.org
+	<script src="libs/angular/1.4.1/angular.min.js"></script> -->
+
+	<!-- Bootstrap from http://getbootstrap.com -->
+	<script src="libs/bootstrap/3.3.5/js/affix.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/alert.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/button.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/carousel.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/collapse.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/dropdown.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/modal.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/popover.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/scrollspy.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/tab.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/tooltip.js"></script>
+	<script src="libs/bootstrap/3.3.5/js/transition.js"></script>
+
+	<!-- Bootstrap's Date Picker -->
+	<script src="libs/bootstrap/1.4.0/js/bootstrap-datepicker.min.js"></script>
+
+	<!-- Data-Driven Documents (D3) from http://d3js.org
+	<script src="libs/d3js/3.5.5/d3.min.js" charset="utf-8"></script> -->
+
+	<!-- Jasmine from http://jasmine.github.io -->
+	<script src="libs/jasmine/2.3.4/js/jasmine.js"></script>
+	<script src="libs/jasmine/2.3.4/js/jasmine-html.js" ></script>
+	<script src="libs/jasmine/2.3.4/js/boot.js"></script>
+
+	<!-- jQuery Query Builder from http://mistic100.github.io/jQuery-QueryBuilder/ -->
+	<script src="libs/jquery-querybuilder/2.2.0/dist/js/query-builder.standalone.min.js"></script>
+
+	<!-- jQuery Mobile from http://jquerymobile.com
+	<script src="libs/jquerymobile/1.4.5/js/jquery.mobile.min.js"></script> -->
+
+	<!-- jQuery UI from http://jqueryui.com -->
+	<script src="libs/jqueryui/1.11.4/js/jquery-ui.min.js"></script>
+
+	<!-- Moment JS from http://momentjs.com It's used by Bootstrap's Date Picker. -->
+	<script src="libs/moment/2.10.3/moment.min.js"></script>
+
+	<!-- Console Log Helper Functions -->
+	<script src="js/firebug-shortcuts.js"></script>
+
+	<!-- Demo Program -->
+	<script src="js/demo.js"></script>
+
+	<!-- Jasmine spec files -->
+	<script src="libs/jasmine/2.3.4/specs/demo.js"></script>
+
+</footer>
+</html>

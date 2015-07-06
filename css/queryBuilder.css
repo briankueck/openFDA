@@ -33,6 +33,13 @@
 	margin: 20px 0 0 5px;
 }
 
+.demo #ajax-results h2 {
+	color: navy;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0px 0 15px 0;
+}
+
 .demo #ajax-results h3 {
 	color: navy;
 	font-size: 12px;

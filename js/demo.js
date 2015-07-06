@@ -48,6 +48,13 @@ var demo = (function($) {
 		}
 	};
 
+	var defaults = {
+		"noun": "drugs",
+		"type": 0,
+		"searchPhrase": "Acetaminophen",
+		"limit": 1
+	};
+
 	var model = {
 		"isInitClean": false,
 		"isSearchDataFound": null, 	// This will be set to false, before the Ajax call is made.
@@ -248,59 +255,85 @@ var demo = (function($) {
 				$("#sampleLists-" + noun).removeClass("hidden");
 				
 				if (noun === "-1") {
-					$("#btnFetchJSON").hide();
+					$("#btnSearch").hide();
 					$("#ajax-results").empty();
+					$(".radio-group").hide();
 				} else {
-					$("#btnFetchJSON").show();
+					$("#btnSearch").show();
+					$(".radio-group").show();
 				}
 			});
 		}
 	}
 
-	function search() {
+	function search(json) {
 		if (debug.all || debug.fnTrace) fn('demo.search');
 
-		var noun = $("[name='queryBuilder_rule_0_filter']").val();
-		var type = $("[name='queryBuilder_rule_0_value_0']").val();
 
 		var checkedRadioOption = $(".radio-group input[type='radio']:checked");
 		if (checkedRadioOption.length > 0) {
 			model.useAccordions = (checkedRadioOption.val() === 'true') ? true : false;
 		}
 		model.showPaths = ($('#showPaths:checked').length > 0) ? true : false;
-		searchPhrase = $("#sampleLists-"+noun).val();
-		if (searchPhrase) {
-			searchPhrase = searchPhrase.replace('&reg;','');
-			searchPhrase = searchPhrase.replace('®','');
+		if (!json) {
+			var noun = $("[name='queryBuilder_rule_0_filter']").val();
+			var type = $("[name='queryBuilder_rule_0_value_0']").val();
+			searchPhrase = $("#sampleLists-"+noun).val();
+			if (searchPhrase) {
+				searchPhrase = searchPhrase.replace('&reg;','');
+				searchPhrase = searchPhrase.replace('®','');
+			}
+			params = '&search=' + searchPhrase;
+		} else {
+			var noun = json.noun;
+			var type = json.type;
+			searchPhrase = json.searchPhrase;
+			params = '&search=' + searchPhrase;
+			if (json.limit) {
+				params += '&limit=' + json.limit;
+			}
+		}
+
+		if (!noun) {
+			noun = defaults.noun;
+		}
+
+		if (!type) {
+			type = defaults.type;
 		}
 
 		var apiUrl = config.protocol + config.FQDN + '/' + dataFeeds[noun][type];
-		apiUrl += '.json?api_key=' + config.apiKey + '&search=' + searchPhrase;
+		apiUrl += '.json?api_key=' + config.apiKey + params;
 
 		// Reset the flag before the Ajax call.
 		model.isSearchDataFound = false;
 
 		// Make the Ajax call for new data.
-		$.ajax(apiUrl).done(function(json) {
+		$.ajax(apiUrl).done(function(data) {
 			if (debug.all || debug.callbacks) fn('Ajax callback completed successfully!');
-			if (debug.all || debug.log) log(json);
+			if (debug.all || debug.log) log(data);
 			
-			var meta = json.meta;
-			var results = json.results;
-			var html = '<div class="serp-header"><b>' + searchPhrase + ' search results</b>: </div>';
-			var path = 'json.results';
-			for (var i=0,j=results.length; i<j; i++) {
-				html += buildHTML('',path+'.'+i,results[i]);
-			}
-			$("#ajax-results").html(html);
+			var meta = data.meta;
+			var results = data.results;
+			
+			if (json && json.fnCallback) {
+				json.fnCallback(meta,results);
+			} else {
+				var html = '<div class="serp-header"><b>' + searchPhrase + ' search results</b>: </div>';
+				var path = 'data.results';
+				for (var i=0,j=results.length; i<j; i++) {
+					html += buildHTML('',path+'.'+i,results[i]);
+				}
+				$("#ajax-results").html(html);
 
-			// jQuery UI Accordion from: http://jqueryui.com/accordion/
-			$("#ajax-results .accordion").accordion({
-				active: false,
-				autoHeight: false, 
-				collapsible: true,
-				heightStyle: "content"
-			});
+				// jQuery UI Accordion from: http://jqueryui.com/accordion/
+				$("#ajax-results .accordion").accordion({
+					active: false,
+					autoHeight: false, 
+					collapsible: true,
+					heightStyle: "content"
+				});
+			}
 
 			/* If Jasmine allowed us to test live Ajax calls, without having to build in a custom Ajax engine into the ajax.js file 
 			 * (see: http://jasmine.github.io/2.0/ajax.html) then we could use this here:

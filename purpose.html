@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title id="lang-title">AJAX Search / JSON Analyzer Tool Demo for openFDA</title>
+	<title id="lang-title">Purpose</title>
 
 	<!-- FYI -->
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -15,7 +15,7 @@
 	<meta name="keywords" content="To, Be, Determined">
 
 	<!-- CSS Libraries -->
-	
+
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="libs/bootstrap/3.3.5/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="libs/bootstrap/3.3.5/css/bootstrap-theme.min.css">
@@ -25,8 +25,9 @@
 	<link href="libs/bootstrap/1.4.0/css/bootstrap-datepicker.standalone.css" rel="stylesheet" />
 	<link href="libs/bootstrap/1.4.0/css/bootstrap-datepicker3.css" rel="stylesheet" />
 	<link href="libs/bootstrap/1.4.0/css/bootstrap-datepicker3.standalone.css" rel="stylesheet" />
-	
+
 	<!-- Jasmine -->
+	<!-- <link rel="shortcut icon" type="image/png" href="libs/jasmine/2.3.4/images/jasmine_favicon.png"> -->
 	<link rel="stylesheet" type="text/css" href="libs/jasmine/2.3.4/css/jasmine.css">
 
 	<!-- jQuery Mobile -->
@@ -64,85 +65,56 @@
 		</h1>
 		<div class="clear"></div>
 		<div class="menu">
-			<b class="menuLinks bk-blue medium selected">Home</b>
+			<a href="index.html" class="menuLinks bk-blue medium">Home</a>
 			<a href="allergicDrugReactionTable.html" class="menuLinks bk-blue medium">Allergic Drug Reaction Table</a>
-			<a href="purpose.html" class="menuLinks bk-blue medium">Demo Purpose</a>
+			<b class="menuLinks bk-blue medium selected">Demo Purpose</b>
 			<a href="instructions.html" class="menuLinks bk-blue medium">Instructions</a>
 		</div>
-
-		<div id="home" class="pageText">
-			<h2 class="pageTitle"></h2>
+		<div id="purpose" class="pageText">
+			<h2 class="pageTitle">Demo Purpose</h2>
 			<div class="introText"></div>
 			<div class="pageCopy">
-				<p>This is a simple demo site for <a href='https://open.fda.gov/' target='_blank'>openFDA.com</a>, where you may search for a Drug, Equipment or Food related item.</p><p>If you need help understanding what this page is for, please see our <a href="/purpose.html">Demo Purpose</a> and <a href="/instructions.html">Instructions</a> pages.</p><p>We&rsquo;ve also built a useful <a href="/allergicDrugReactionTable.html">Allergic Drug Reaction Table</a>, as saving lives is important to us.</p></div>
-			<div>
-
-			<h3>Search Options</h3>
-			<div class="queryBuilder">
-				<div id="queryBuilder"></div>
-
-				<select id="sampleLists-drugs" class="form-control sampleLists">
-					<option>Acetaminophen</option>
-					<option>Amoxicillin</option>
-					<option>Aspirin</option>
-					<option>Erythromycin</option>
-					<option>Ibuprofen</option>
-					<option>Naproxen</option>
-					<option>Oxycodone</option>
-					<option>Penicillin</option>
-				</select>
-
-				<select id="sampleLists-devices" class="form-control sampleLists hidden">
-					<option>Hearing Aid</option>
-					<option>Heart Implants</option>
-					<option>Heart Monitor</option>
-					<option>Knee Joint</option>
-					<option>Prosthetic Arm</option>
-					<option>Prosthetic Leg</option>
-					<option>Syring</option>
-					<option>X-ray machine</option>
-				</select>
-
-				<select id="sampleLists-foods" class="form-control sampleLists hidden">
-					<option>Bananas</option>
-					<option>Buffalo Wings</option>
-					<option>Candy Corn</option>
-					<option>Coca-Cola&reg;</option>
-					<option>Fish</option>
-					<option>Kraft&reg; Cheese</option>
-					<option>Pepsi&reg;</option>
-					<option>Pizza</option>
-					<option>Soy Beans</option>
-					<option>Sugar</option>
-				</select>
-
-				<button id="btnSearch" class="btn-primary btn-submit">Search</button>
-				<div class="clear"></div>
-
-				<div class="fl radio-group">
-					<label><input type="radio" name="useAllAccordions" value="false" checked> Use Flat List with Accordions for IDs/GUIDs</label>
-					<label><input type="radio" name="useAllAccordions" value="true"> Use All Accordions</label>
-					<label><input type="checkbox" id="showPaths" checked> Show Paths</label>
-				</div>
-				<div class="clear"></div>
-
-				<div id="ajax-results"></div>
+				<p>The purpose of this demo is to show that we can rapidly build websites, while solving legitimate business needs & also allowing for site customization.</p>
+				<p>This site showcases that:
+					<ol>
+						<li>We can easily roll out websites on a fast-paced schedule.</li>
+						<li>We can seemlessly mix external 3rd-party, 4th-party, 5th-party, 6th-party, 7th-party, ... nth-party library technologies together, to create radical websites. We&rsquo;re simply showcasing that we can mix libraries, without any library conflicts. So we can select from any of these & use them as needed on future projects:
+							<ul>
+								<li><a href="https://angularjs.org" target="_blank">Angular JS</a></li>
+								<li><a href="http://getbootstrap.com" target="_blank">Bootstrap JS</a></li>
+								<li><a href="http://d3js.org" target="_blank">D3JS</a></li>
+								<li><a href="http://famfamfam.com" target="_blank">FamFamFam icons</a></li>
+								<li><a href="http://jasmine.github.io" target="_blank">Jasmine</a></li>
+								<li><a href="http://jquery.com" target="_blank">jQuery</a></li>
+								<li><a href="http://jquerymobile.com" target="_blank">jQuery Mobile</a></li>
+								<li><a href="http://mistic100.github.io/jQuery-QueryBuilder/" target="_blank">jQuery QueryBuilder plug-in</a></li>
+								<li><a href="http://jqueryui.com" target="_blank">jQuery UI</a></li>
+								<li><a href="http://momentjs.com" target="_blank">Moment JS</a></li>
+								<li><a href="http://underscorejs.org" target="_blank">Underscore.js</a></li>
+							</ul>
+						</li>
+						<li>We can integrate Unit Tests into our JavaScript code, as needed.</li>
+						<li>We can internationalize websites, into any language that the customer desires.</li>
+						<li>We can build data-driven websites.</li>
+						<li>We can re-skin them once we are finished building them.</li>
+						<li>We can build wonderful websites!</li>
+					</ol>
+				</p>
+				<p>We&re not showcasing that we are using all of those items for this demo, but we are showing that we can use them as needed on our next project. We have the experience to build amazing looking websites, which use these libraries.</p>
 			</div>
+		</div>
+		<div class="clear"></div>
+		<div class="footer">
+			<span class="extraLinks">Extra Links:</span>
+			<a href="index.html" class="footerLinks">Home</a>
+			<span class="separators">|</span>
+			<a href="allergicDrugReactionTable.html" class="footerLinks">Drug Reaction Table</a>
+			<span class="separators">|</span>
+			<b class="footerLinks selected">Demo Purpose</b>
+			<span class="separators">|</span>
+			<a href="instructions.html" class="footerLinks">Instructions</a>
 			<div class="clear"></div>
 		</div>
-	</div>
-	<div class="clear"></div>
-	<div class="footer">
-		<span class="extraLinks">Extra Links:</span>
-		<b class="footerLinks selected">Home</b>
-		<span class="separators">|</span>
-		<a href="allergicDrugReactionTable.html" class="footerLinks">Drug Reaction Table</a>
-		<span class="separators">|</span>
-		<a href="purpose.html" class="footerLinks">Demo Purpose</a>
-		<span class="separators">|</span>
-		<a href="instructions.html" class="footerLinks">Instructions</a>
-		<div class="clear"></div>
-	</div>
 	</div>
 </body>
 <footer>
